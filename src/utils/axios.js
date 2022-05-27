@@ -9,3 +9,8 @@ export const api = axios.create({
   baseURL: url,
   withCredentials,
 });
+
+export const users = axios.create({
+  baseURL: `${url}${api_url}/users`,
+  withCredentials,
+});

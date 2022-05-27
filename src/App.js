@@ -1,5 +1,4 @@
 import { ToastContainer } from "react-toastify";
-import { ThemeProvider } from "@mui/material";
 
 import { MainRouter } from "./routes";
 import { mainTheme } from "components/themes";

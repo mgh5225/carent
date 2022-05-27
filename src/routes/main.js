@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { HomePage, LoginPage } from "../pages";
+import { HomePage, LoginPage } from "pages";
+
+//Routes -> it's like switch case
 
 const MainRouter = () => {
   return (
