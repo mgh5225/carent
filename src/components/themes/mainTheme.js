@@ -12,22 +12,17 @@ import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import { prefixer } from "stylis";
 
+import { Link } from "react-router-dom";
+
 const cacheRtl = createCache({
   key: "muirtl",
   stylisPlugins: [prefixer, rtlPlugin],
 });
 
-const iranyekan = {
-  fontFamily: "iranYekan",
-  fontStyle: "normal",
-  fontDisplay: "swap",
-  fontWeight: 400,
-  src: `
-    local('iranYekan'),
-    local('iranYekan-Regular'),
-    url(${iranYekan}) format('woff')
-  `,
-};
+const LinkBehavior = React.forwardRef((props, ref) => {
+  const { href, ...other } = props;
+  return <Link ref={ref} to={href} {...other} />;
+});
 
 let theme = createTheme({
   palette: {
@@ -38,12 +33,30 @@ let theme = createTheme({
   },
   overrides: {
     MuiCssBaseline: {
-      "@global": {
-        "@font-face": [iranyekan],
-      },
+      styleOverrides: `
+       @font-face {
+        fontFamily: 'iranYekan';
+        fontStyle: 'normal';
+        fontDisplay: "swap";
+        fontWeight: 400;
+        src: local('iranYekan'), local('iranYekan-Regular'), url(${iranYekan}) format('woff');
+       }
+      `,
     },
   },
   direction: "rtl",
+  components: {
+    MuiLink: {
+      defaultProps: {
+        component: LinkBehavior,
+      },
+    },
+    MuiButtonBase: {
+      defaultProps: {
+        LinkComponent: LinkBehavior,
+      },
+    },
+  },
 });
 theme = responsiveFontSizes(theme);
 
