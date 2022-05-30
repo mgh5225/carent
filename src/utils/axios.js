@@ -1,5 +1,5 @@
 import axios from "axios";
-export const url = "http://localhost:9000";
+export const url = "http://api.carent.com:9000";
 const api_url = "/api/v1";
 const withCredentials = true;
 

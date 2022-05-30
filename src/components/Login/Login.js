@@ -38,7 +38,7 @@ const LoginComponent = (props) => {
       toast.success(message);
     } catch (err) {
       const message = err.response
-        ? err.response.data.message
+        ? err.response.data?.message
         : "Something went wrong! Please try again later";
       toast.error(message);
     }

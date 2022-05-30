@@ -30,5 +30,6 @@ export const get_me = () => {
     const { data } = await users.get("me");
 
     dispatch(auth.setMe(data.me));
+    dispatch(auth.setAuthenticated(true));
   };
 };
