@@ -60,7 +60,7 @@ let theme = createTheme({
 });
 theme = responsiveFontSizes(theme);
 
-export default (App) => {
+const Theme = (App) => {
   return (props) => (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -70,3 +70,5 @@ export default (App) => {
     </ThemeProvider>
   );
 };
+
+export default Theme;
