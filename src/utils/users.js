@@ -27,9 +27,32 @@ export const logout = () => {
 
 export const get_me = () => {
   return async (dispatch) => {
-    const { data } = await users.get("me");
+    const { data } = await users.get("/me");
 
     dispatch(auth.setMe(data.me));
     dispatch(auth.setAuthenticated(true));
+  };
+};
+
+export const signup = ({
+  first_name,
+  last_name,
+  username,
+  email,
+  password,
+  password_confirm,
+}) => {
+  return async (dispatch) => {
+    const { data } = await users.post("/signup", {
+      username,
+      email,
+      password,
+      passwordConfirm: password_confirm,
+      phonenumber: `+98${Math.random() * 10}`,
+    });
+
+    dispatch(auth.setAuthenticated(true));
+
+    return data;
   };
 };
