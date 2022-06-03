@@ -19,6 +19,7 @@ const SignupComponent = (props) => {
   const [isPasswordValid, setIsPasswordValid] = React.useState(true);
   const [isConfirmPasswordValid, SetIsConfirmPasswordValid] =
     React.useState(true);
+  const [isUsernameValid, SetIsUsernameValid] = React.useState(true);
 
   const handleSubmit = async (event) => {
     const { Signup } = props;
@@ -28,12 +29,14 @@ const SignupComponent = (props) => {
     setIsLastNameValid(true);
     setIsEmailValid(true);
     setIsPasswordValid(true);
+    SetIsUsernameValid(true);
 
     const data = new FormData(event.currentTarget);
     const SubmitData = {
       firstName: data.get("firstName"),
       lastName: data.get("lastName"),
       email: data.get("email"),
+      username: data.get("username"),
       password: data.get("password"),
       confirmPassword: data.get("confirmPassword"),
     };
@@ -54,6 +57,10 @@ const SignupComponent = (props) => {
       setIsEmailValid(false);
       message = "لطفا یک ایمیل معتبر وارد کنید";
       toast.error(message);
+    } else if (SubmitData?.username.length === 0) {
+      SetIsUsernameValid(false);
+      message = "لطفا یک نام‌کاربری معتبر وارد کنید";
+      toast.error(message);
     } else if (SubmitData?.password?.length < 8) {
       setIsPasswordValid(false);
       message = "رمز عبور باید بیشتر از 8 رقم باشد";
@@ -65,7 +72,9 @@ const SignupComponent = (props) => {
       SetIsConfirmPasswordValid(false);
       message = "تکرار رمز عبور باید همانند رمز عبور باشد";
       toast.error(message);
-    } // everything is correct
+    }
+
+    // everything is correct
     else {
       try {
         console.log("here");
@@ -132,6 +141,18 @@ const SignupComponent = (props) => {
               name="email"
               autoComplete="email"
               data-testid="email"
+            />
+          </Grid>
+          <Grid item xs={12}>
+            <TextField
+              error={!isUsernameValid}
+              required
+              fullWidth
+              id="username"
+              label="نام کاربری"
+              name="username"
+              autoComplete="username"
+              data-testid="username"
             />
           </Grid>
           <Grid item xs={12}>
