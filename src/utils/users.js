@@ -27,10 +27,17 @@ export const logout = () => {
 
 export const get_me = () => {
   return async (dispatch) => {
-    const { data } = await users.get("/me");
+    try {
+      const { data } = await users.get("/me");
 
-    dispatch(auth.setMe(data.me));
-    dispatch(auth.setAuthenticated(true));
+      dispatch(auth.setMe(data.me));
+      dispatch(auth.setAuthenticated(true));
+    } catch (err) {
+      dispatch(auth.setMe(null));
+      dispatch(auth.setAuthenticated(false));
+
+      throw err;
+    }
   };
 };
 
