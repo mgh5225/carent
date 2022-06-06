@@ -51,11 +51,12 @@ export const signup = ({
 }) => {
   return async (dispatch) => {
     const { data } = await users.post("/signup", {
+      first_name,
+      last_name,
       username,
       email,
       password,
-      passwordConfirm: password_confirm,
-      phonenumber: `+98${Math.random() * 10}`,
+      password_confirm,
     });
 
     dispatch(auth.setAuthenticated(true));
