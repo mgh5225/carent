@@ -33,12 +33,12 @@ const SignupComponent = (props) => {
 
     const data = new FormData(event.currentTarget);
     const SubmitData = {
-      firstName: data.get("firstName"),
-      lastName: data.get("lastName"),
+      first_name: data.get("firstName"),
+      last_name: data.get("lastName"),
       email: data.get("email"),
       username: data.get("username"),
       password: data.get("password"),
-      confirmPassword: data.get("confirmPassword"),
+      password_confirm: data.get("confirmPassword"),
     };
     let message = "";
 
@@ -66,8 +66,8 @@ const SignupComponent = (props) => {
       message = "رمز عبور باید بیشتر از 8 رقم باشد";
       toast.error(message);
     } else if (
-      SubmitData?.confirmPassword < 8 ||
-      SubmitData?.confirmPassword !== SubmitData?.password
+      SubmitData?.password_confirm < 8 ||
+      SubmitData?.password_confirm !== SubmitData?.password
     ) {
       SetIsConfirmPasswordValid(false);
       message = "تکرار رمز عبور باید همانند رمز عبور باشد";
@@ -217,7 +217,17 @@ const mapDispatchToProps = (dispatch) => {
       email,
       password,
       password_confirm,
-    }) => dispatch(signup(first_name, last_name, username, email, password)),
+    }) =>
+      dispatch(
+        signup({
+          first_name,
+          last_name,
+          username,
+          email,
+          password,
+          password_confirm,
+        })
+      ),
   };
 };
 
