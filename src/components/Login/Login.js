@@ -18,13 +18,12 @@ const LoginComponent = (props) => {
     event.preventDefault();
 
     const data = new FormData(event.currentTarget);
-    
+
     const { Login } = props;
     const { user, pass } = {
       user: data.get("username"),
       pass: data.get("password"),
     };
-
 
     try {
       const { message } = await Login(user, pass);
@@ -66,7 +65,6 @@ const LoginComponent = (props) => {
           autoFocus
         />
         <TextField
-          
           margin="normal"
           required
           fullWidth

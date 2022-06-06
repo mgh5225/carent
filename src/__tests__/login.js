@@ -61,7 +61,6 @@ describe("Login Functionality", () => {
 
     fireEvent.click(button);
 
-    // await waitFor(() => screen.getByText("fuck"));
     await new Promise((r) => setTimeout(r, 4500));
     const state = store.getState().auth;
 
