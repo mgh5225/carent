@@ -5,16 +5,22 @@
 import "@testing-library/jest-dom";
 import { store } from "./store";
 import { Provider } from "react-redux";
-import { BrowserRouter } from "react-router-dom";
+import { Router } from "react-router-dom";
+import { createMemoryHistory } from "history";
 
 import React from "react";
 import { render as rtlRender } from "@testing-library/react";
 
-function render(ui, renderOptions) {
+function render(ui, { history, ...renderOptions } = {}) {
   function Wrapper({ children }) {
+    if (history == null) {
+      history = createMemoryHistory();
+    }
     return (
       <Provider store={store}>
-        <BrowserRouter>{children}</BrowserRouter>
+        <Router location={history.location} navigator={history}>
+          {children}
+        </Router>
       </Provider>
     );
   }
