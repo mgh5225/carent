@@ -12,7 +12,6 @@ import { connect } from "react-redux";
 
 import { login } from "utils/users";
 import { toast } from "react-toastify";
-import { SignalCellularNullRounded } from "@mui/icons-material";
 
 const LoginComponent = (props) => {
   const handleSubmit = async (event) => {
