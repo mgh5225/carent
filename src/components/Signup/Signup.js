@@ -42,11 +42,11 @@ const SignupComponent = (props) => {
     };
     let message = "";
 
-    if (SubmitData?.firstName?.length === 0) {
+    if (SubmitData?.first_name?.length === 0) {
       setIsFirstNameValid(false);
       message = "لطفا نام خود را وارد نمایید";
       toast.error(message);
-    } else if (SubmitData?.lastName?.length === 0) {
+    } else if (SubmitData?.last_name?.length === 0) {
       setIsLastNameValid(false);
       message = "لطفا نام خانوادگی خود را وارد نمایید";
       toast.error(message);
