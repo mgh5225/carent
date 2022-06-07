@@ -12,6 +12,7 @@ import { connect } from "react-redux";
 
 import { login } from "utils/users";
 import { toast } from "react-toastify";
+import { SignalCellularNullRounded } from "@mui/icons-material";
 
 const LoginComponent = (props) => {
   const handleSubmit = async (event) => {
@@ -102,16 +103,10 @@ const LoginComponent = (props) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return {
-    isAuth: state?.auth?.isAuthenticated,
-  };
-};
-
 const mapDispatchToProps = (dispatch) => {
   return {
     Login: (username, password) => dispatch(login({ username, password })),
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginComponent);
+export default connect(null, mapDispatchToProps)(LoginComponent);
