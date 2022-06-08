@@ -2,6715 +2,6715 @@
   {
     "id": 1,
     "name": "اسکو",
-    "slug": "اسکو",
+    "label": "اسکو",
     "province_id": 1
   },
   {
     "id": 2,
     "name": "اهر",
-    "slug": "اهر",
+    "label": "اهر",
     "province_id": 1
   },
   {
     "id": 3,
     "name": "ایلخچی",
-    "slug": "ایلخچی",
+    "label": "ایلخچی",
     "province_id": 1
   },
   {
     "id": 4,
     "name": "آبش احمد",
-    "slug": "آبش-احمد",
+    "label": "آبش-احمد",
     "province_id": 1
   },
   {
     "id": 5,
     "name": "آذرشهر",
-    "slug": "آذرشهر",
+    "label": "آذرشهر",
     "province_id": 1
   },
   {
     "id": 6,
     "name": "آقکند",
-    "slug": "آقکند",
+    "label": "آقکند",
     "province_id": 1
   },
   {
     "id": 7,
     "name": "باسمنج",
-    "slug": "باسمنج",
+    "label": "باسمنج",
     "province_id": 1
   },
   {
     "id": 8,
     "name": "بخشایش",
-    "slug": "بخشایش",
+    "label": "بخشایش",
     "province_id": 1
   },
   {
     "id": 9,
     "name": "بستان آباد",
-    "slug": "بستان-آباد",
+    "label": "بستان-آباد",
     "province_id": 1
   },
   {
     "id": 10,
     "name": "بناب",
-    "slug": "بناب",
+    "label": "بناب",
     "province_id": 1
   },
   {
     "id": 11,
     "name": "بناب جدید",
-    "slug": "بناب-جدید",
+    "label": "بناب-جدید",
     "province_id": 1
   },
   {
     "id": 12,
     "name": "تبریز",
-    "slug": "تبریز",
+    "label": "تبریز",
     "province_id": 1
   },
   {
     "id": 13,
     "name": "ترک",
-    "slug": "ترک",
+    "label": "ترک",
     "province_id": 1
   },
   {
     "id": 14,
     "name": "ترکمانچای",
-    "slug": "ترکمانچای",
+    "label": "ترکمانچای",
     "province_id": 1
   },
   {
     "id": 15,
     "name": "تسوج",
-    "slug": "تسوج",
+    "label": "تسوج",
     "province_id": 1
   },
   {
     "id": 16,
     "name": "تیکمه داش",
-    "slug": "تیکمه-داش",
+    "label": "تیکمه-داش",
     "province_id": 1
   },
   {
     "id": 17,
     "name": "جلفا",
-    "slug": "جلفا",
+    "label": "جلفا",
     "province_id": 1
   },
   {
     "id": 18,
     "name": "خاروانا",
-    "slug": "خاروانا",
+    "label": "خاروانا",
     "province_id": 1
   },
   {
     "id": 19,
     "name": "خامنه",
-    "slug": "خامنه",
+    "label": "خامنه",
     "province_id": 1
   },
   {
     "id": 20,
     "name": "خراجو",
-    "slug": "خراجو",
+    "label": "خراجو",
     "province_id": 1
   },
   {
     "id": 21,
     "name": "خسروشهر",
-    "slug": "خسروشهر",
+    "label": "خسروشهر",
     "province_id": 1
   },
   {
     "id": 22,
     "name": "خضرلو",
-    "slug": "خضرلو",
+    "label": "خضرلو",
     "province_id": 1
   },
   {
     "id": 23,
     "name": "خمارلو",
-    "slug": "خمارلو",
+    "label": "خمارلو",
     "province_id": 1
   },
   {
     "id": 24,
     "name": "خواجه",
-    "slug": "خواجه",
+    "label": "خواجه",
     "province_id": 1
   },
   {
     "id": 25,
     "name": "دوزدوزان",
-    "slug": "دوزدوزان",
+    "label": "دوزدوزان",
     "province_id": 1
   },
   {
     "id": 26,
     "name": "زرنق",
-    "slug": "زرنق",
+    "label": "زرنق",
     "province_id": 1
   },
   {
     "id": 27,
     "name": "زنوز",
-    "slug": "زنوز",
+    "label": "زنوز",
     "province_id": 1
   },
   {
     "id": 28,
     "name": "سراب",
-    "slug": "سراب",
+    "label": "سراب",
     "province_id": 1
   },
   {
     "id": 29,
     "name": "سردرود",
-    "slug": "سردرود",
+    "label": "سردرود",
     "province_id": 1
   },
   {
     "id": 30,
     "name": "سهند",
-    "slug": "سهند",
+    "label": "سهند",
     "province_id": 1
   },
   {
     "id": 31,
     "name": "سیس",
-    "slug": "سیس",
+    "label": "سیس",
     "province_id": 1
   },
   {
     "id": 32,
     "name": "سیه رود",
-    "slug": "سیه-رود",
+    "label": "سیه-رود",
     "province_id": 1
   },
   {
     "id": 33,
     "name": "شبستر",
-    "slug": "شبستر",
+    "label": "شبستر",
     "province_id": 1
   },
   {
     "id": 34,
     "name": "شربیان",
-    "slug": "شربیان",
+    "label": "شربیان",
     "province_id": 1
   },
   {
     "id": 35,
     "name": "شرفخانه",
-    "slug": "شرفخانه",
+    "label": "شرفخانه",
     "province_id": 1
   },
   {
     "id": 36,
     "name": "شندآباد",
-    "slug": "شندآباد",
+    "label": "شندآباد",
     "province_id": 1
   },
   {
     "id": 37,
     "name": "صوفیان",
-    "slug": "صوفیان",
+    "label": "صوفیان",
     "province_id": 1
   },
   {
     "id": 38,
     "name": "عجب شیر",
-    "slug": "عجب-شیر",
+    "label": "عجب-شیر",
     "province_id": 1
   },
   {
     "id": 39,
     "name": "قره آغاج",
-    "slug": "قره-آغاج",
+    "label": "قره-آغاج",
     "province_id": 1
   },
   {
     "id": 40,
     "name": "کشکسرای",
-    "slug": "کشکسرای",
+    "label": "کشکسرای",
     "province_id": 1
   },
   {
     "id": 41,
     "name": "کلوانق",
-    "slug": "کلوانق",
+    "label": "کلوانق",
     "province_id": 1
   },
   {
     "id": 42,
     "name": "کلیبر",
-    "slug": "کلیبر",
+    "label": "کلیبر",
     "province_id": 1
   },
   {
     "id": 43,
     "name": "کوزه کنان",
-    "slug": "کوزه-کنان",
+    "label": "کوزه-کنان",
     "province_id": 1
   },
   {
     "id": 44,
     "name": "گوگان",
-    "slug": "گوگان",
+    "label": "گوگان",
     "province_id": 1
   },
   {
     "id": 45,
     "name": "لیلان",
-    "slug": "لیلان",
+    "label": "لیلان",
     "province_id": 1
   },
   {
     "id": 46,
     "name": "مراغه",
-    "slug": "مراغه",
+    "label": "مراغه",
     "province_id": 1
   },
   {
     "id": 47,
     "name": "مرند",
-    "slug": "مرند",
+    "label": "مرند",
     "province_id": 1
   },
   {
     "id": 48,
     "name": "ملکان",
-    "slug": "ملکان",
+    "label": "ملکان",
     "province_id": 1
   },
   {
     "id": 49,
     "name": "ملک کیان",
-    "slug": "ملک-کیان",
+    "label": "ملک-کیان",
     "province_id": 1
   },
   {
     "id": 50,
     "name": "ممقان",
-    "slug": "ممقان",
+    "label": "ممقان",
     "province_id": 1
   },
   {
     "id": 51,
     "name": "مهربان",
-    "slug": "مهربان",
+    "label": "مهربان",
     "province_id": 1
   },
   {
     "id": 52,
     "name": "میانه",
-    "slug": "میانه",
+    "label": "میانه",
     "province_id": 1
   },
   {
     "id": 53,
     "name": "نظرکهریزی",
-    "slug": "نظرکهریزی",
+    "label": "نظرکهریزی",
     "province_id": 1
   },
   {
     "id": 54,
     "name": "هادی شهر",
-    "slug": "هادی-شهر",
+    "label": "هادی-شهر",
     "province_id": 1
   },
   {
     "id": 55,
     "name": "هرگلان",
-    "slug": "هرگلان",
+    "label": "هرگلان",
     "province_id": 1
   },
   {
     "id": 56,
     "name": "هریس",
-    "slug": "هریس",
+    "label": "هریس",
     "province_id": 1
   },
   {
     "id": 57,
     "name": "هشترود",
-    "slug": "هشترود",
+    "label": "هشترود",
     "province_id": 1
   },
   {
     "id": 58,
     "name": "هوراند",
-    "slug": "هوراند",
+    "label": "هوراند",
     "province_id": 1
   },
   {
     "id": 59,
     "name": "وایقان",
-    "slug": "وایقان",
+    "label": "وایقان",
     "province_id": 1
   },
   {
     "id": 60,
     "name": "ورزقان",
-    "slug": "ورزقان",
+    "label": "ورزقان",
     "province_id": 1
   },
   {
     "id": 61,
     "name": "یامچی",
-    "slug": "یامچی",
+    "label": "یامچی",
     "province_id": 1
   },
   {
     "id": 62,
     "name": "ارومیه",
-    "slug": "ارومیه",
+    "label": "ارومیه",
     "province_id": 2
   },
   {
     "id": 63,
     "name": "اشنویه",
-    "slug": "اشنویه",
+    "label": "اشنویه",
     "province_id": 2
   },
   {
     "id": 64,
     "name": "ایواوغلی",
-    "slug": "ایواوغلی",
+    "label": "ایواوغلی",
     "province_id": 2
   },
   {
     "id": 65,
     "name": "آواجیق",
-    "slug": "آواجیق",
+    "label": "آواجیق",
     "province_id": 2
   },
   {
     "id": 66,
     "name": "باروق",
-    "slug": "باروق",
+    "label": "باروق",
     "province_id": 2
   },
   {
     "id": 67,
     "name": "بازرگان",
-    "slug": "بازرگان",
+    "label": "بازرگان",
     "province_id": 2
   },
   {
     "id": 68,
     "name": "بوکان",
-    "slug": "بوکان",
+    "label": "بوکان",
     "province_id": 2
   },
   {
     "id": 69,
     "name": "پلدشت",
-    "slug": "پلدشت",
+    "label": "پلدشت",
     "province_id": 2
   },
   {
     "id": 70,
     "name": "پیرانشهر",
-    "slug": "پیرانشهر",
+    "label": "پیرانشهر",
     "province_id": 2
   },
   {
     "id": 71,
     "name": "تازه شهر",
-    "slug": "تازه-شهر",
+    "label": "تازه-شهر",
     "province_id": 2
   },
   {
     "id": 72,
     "name": "تکاب",
-    "slug": "تکاب",
+    "label": "تکاب",
     "province_id": 2
   },
   {
     "id": 73,
     "name": "چهاربرج",
-    "slug": "چهاربرج",
+    "label": "چهاربرج",
     "province_id": 2
   },
   {
     "id": 74,
     "name": "خوی",
-    "slug": "خوی",
+    "label": "خوی",
     "province_id": 2
   },
   {
     "id": 75,
     "name": "دیزج دیز",
-    "slug": "دیزج-دیز",
+    "label": "دیزج-دیز",
     "province_id": 2
   },
   {
     "id": 76,
     "name": "ربط",
-    "slug": "ربط",
+    "label": "ربط",
     "province_id": 2
   },
   {
     "id": 77,
     "name": "سردشت",
-    "slug": "آذربایجان-غربی-سردشت",
+    "label": "آذربایجان-غربی-سردشت",
     "province_id": 2
   },
   {
     "id": 78,
     "name": "سرو",
-    "slug": "سرو",
+    "label": "سرو",
     "province_id": 2
   },
   {
     "id": 79,
     "name": "سلماس",
-    "slug": "سلماس",
+    "label": "سلماس",
     "province_id": 2
   },
   {
     "id": 80,
     "name": "سیلوانه",
-    "slug": "سیلوانه",
+    "label": "سیلوانه",
     "province_id": 2
   },
   {
     "id": 81,
     "name": "سیمینه",
-    "slug": "سیمینه",
+    "label": "سیمینه",
     "province_id": 2
   },
   {
     "id": 82,
     "name": "سیه چشمه",
-    "slug": "سیه-چشمه",
+    "label": "سیه-چشمه",
     "province_id": 2
   },
   {
     "id": 83,
     "name": "شاهین دژ",
-    "slug": "شاهین-دژ",
+    "label": "شاهین-دژ",
     "province_id": 2
   },
   {
     "id": 84,
     "name": "شوط",
-    "slug": "شوط",
+    "label": "شوط",
     "province_id": 2
   },
   {
     "id": 85,
     "name": "فیرورق",
-    "slug": "فیرورق",
+    "label": "فیرورق",
     "province_id": 2
   },
   {
     "id": 86,
     "name": "قره ضیاءالدین",
-    "slug": "قره-ضیاءالدین",
+    "label": "قره-ضیاءالدین",
     "province_id": 2
   },
   {
     "id": 87,
     "name": "قطور",
-    "slug": "قطور",
+    "label": "قطور",
     "province_id": 2
   },
   {
     "id": 88,
     "name": "قوشچی",
-    "slug": "قوشچی",
+    "label": "قوشچی",
     "province_id": 2
   },
   {
     "id": 89,
     "name": "کشاورز",
-    "slug": "کشاورز",
+    "label": "کشاورز",
     "province_id": 2
   },
   {
     "id": 90,
     "name": "گردکشانه",
-    "slug": "گردکشانه",
+    "label": "گردکشانه",
     "province_id": 2
   },
   {
     "id": 91,
     "name": "ماکو",
-    "slug": "ماکو",
+    "label": "ماکو",
     "province_id": 2
   },
   {
     "id": 92,
     "name": "محمدیار",
-    "slug": "محمدیار",
+    "label": "محمدیار",
     "province_id": 2
   },
   {
     "id": 93,
     "name": "محمودآباد",
-    "slug": "آذربایجان-غربی-محمودآباد",
+    "label": "آذربایجان-غربی-محمودآباد",
     "province_id": 2
   },
   {
     "id": 94,
     "name": "مهاباد",
-    "slug": "آذربایجان-غربی-مهاباد",
+    "label": "آذربایجان-غربی-مهاباد",
     "province_id": 2
   },
   {
     "id": 95,
     "name": "میاندوآب",
-    "slug": "میاندوآب",
+    "label": "میاندوآب",
     "province_id": 2
   },
   {
     "id": 96,
     "name": "میرآباد",
-    "slug": "میرآباد",
+    "label": "میرآباد",
     "province_id": 2
   },
   {
     "id": 97,
     "name": "نالوس",
-    "slug": "نالوس",
+    "label": "نالوس",
     "province_id": 2
   },
   {
     "id": 98,
     "name": "نقده",
-    "slug": "نقده",
+    "label": "نقده",
     "province_id": 2
   },
   {
     "id": 99,
     "name": "نوشین",
-    "slug": "نوشین",
+    "label": "نوشین",
     "province_id": 2
   },
   {
     "id": 100,
     "name": "اردبیل",
-    "slug": "اردبیل",
+    "label": "اردبیل",
     "province_id": 3
   },
   {
     "id": 101,
     "name": "اصلاندوز",
-    "slug": "اصلاندوز",
+    "label": "اصلاندوز",
     "province_id": 3
   },
   {
     "id": 102,
     "name": "آبی بیگلو",
-    "slug": "آبی-بیگلو",
+    "label": "آبی-بیگلو",
     "province_id": 3
   },
   {
     "id": 103,
     "name": "بیله سوار",
-    "slug": "بیله-سوار",
+    "label": "بیله-سوار",
     "province_id": 3
   },
   {
     "id": 104,
     "name": "پارس آباد",
-    "slug": "پارس-آباد",
+    "label": "پارس-آباد",
     "province_id": 3
   },
   {
     "id": 105,
     "name": "تازه کند",
-    "slug": "تازه-کند",
+    "label": "تازه-کند",
     "province_id": 3
   },
   {
     "id": 106,
     "name": "تازه کندانگوت",
-    "slug": "تازه-کندانگوت",
+    "label": "تازه-کندانگوت",
     "province_id": 3
   },
   {
     "id": 107,
     "name": "جعفرآباد",
-    "slug": "جعفرآباد",
+    "label": "جعفرآباد",
     "province_id": 3
   },
   {
     "id": 108,
     "name": "خلخال",
-    "slug": "خلخال",
+    "label": "خلخال",
     "province_id": 3
   },
   {
     "id": 109,
     "name": "رضی",
-    "slug": "رضی",
+    "label": "رضی",
     "province_id": 3
   },
   {
     "id": 110,
     "name": "سرعین",
-    "slug": "سرعین",
+    "label": "سرعین",
     "province_id": 3
   },
   {
     "id": 111,
     "name": "عنبران",
-    "slug": "عنبران",
+    "label": "عنبران",
     "province_id": 3
   },
   {
     "id": 112,
     "name": "فخرآباد",
-    "slug": "فخرآباد",
+    "label": "فخرآباد",
     "province_id": 3
   },
   {
     "id": 113,
     "name": "کلور",
-    "slug": "کلور",
+    "label": "کلور",
     "province_id": 3
   },
   {
     "id": 114,
     "name": "کوراییم",
-    "slug": "کوراییم",
+    "label": "کوراییم",
     "province_id": 3
   },
   {
     "id": 115,
     "name": "گرمی",
-    "slug": "گرمی",
+    "label": "گرمی",
     "province_id": 3
   },
   {
     "id": 116,
     "name": "گیوی",
-    "slug": "گیوی",
+    "label": "گیوی",
     "province_id": 3
   },
   {
     "id": 117,
     "name": "لاهرود",
-    "slug": "لاهرود",
+    "label": "لاهرود",
     "province_id": 3
   },
   {
     "id": 118,
     "name": "مشگین شهر",
-    "slug": "مشگین-شهر",
+    "label": "مشگین-شهر",
     "province_id": 3
   },
   {
     "id": 119,
     "name": "نمین",
-    "slug": "نمین",
+    "label": "نمین",
     "province_id": 3
   },
   {
     "id": 120,
     "name": "نیر",
-    "slug": "اردبیل-نیر",
+    "label": "اردبیل-نیر",
     "province_id": 3
   },
   {
     "id": 121,
     "name": "هشتجین",
-    "slug": "هشتجین",
+    "label": "هشتجین",
     "province_id": 3
   },
   {
     "id": 122,
     "name": "هیر",
-    "slug": "هیر",
+    "label": "هیر",
     "province_id": 3
   },
   {
     "id": 123,
     "name": "ابریشم",
-    "slug": "ابریشم",
+    "label": "ابریشم",
     "province_id": 4
   },
   {
     "id": 124,
     "name": "ابوزیدآباد",
-    "slug": "ابوزیدآباد",
+    "label": "ابوزیدآباد",
     "province_id": 4
   },
   {
     "id": 125,
     "name": "اردستان",
-    "slug": "اردستان",
+    "label": "اردستان",
     "province_id": 4
   },
   {
     "id": 126,
     "name": "اژیه",
-    "slug": "اژیه",
+    "label": "اژیه",
     "province_id": 4
   },
   {
     "id": 127,
     "name": "اصفهان",
-    "slug": "اصفهان",
+    "label": "اصفهان",
     "province_id": 4
   },
   {
     "id": 128,
     "name": "افوس",
-    "slug": "افوس",
+    "label": "افوس",
     "province_id": 4
   },
   {
     "id": 129,
     "name": "انارک",
-    "slug": "انارک",
+    "label": "انارک",
     "province_id": 4
   },
   {
     "id": 130,
     "name": "ایمانشهر",
-    "slug": "ایمانشهر",
+    "label": "ایمانشهر",
     "province_id": 4
   },
   {
     "id": 131,
     "name": "آران وبیدگل",
-    "slug": "آران-وبیدگل",
+    "label": "آران-وبیدگل",
     "province_id": 4
   },
   {
     "id": 132,
     "name": "بادرود",
-    "slug": "بادرود",
+    "label": "بادرود",
     "province_id": 4
   },
   {
     "id": 133,
     "name": "باغ بهادران",
-    "slug": "باغ-بهادران",
+    "label": "باغ-بهادران",
     "province_id": 4
   },
   {
     "id": 134,
     "name": "بافران",
-    "slug": "بافران",
+    "label": "بافران",
     "province_id": 4
   },
   {
     "id": 135,
     "name": "برزک",
-    "slug": "برزک",
+    "label": "برزک",
     "province_id": 4
   },
   {
     "id": 136,
     "name": "برف انبار",
-    "slug": "برف-انبار",
+    "label": "برف-انبار",
     "province_id": 4
   },
   {
     "id": 137,
     "name": "بهاران شهر",
-    "slug": "بهاران-شهر",
+    "label": "بهاران-شهر",
     "province_id": 4
   },
   {
     "id": 138,
     "name": "بهارستان",
-    "slug": "بهارستان",
+    "label": "بهارستان",
     "province_id": 4
   },
   {
     "id": 139,
     "name": "بوئین و میاندشت",
-    "slug": "بوئین-میاندشت",
+    "label": "بوئین-میاندشت",
     "province_id": 4
   },
   {
     "id": 140,
     "name": "پیربکران",
-    "slug": "پیربکران",
+    "label": "پیربکران",
     "province_id": 4
   },
   {
     "id": 141,
     "name": "تودشک",
-    "slug": "تودشک",
+    "label": "تودشک",
     "province_id": 4
   },
   {
     "id": 142,
     "name": "تیران",
-    "slug": "تیران",
+    "label": "تیران",
     "province_id": 4
   },
   {
     "id": 143,
     "name": "جندق",
-    "slug": "جندق",
+    "label": "جندق",
     "province_id": 4
   },
   {
     "id": 144,
     "name": "جوزدان",
-    "slug": "جوزدان",
+    "label": "جوزدان",
     "province_id": 4
   },
   {
     "id": 145,
     "name": "جوشقان و کامو",
-    "slug": "جوشقان-کامو",
+    "label": "جوشقان-کامو",
     "province_id": 4
   },
   {
     "id": 146,
     "name": "چادگان",
-    "slug": "چادگان",
+    "label": "چادگان",
     "province_id": 4
   },
   {
     "id": 147,
     "name": "چرمهین",
-    "slug": "چرمهین",
+    "label": "چرمهین",
     "province_id": 4
   },
   {
     "id": 148,
     "name": "چمگردان",
-    "slug": "چمگردان",
+    "label": "چمگردان",
     "province_id": 4
   },
   {
     "id": 149,
     "name": "حبیب آباد",
-    "slug": "حبیب-آباد",
+    "label": "حبیب-آباد",
     "province_id": 4
   },
   {
     "id": 150,
     "name": "حسن آباد",
-    "slug": "اصفهان-حسن-آباد",
+    "label": "اصفهان-حسن-آباد",
     "province_id": 4
   },
   {
     "id": 151,
     "name": "حنا",
-    "slug": "حنا",
+    "label": "حنا",
     "province_id": 4
   },
   {
     "id": 152,
     "name": "خالدآباد",
-    "slug": "خالدآباد",
+    "label": "خالدآباد",
     "province_id": 4
   },
   {
     "id": 153,
     "name": "خمینی شهر",
-    "slug": "خمینی-شهر",
+    "label": "خمینی-شهر",
     "province_id": 4
   },
   {
     "id": 154,
     "name": "خوانسار",
-    "slug": "خوانسار",
+    "label": "خوانسار",
     "province_id": 4
   },
   {
     "id": 155,
     "name": "خور",
-    "slug": "اصفهان-خور",
+    "label": "اصفهان-خور",
     "province_id": 4
   },
   {
     "id": 157,
     "name": "خورزوق",
-    "slug": "خورزوق",
+    "label": "خورزوق",
     "province_id": 4
   },
   {
     "id": 158,
     "name": "داران",
-    "slug": "داران",
+    "label": "داران",
     "province_id": 4
   },
   {
     "id": 159,
     "name": "دامنه",
-    "slug": "دامنه",
+    "label": "دامنه",
     "province_id": 4
   },
   {
     "id": 160,
     "name": "درچه",
-    "slug": "درچه",
+    "label": "درچه",
     "province_id": 4
   },
   {
     "id": 161,
     "name": "دستگرد",
-    "slug": "دستگرد",
+    "label": "دستگرد",
     "province_id": 4
   },
   {
     "id": 162,
     "name": "دهاقان",
-    "slug": "دهاقان",
+    "label": "دهاقان",
     "province_id": 4
   },
   {
     "id": 163,
     "name": "دهق",
-    "slug": "دهق",
+    "label": "دهق",
     "province_id": 4
   },
   {
     "id": 164,
     "name": "دولت آباد",
-    "slug": "اصفهان-دولت-آباد",
+    "label": "اصفهان-دولت-آباد",
     "province_id": 4
   },
   {
     "id": 165,
     "name": "دیزیچه",
-    "slug": "دیزیچه",
+    "label": "دیزیچه",
     "province_id": 4
   },
   {
     "id": 166,
     "name": "رزوه",
-    "slug": "رزوه",
+    "label": "رزوه",
     "province_id": 4
   },
   {
     "id": 167,
     "name": "رضوانشهر",
-    "slug": "اصفهان-رضوانشهر",
+    "label": "اصفهان-رضوانشهر",
     "province_id": 4
   },
   {
     "id": 168,
     "name": "زاینده رود",
-    "slug": "زاینده-رود",
+    "label": "زاینده-رود",
     "province_id": 4
   },
   {
     "id": 169,
     "name": "زرین شهر",
-    "slug": "زرین-شهر",
+    "label": "زرین-شهر",
     "province_id": 4
   },
   {
     "id": 170,
     "name": "زواره",
-    "slug": "زواره",
+    "label": "زواره",
     "province_id": 4
   },
   {
     "id": 171,
     "name": "زیباشهر",
-    "slug": "زیباشهر",
+    "label": "زیباشهر",
     "province_id": 4
   },
   {
     "id": 172,
     "name": "سده لنجان",
-    "slug": "سده-لنجان",
+    "label": "سده-لنجان",
     "province_id": 4
   },
   {
     "id": 173,
     "name": "سفیدشهر",
-    "slug": "سفیدشهر",
+    "label": "سفیدشهر",
     "province_id": 4
   },
   {
     "id": 174,
     "name": "سگزی",
-    "slug": "سگزی",
+    "label": "سگزی",
     "province_id": 4
   },
   {
     "id": 175,
     "name": "سمیرم",
-    "slug": "سمیرم",
+    "label": "سمیرم",
     "province_id": 4
   },
   {
     "id": 176,
     "name": "شاهین شهر",
-    "slug": "شاهین-شهر",
+    "label": "شاهین-شهر",
     "province_id": 4
   },
   {
     "id": 177,
     "name": "شهرضا",
-    "slug": "شهرضا",
+    "label": "شهرضا",
     "province_id": 4
   },
   {
     "id": 178,
     "name": "طالخونچه",
-    "slug": "طالخونچه",
+    "label": "طالخونچه",
     "province_id": 4
   },
   {
     "id": 179,
     "name": "عسگران",
-    "slug": "عسگران",
+    "label": "عسگران",
     "province_id": 4
   },
   {
     "id": 180,
     "name": "علویجه",
-    "slug": "علویجه",
+    "label": "علویجه",
     "province_id": 4
   },
   {
     "id": 181,
     "name": "فرخی",
-    "slug": "فرخی",
+    "label": "فرخی",
     "province_id": 4
   },
   {
     "id": 182,
     "name": "فریدونشهر",
-    "slug": "فریدونشهر",
+    "label": "فریدونشهر",
     "province_id": 4
   },
   {
     "id": 183,
     "name": "فلاورجان",
-    "slug": "فلاورجان",
+    "label": "فلاورجان",
     "province_id": 4
   },
   {
     "id": 184,
     "name": "فولادشهر",
-    "slug": "فولادشهر",
+    "label": "فولادشهر",
     "province_id": 4
   },
   {
     "id": 185,
     "name": "قمصر",
-    "slug": "قمصر",
+    "label": "قمصر",
     "province_id": 4
   },
   {
     "id": 186,
     "name": "قهجاورستان",
-    "slug": "قهجاورستان",
+    "label": "قهجاورستان",
     "province_id": 4
   },
   {
     "id": 187,
     "name": "قهدریجان",
-    "slug": "قهدریجان",
+    "label": "قهدریجان",
     "province_id": 4
   },
   {
     "id": 188,
     "name": "کاشان",
-    "slug": "کاشان",
+    "label": "کاشان",
     "province_id": 4
   },
   {
     "id": 189,
     "name": "کرکوند",
-    "slug": "کرکوند",
+    "label": "کرکوند",
     "province_id": 4
   },
   {
     "id": 190,
     "name": "کلیشاد و سودرجان",
-    "slug": "کلیشاد-سودرجان",
+    "label": "کلیشاد-سودرجان",
     "province_id": 4
   },
   {
     "id": 191,
     "name": "کمشچه",
-    "slug": "کمشچه",
+    "label": "کمشچه",
     "province_id": 4
   },
   {
     "id": 192,
     "name": "کمه",
-    "slug": "کمه",
+    "label": "کمه",
     "province_id": 4
   },
   {
     "id": 193,
     "name": "کهریزسنگ",
-    "slug": "کهریزسنگ",
+    "label": "کهریزسنگ",
     "province_id": 4
   },
   {
     "id": 194,
     "name": "کوشک",
-    "slug": "کوشک",
+    "label": "کوشک",
     "province_id": 4
   },
   {
     "id": 195,
     "name": "کوهپایه",
-    "slug": "کوهپایه",
+    "label": "کوهپایه",
     "province_id": 4
   },
   {
     "id": 196,
     "name": "گرگاب",
-    "slug": "گرگاب",
+    "label": "گرگاب",
     "province_id": 4
   },
   {
     "id": 197,
     "name": "گزبرخوار",
-    "slug": "گزبرخوار",
+    "label": "گزبرخوار",
     "province_id": 4
   },
   {
     "id": 198,
     "name": "گلپایگان",
-    "slug": "گلپایگان",
+    "label": "گلپایگان",
     "province_id": 4
   },
   {
     "id": 199,
     "name": "گلدشت",
-    "slug": "گلدشت",
+    "label": "گلدشت",
     "province_id": 4
   },
   {
     "id": 200,
     "name": "گلشهر",
-    "slug": "گلشهر",
+    "label": "گلشهر",
     "province_id": 4
   },
   {
     "id": 201,
     "name": "گوگد",
-    "slug": "گوگد",
+    "label": "گوگد",
     "province_id": 4
   },
   {
     "id": 202,
     "name": "لای بید",
-    "slug": "لای-بید",
+    "label": "لای-بید",
     "province_id": 4
   },
   {
     "id": 203,
     "name": "مبارکه",
-    "slug": "مبارکه",
+    "label": "مبارکه",
     "province_id": 4
   },
   {
     "id": 204,
     "name": "مجلسی",
-    "slug": "مجلسی",
+    "label": "مجلسی",
     "province_id": 4
   },
   {
     "id": 205,
     "name": "محمدآباد",
-    "slug": "اصفهان-محمدآباد",
+    "label": "اصفهان-محمدآباد",
     "province_id": 4
   },
   {
     "id": 206,
     "name": "مشکات",
-    "slug": "مشکات",
+    "label": "مشکات",
     "province_id": 4
   },
   {
     "id": 207,
     "name": "منظریه",
-    "slug": "منظریه",
+    "label": "منظریه",
     "province_id": 4
   },
   {
     "id": 208,
     "name": "مهاباد",
-    "slug": "اصفهان-مهاباد",
+    "label": "اصفهان-مهاباد",
     "province_id": 4
   },
   {
     "id": 209,
     "name": "میمه",
-    "slug": "اصفهان-میمه",
+    "label": "اصفهان-میمه",
     "province_id": 4
   },
   {
     "id": 210,
     "name": "نائین",
-    "slug": "نائین",
+    "label": "نائین",
     "province_id": 4
   },
   {
     "id": 211,
     "name": "نجف آباد",
-    "slug": "نجف-آباد",
+    "label": "نجف-آباد",
     "province_id": 4
   },
   {
     "id": 212,
     "name": "نصرآباد",
-    "slug": "اصفهان-نصرآباد",
+    "label": "اصفهان-نصرآباد",
     "province_id": 4
   },
   {
     "id": 213,
     "name": "نطنز",
-    "slug": "نطنز",
+    "label": "نطنز",
     "province_id": 4
   },
   {
     "id": 214,
     "name": "نوش آباد",
-    "slug": "نوش-آباد",
+    "label": "نوش-آباد",
     "province_id": 4
   },
   {
     "id": 215,
     "name": "نیاسر",
-    "slug": "نیاسر",
+    "label": "نیاسر",
     "province_id": 4
   },
   {
     "id": 216,
     "name": "نیک آباد",
-    "slug": "نیک-آباد",
+    "label": "نیک-آباد",
     "province_id": 4
   },
   {
     "id": 217,
     "name": "هرند",
-    "slug": "هرند",
+    "label": "هرند",
     "province_id": 4
   },
   {
     "id": 218,
     "name": "ورزنه",
-    "slug": "ورزنه",
+    "label": "ورزنه",
     "province_id": 4
   },
   {
     "id": 219,
     "name": "ورنامخواست",
-    "slug": "ورنامخواست",
+    "label": "ورنامخواست",
     "province_id": 4
   },
   {
     "id": 220,
     "name": "وزوان",
-    "slug": "وزوان",
+    "label": "وزوان",
     "province_id": 4
   },
   {
     "id": 221,
     "name": "ونک",
-    "slug": "ونک",
+    "label": "ونک",
     "province_id": 4
   },
   {
     "id": 222,
     "name": "اسارا",
-    "slug": "اسارا",
+    "label": "اسارا",
     "province_id": 5
   },
   {
     "id": 223,
     "name": "اشتهارد",
-    "slug": "اشتهارد",
+    "label": "اشتهارد",
     "province_id": 5
   },
   {
     "id": 224,
     "name": "تنکمان",
-    "slug": "تنکمان",
+    "label": "تنکمان",
     "province_id": 5
   },
   {
     "id": 225,
     "name": "چهارباغ",
-    "slug": "چهارباغ",
+    "label": "چهارباغ",
     "province_id": 5
   },
   {
     "id": 226,
     "name": "سعید آباد",
-    "slug": "سعید-آباد",
+    "label": "سعید-آباد",
     "province_id": 5
   },
   {
     "id": 227,
     "name": "شهر جدید هشتگرد",
-    "slug": "شهر-جدید-هشتگرد",
+    "label": "شهر-جدید-هشتگرد",
     "province_id": 5
   },
   {
     "id": 228,
     "name": "طالقان",
-    "slug": "طالقان",
+    "label": "طالقان",
     "province_id": 5
   },
   {
     "id": 229,
     "name": "کرج",
-    "slug": "کرج",
+    "label": "کرج",
     "province_id": 5
   },
   {
     "id": 230,
     "name": "کمال شهر",
-    "slug": "کمال-شهر",
+    "label": "کمال-شهر",
     "province_id": 5
   },
   {
     "id": 231,
     "name": "کوهسار",
-    "slug": "کوهسار",
+    "label": "کوهسار",
     "province_id": 5
   },
   {
     "id": 232,
     "name": "گرمدره",
-    "slug": "گرمدره",
+    "label": "گرمدره",
     "province_id": 5
   },
   {
     "id": 233,
     "name": "ماهدشت",
-    "slug": "ماهدشت",
+    "label": "ماهدشت",
     "province_id": 5
   },
   {
     "id": 234,
     "name": "محمدشهر",
-    "slug": "البرز-محمدشهر",
+    "label": "البرز-محمدشهر",
     "province_id": 5
   },
   {
     "id": 235,
     "name": "مشکین دشت",
-    "slug": "مشکین-دشت",
+    "label": "مشکین-دشت",
     "province_id": 5
   },
   {
     "id": 236,
     "name": "نظرآباد",
-    "slug": "نظرآباد",
+    "label": "نظرآباد",
     "province_id": 5
   },
   {
     "id": 237,
     "name": "هشتگرد",
-    "slug": "هشتگرد",
+    "label": "هشتگرد",
     "province_id": 5
   },
   {
     "id": 238,
     "name": "ارکواز",
-    "slug": "ارکواز",
+    "label": "ارکواز",
     "province_id": 6
   },
   {
     "id": 239,
     "name": "ایلام",
-    "slug": "ایلام",
+    "label": "ایلام",
     "province_id": 6
   },
   {
     "id": 240,
     "name": "ایوان",
-    "slug": "ایوان",
+    "label": "ایوان",
     "province_id": 6
   },
   {
     "id": 241,
     "name": "آبدانان",
-    "slug": "آبدانان",
+    "label": "آبدانان",
     "province_id": 6
   },
   {
     "id": 242,
     "name": "آسمان آباد",
-    "slug": "آسمان-آباد",
+    "label": "آسمان-آباد",
     "province_id": 6
   },
   {
     "id": 243,
     "name": "بدره",
-    "slug": "بدره",
+    "label": "بدره",
     "province_id": 6
   },
   {
     "id": 244,
     "name": "پهله",
-    "slug": "پهله",
+    "label": "پهله",
     "province_id": 6
   },
   {
     "id": 245,
     "name": "توحید",
-    "slug": "توحید",
+    "label": "توحید",
     "province_id": 6
   },
   {
     "id": 246,
     "name": "چوار",
-    "slug": "چوار",
+    "label": "چوار",
     "province_id": 6
   },
   {
     "id": 247,
     "name": "دره شهر",
-    "slug": "دره-شهر",
+    "label": "دره-شهر",
     "province_id": 6
   },
   {
     "id": 248,
     "name": "دلگشا",
-    "slug": "دلگشا",
+    "label": "دلگشا",
     "province_id": 6
   },
   {
     "id": 249,
     "name": "دهلران",
-    "slug": "دهلران",
+    "label": "دهلران",
     "province_id": 6
   },
   {
     "id": 250,
     "name": "زرنه",
-    "slug": "زرنه",
+    "label": "زرنه",
     "province_id": 6
   },
   {
     "id": 251,
     "name": "سراب باغ",
-    "slug": "سراب-باغ",
+    "label": "سراب-باغ",
     "province_id": 6
   },
   {
     "id": 252,
     "name": "سرابله",
-    "slug": "سرابله",
+    "label": "سرابله",
     "province_id": 6
   },
   {
     "id": 253,
     "name": "صالح آباد",
-    "slug": "ایلام-صالح-آباد",
+    "label": "ایلام-صالح-آباد",
     "province_id": 6
   },
   {
     "id": 254,
     "name": "لومار",
-    "slug": "لومار",
+    "label": "لومار",
     "province_id": 6
   },
   {
     "id": 255,
     "name": "مهران",
-    "slug": "مهران",
+    "label": "مهران",
     "province_id": 6
   },
   {
     "id": 256,
     "name": "مورموری",
-    "slug": "مورموری",
+    "label": "مورموری",
     "province_id": 6
   },
   {
     "id": 257,
     "name": "موسیان",
-    "slug": "موسیان",
+    "label": "موسیان",
     "province_id": 6
   },
   {
     "id": 258,
     "name": "میمه",
-    "slug": "ایلام-میمه",
+    "label": "ایلام-میمه",
     "province_id": 6
   },
   {
     "id": 259,
     "name": "امام حسن",
-    "slug": "امام-حسن",
+    "label": "امام-حسن",
     "province_id": 7
   },
   {
     "id": 260,
     "name": "انارستان",
-    "slug": "انارستان",
+    "label": "انارستان",
     "province_id": 7
   },
   {
     "id": 261,
     "name": "اهرم",
-    "slug": "اهرم",
+    "label": "اهرم",
     "province_id": 7
   },
   {
     "id": 262,
     "name": "آب پخش",
-    "slug": "آب-پخش",
+    "label": "آب-پخش",
     "province_id": 7
   },
   {
     "id": 263,
     "name": "آبدان",
-    "slug": "آبدان",
+    "label": "آبدان",
     "province_id": 7
   },
   {
     "id": 264,
     "name": "برازجان",
-    "slug": "برازجان",
+    "label": "برازجان",
     "province_id": 7
   },
   {
     "id": 265,
     "name": "بردخون",
-    "slug": "بردخون",
+    "label": "بردخون",
     "province_id": 7
   },
   {
     "id": 266,
     "name": "بندردیر",
-    "slug": "بندردیر",
+    "label": "بندردیر",
     "province_id": 7
   },
   {
     "id": 267,
     "name": "بندردیلم",
-    "slug": "بندردیلم",
+    "label": "بندردیلم",
     "province_id": 7
   },
   {
     "id": 268,
     "name": "بندرریگ",
-    "slug": "بندرریگ",
+    "label": "بندرریگ",
     "province_id": 7
   },
   {
     "id": 269,
     "name": "بندرکنگان",
-    "slug": "بندرکنگان",
+    "label": "بندرکنگان",
     "province_id": 7
   },
   {
     "id": 270,
     "name": "بندرگناوه",
-    "slug": "بندرگناوه",
+    "label": "بندرگناوه",
     "province_id": 7
   },
   {
     "id": 271,
     "name": "بنک",
-    "slug": "بنک",
+    "label": "بنک",
     "province_id": 7
   },
   {
     "id": 272,
     "name": "بوشهر",
-    "slug": "بوشهر",
+    "label": "بوشهر",
     "province_id": 7
   },
   {
     "id": 273,
     "name": "تنگ ارم",
-    "slug": "تنگ-ارم",
+    "label": "تنگ-ارم",
     "province_id": 7
   },
   {
     "id": 274,
     "name": "جم",
-    "slug": "جم",
+    "label": "جم",
     "province_id": 7
   },
   {
     "id": 275,
     "name": "چغادک",
-    "slug": "چغادک",
+    "label": "چغادک",
     "province_id": 7
   },
   {
     "id": 276,
     "name": "خارک",
-    "slug": "خارک",
+    "label": "خارک",
     "province_id": 7
   },
   {
     "id": 277,
     "name": "خورموج",
-    "slug": "خورموج",
+    "label": "خورموج",
     "province_id": 7
   },
   {
     "id": 278,
     "name": "دالکی",
-    "slug": "دالکی",
+    "label": "دالکی",
     "province_id": 7
   },
   {
     "id": 279,
     "name": "دلوار",
-    "slug": "دلوار",
+    "label": "دلوار",
     "province_id": 7
   },
   {
     "id": 280,
     "name": "ریز",
-    "slug": "ریز",
+    "label": "ریز",
     "province_id": 7
   },
   {
     "id": 281,
     "name": "سعدآباد",
-    "slug": "سعدآباد",
+    "label": "سعدآباد",
     "province_id": 7
   },
   {
     "id": 282,
     "name": "سیراف",
-    "slug": "سیراف",
+    "label": "سیراف",
     "province_id": 7
   },
   {
     "id": 283,
     "name": "شبانکاره",
-    "slug": "شبانکاره",
+    "label": "شبانکاره",
     "province_id": 7
   },
   {
     "id": 284,
     "name": "شنبه",
-    "slug": "شنبه",
+    "label": "شنبه",
     "province_id": 7
   },
   {
     "id": 285,
     "name": "عسلویه",
-    "slug": "عسلویه",
+    "label": "عسلویه",
     "province_id": 7
   },
   {
     "id": 286,
     "name": "کاکی",
-    "slug": "کاکی",
+    "label": "کاکی",
     "province_id": 7
   },
   {
     "id": 287,
     "name": "کلمه",
-    "slug": "کلمه",
+    "label": "کلمه",
     "province_id": 7
   },
   {
     "id": 288,
     "name": "نخل تقی",
-    "slug": "نخل-تقی",
+    "label": "نخل-تقی",
     "province_id": 7
   },
   {
     "id": 289,
     "name": "وحدتیه",
-    "slug": "وحدتیه",
+    "label": "وحدتیه",
     "province_id": 7
   },
   {
     "id": 290,
     "name": "ارجمند",
-    "slug": "ارجمند",
+    "label": "ارجمند",
     "province_id": 8
   },
   {
     "id": 291,
     "name": "اسلامشهر",
-    "slug": "اسلامشهر",
+    "label": "اسلامشهر",
     "province_id": 8
   },
   {
     "id": 292,
     "name": "اندیشه",
-    "slug": "اندیشه",
+    "label": "اندیشه",
     "province_id": 8
   },
   {
     "id": 293,
     "name": "آبسرد",
-    "slug": "آبسرد",
+    "label": "آبسرد",
     "province_id": 8
   },
   {
     "id": 294,
     "name": "آبعلی",
-    "slug": "آبعلی",
+    "label": "آبعلی",
     "province_id": 8
   },
   {
     "id": 295,
     "name": "باغستان",
-    "slug": "باغستان",
+    "label": "باغستان",
     "province_id": 8
   },
   {
     "id": 296,
     "name": "باقرشهر",
-    "slug": "باقرشهر",
+    "label": "باقرشهر",
     "province_id": 8
   },
   {
     "id": 297,
     "name": "بومهن",
-    "slug": "بومهن",
+    "label": "بومهن",
     "province_id": 8
   },
   {
     "id": 298,
     "name": "پاکدشت",
-    "slug": "پاکدشت",
+    "label": "پاکدشت",
     "province_id": 8
   },
   {
     "id": 299,
     "name": "پردیس",
-    "slug": "پردیس",
+    "label": "پردیس",
     "province_id": 8
   },
   {
     "id": 300,
     "name": "پیشوا",
-    "slug": "پیشوا",
+    "label": "پیشوا",
     "province_id": 8
   },
   {
     "id": 301,
     "name": "تهران",
-    "slug": "تهران",
+    "label": "تهران",
     "province_id": 8
   },
   {
     "id": 302,
     "name": "جوادآباد",
-    "slug": "جوادآباد",
+    "label": "جوادآباد",
     "province_id": 8
   },
   {
     "id": 303,
     "name": "چهاردانگه",
-    "slug": "چهاردانگه",
+    "label": "چهاردانگه",
     "province_id": 8
   },
   {
     "id": 304,
     "name": "حسن آباد",
-    "slug": "تهران-حسن-آباد",
+    "label": "تهران-حسن-آباد",
     "province_id": 8
   },
   {
     "id": 305,
     "name": "دماوند",
-    "slug": "دماوند",
+    "label": "دماوند",
     "province_id": 8
   },
   {
     "id": 306,
     "name": "دیزین",
-    "slug": "دیزین",
+    "label": "دیزین",
     "province_id": 8
   },
   {
     "id": 307,
     "name": "شهر ری",
-    "slug": "شهر-ری",
+    "label": "شهر-ری",
     "province_id": 8
   },
   {
     "id": 308,
     "name": "رباط کریم",
-    "slug": "رباط-کریم",
+    "label": "رباط-کریم",
     "province_id": 8
   },
   {
     "id": 309,
     "name": "رودهن",
-    "slug": "رودهن",
+    "label": "رودهن",
     "province_id": 8
   },
   {
     "id": 310,
     "name": "شاهدشهر",
-    "slug": "شاهدشهر",
+    "label": "شاهدشهر",
     "province_id": 8
   },
   {
     "id": 311,
     "name": "شریف آباد",
-    "slug": "شریف-آباد",
+    "label": "شریف-آباد",
     "province_id": 8
   },
   {
     "id": 312,
     "name": "شمشک",
-    "slug": "شمشک",
+    "label": "شمشک",
     "province_id": 8
   },
   {
     "id": 313,
     "name": "شهریار",
-    "slug": "شهریار",
+    "label": "شهریار",
     "province_id": 8
   },
   {
     "id": 314,
     "name": "صالح آباد",
-    "slug": "تهران-صالح-آباد",
+    "label": "تهران-صالح-آباد",
     "province_id": 8
   },
   {
     "id": 315,
     "name": "صباشهر",
-    "slug": "صباشهر",
+    "label": "صباشهر",
     "province_id": 8
   },
   {
     "id": 316,
     "name": "صفادشت",
-    "slug": "صفادشت",
+    "label": "صفادشت",
     "province_id": 8
   },
   {
     "id": 317,
     "name": "فردوسیه",
-    "slug": "فردوسیه",
+    "label": "فردوسیه",
     "province_id": 8
   },
   {
     "id": 318,
     "name": "فشم",
-    "slug": "فشم",
+    "label": "فشم",
     "province_id": 8
   },
   {
     "id": 319,
     "name": "فیروزکوه",
-    "slug": "فیروزکوه",
+    "label": "فیروزکوه",
     "province_id": 8
   },
   {
     "id": 320,
     "name": "قدس",
-    "slug": "قدس",
+    "label": "قدس",
     "province_id": 8
   },
   {
     "id": 321,
     "name": "قرچک",
-    "slug": "قرچک",
+    "label": "قرچک",
     "province_id": 8
   },
   {
     "id": 322,
     "name": "کهریزک",
-    "slug": "کهریزک",
+    "label": "کهریزک",
     "province_id": 8
   },
   {
     "id": 323,
     "name": "کیلان",
-    "slug": "کیلان",
+    "label": "کیلان",
     "province_id": 8
   },
   {
     "id": 324,
     "name": "گلستان",
-    "slug": "شهر-گلستان",
+    "label": "شهر-گلستان",
     "province_id": 8
   },
   {
     "id": 325,
     "name": "لواسان",
-    "slug": "لواسان",
+    "label": "لواسان",
     "province_id": 8
   },
   {
     "id": 326,
     "name": "ملارد",
-    "slug": "ملارد",
+    "label": "ملارد",
     "province_id": 8
   },
   {
     "id": 327,
     "name": "میگون",
-    "slug": "میگون",
+    "label": "میگون",
     "province_id": 8
   },
   {
     "id": 328,
     "name": "نسیم شهر",
-    "slug": "نسیم-شهر",
+    "label": "نسیم-شهر",
     "province_id": 8
   },
   {
     "id": 329,
     "name": "نصیرآباد",
-    "slug": "نصیرآباد",
+    "label": "نصیرآباد",
     "province_id": 8
   },
   {
     "id": 330,
     "name": "وحیدیه",
-    "slug": "وحیدیه",
+    "label": "وحیدیه",
     "province_id": 8
   },
   {
     "id": 331,
     "name": "ورامین",
-    "slug": "ورامین",
+    "label": "ورامین",
     "province_id": 8
   },
   {
     "id": 332,
     "name": "اردل",
-    "slug": "اردل",
+    "label": "اردل",
     "province_id": 9
   },
   {
     "id": 333,
     "name": "آلونی",
-    "slug": "آلونی",
+    "label": "آلونی",
     "province_id": 9
   },
   {
     "id": 334,
     "name": "باباحیدر",
-    "slug": "باباحیدر",
+    "label": "باباحیدر",
     "province_id": 9
   },
   {
     "id": 335,
     "name": "بروجن",
-    "slug": "بروجن",
+    "label": "بروجن",
     "province_id": 9
   },
   {
     "id": 336,
     "name": "بلداجی",
-    "slug": "بلداجی",
+    "label": "بلداجی",
     "province_id": 9
   },
   {
     "id": 337,
     "name": "بن",
-    "slug": "بن",
+    "label": "بن",
     "province_id": 9
   },
   {
     "id": 338,
     "name": "جونقان",
-    "slug": "جونقان",
+    "label": "جونقان",
     "province_id": 9
   },
   {
     "id": 339,
     "name": "چلگرد",
-    "slug": "چلگرد",
+    "label": "چلگرد",
     "province_id": 9
   },
   {
     "id": 340,
     "name": "سامان",
-    "slug": "سامان",
+    "label": "سامان",
     "province_id": 9
   },
   {
     "id": 341,
     "name": "سفیددشت",
-    "slug": "سفیددشت",
+    "label": "سفیددشت",
     "province_id": 9
   },
   {
     "id": 342,
     "name": "سودجان",
-    "slug": "سودجان",
+    "label": "سودجان",
     "province_id": 9
   },
   {
     "id": 343,
     "name": "سورشجان",
-    "slug": "سورشجان",
+    "label": "سورشجان",
     "province_id": 9
   },
   {
     "id": 344,
     "name": "شلمزار",
-    "slug": "شلمزار",
+    "label": "شلمزار",
     "province_id": 9
   },
   {
     "id": 345,
     "name": "شهرکرد",
-    "slug": "شهرکرد",
+    "label": "شهرکرد",
     "province_id": 9
   },
   {
     "id": 346,
     "name": "طاقانک",
-    "slug": "طاقانک",
+    "label": "طاقانک",
     "province_id": 9
   },
   {
     "id": 347,
     "name": "فارسان",
-    "slug": "فارسان",
+    "label": "فارسان",
     "province_id": 9
   },
   {
     "id": 348,
     "name": "فرادنبه",
-    "slug": "فرادبنه",
+    "label": "فرادبنه",
     "province_id": 9
   },
   {
     "id": 349,
     "name": "فرخ شهر",
-    "slug": "فرخ-شهر",
+    "label": "فرخ-شهر",
     "province_id": 9
   },
   {
     "id": 350,
     "name": "کیان",
-    "slug": "کیان",
+    "label": "کیان",
     "province_id": 9
   },
   {
     "id": 351,
     "name": "گندمان",
-    "slug": "گندمان",
+    "label": "گندمان",
     "province_id": 9
   },
   {
     "id": 352,
     "name": "گهرو",
-    "slug": "گهرو",
+    "label": "گهرو",
     "province_id": 9
   },
   {
     "id": 353,
     "name": "لردگان",
-    "slug": "لردگان",
+    "label": "لردگان",
     "province_id": 9
   },
   {
     "id": 354,
     "name": "مال خلیفه",
-    "slug": "مال-خلیفه",
+    "label": "مال-خلیفه",
     "province_id": 9
   },
   {
     "id": 355,
     "name": "ناغان",
-    "slug": "ناغان",
+    "label": "ناغان",
     "province_id": 9
   },
   {
     "id": 356,
     "name": "نافچ",
-    "slug": "نافچ",
+    "label": "نافچ",
     "province_id": 9
   },
   {
     "id": 357,
     "name": "نقنه",
-    "slug": "نقنه",
+    "label": "نقنه",
     "province_id": 9
   },
   {
     "id": 358,
     "name": "هفشجان",
-    "slug": "هفشجان",
+    "label": "هفشجان",
     "province_id": 9
   },
   {
     "id": 359,
     "name": "ارسک",
-    "slug": "ارسک",
+    "label": "ارسک",
     "province_id": 10
   },
   {
     "id": 360,
     "name": "اسدیه",
-    "slug": "اسدیه",
+    "label": "اسدیه",
     "province_id": 10
   },
   {
     "id": 361,
     "name": "اسفدن",
-    "slug": "اسفدن",
+    "label": "اسفدن",
     "province_id": 10
   },
   {
     "id": 362,
     "name": "اسلامیه",
-    "slug": "اسلامیه",
+    "label": "اسلامیه",
     "province_id": 10
   },
   {
     "id": 363,
     "name": "آرین شهر",
-    "slug": "آرین-شهر",
+    "label": "آرین-شهر",
     "province_id": 10
   },
   {
     "id": 364,
     "name": "آیسک",
-    "slug": "آیسک",
+    "label": "آیسک",
     "province_id": 10
   },
   {
     "id": 365,
     "name": "بشرویه",
-    "slug": "بشرویه",
+    "label": "بشرویه",
     "province_id": 10
   },
   {
     "id": 366,
     "name": "بیرجند",
-    "slug": "بیرجند",
+    "label": "بیرجند",
     "province_id": 10
   },
   {
     "id": 367,
     "name": "حاجی آباد",
-    "slug": "خراسان-جنوبی-حاجی-آباد",
+    "label": "خراسان-جنوبی-حاجی-آباد",
     "province_id": 10
   },
   {
     "id": 368,
     "name": "خضری دشت بیاض",
-    "slug": "خضری-دشت-بیاض",
+    "label": "خضری-دشت-بیاض",
     "province_id": 10
   },
   {
     "id": 369,
     "name": "خوسف",
-    "slug": "خوسف",
+    "label": "خوسف",
     "province_id": 10
   },
   {
     "id": 370,
     "name": "زهان",
-    "slug": "زهان",
+    "label": "زهان",
     "province_id": 10
   },
   {
     "id": 371,
     "name": "سرایان",
-    "slug": "سرایان",
+    "label": "سرایان",
     "province_id": 10
   },
   {
     "id": 372,
     "name": "سربیشه",
-    "slug": "سربیشه",
+    "label": "سربیشه",
     "province_id": 10
   },
   {
     "id": 373,
     "name": "سه قلعه",
-    "slug": "سه-قلعه",
+    "label": "سه-قلعه",
     "province_id": 10
   },
   {
     "id": 374,
     "name": "شوسف",
-    "slug": "شوسف",
+    "label": "شوسف",
     "province_id": 10
   },
   {
     "id": 375,
     "name": "طبس ",
-    "slug": "خراسان-جنوبی-طبس-",
+    "label": "خراسان-جنوبی-طبس-",
     "province_id": 10
   },
   {
     "id": 376,
     "name": "فردوس",
-    "slug": "فردوس",
+    "label": "فردوس",
     "province_id": 10
   },
   {
     "id": 377,
     "name": "قاین",
-    "slug": "قاین",
+    "label": "قاین",
     "province_id": 10
   },
   {
     "id": 378,
     "name": "قهستان",
-    "slug": "قهستان",
+    "label": "قهستان",
     "province_id": 10
   },
   {
     "id": 379,
     "name": "محمدشهر",
-    "slug": "خراسان-جنوبی-محمدشهر",
+    "label": "خراسان-جنوبی-محمدشهر",
     "province_id": 10
   },
   {
     "id": 380,
     "name": "مود",
-    "slug": "مود",
+    "label": "مود",
     "province_id": 10
   },
   {
     "id": 381,
     "name": "نهبندان",
-    "slug": "نهبندان",
+    "label": "نهبندان",
     "province_id": 10
   },
   {
     "id": 382,
     "name": "نیمبلوک",
-    "slug": "نیمبلوک",
+    "label": "نیمبلوک",
     "province_id": 10
   },
   {
     "id": 383,
     "name": "احمدآباد صولت",
-    "slug": "احمدآباد-صولت",
+    "label": "احمدآباد-صولت",
     "province_id": 11
   },
   {
     "id": 384,
     "name": "انابد",
-    "slug": "انابد",
+    "label": "انابد",
     "province_id": 11
   },
   {
     "id": 385,
     "name": "باجگیران",
-    "slug": "باجگیران",
+    "label": "باجگیران",
     "province_id": 11
   },
   {
     "id": 386,
     "name": "باخرز",
-    "slug": "باخرز",
+    "label": "باخرز",
     "province_id": 11
   },
   {
     "id": 387,
     "name": "بار",
-    "slug": "بار",
+    "label": "بار",
     "province_id": 11
   },
   {
     "id": 388,
     "name": "بایگ",
-    "slug": "بایگ",
+    "label": "بایگ",
     "province_id": 11
   },
   {
     "id": 389,
     "name": "بجستان",
-    "slug": "بجستان",
+    "label": "بجستان",
     "province_id": 11
   },
   {
     "id": 390,
     "name": "بردسکن",
-    "slug": "بردسکن",
+    "label": "بردسکن",
     "province_id": 11
   },
   {
     "id": 391,
     "name": "بیدخت",
-    "slug": "بیدخت",
+    "label": "بیدخت",
     "province_id": 11
   },
   {
     "id": 392,
     "name": "تایباد",
-    "slug": "تایباد",
+    "label": "تایباد",
     "province_id": 11
   },
   {
     "id": 393,
     "name": "تربت جام",
-    "slug": "تربت-جام",
+    "label": "تربت-جام",
     "province_id": 11
   },
   {
     "id": 394,
     "name": "تربت حیدریه",
-    "slug": "تربت-حیدریه",
+    "label": "تربت-حیدریه",
     "province_id": 11
   },
   {
     "id": 395,
     "name": "جغتای",
-    "slug": "جغتای",
+    "label": "جغتای",
     "province_id": 11
   },
   {
     "id": 396,
     "name": "جنگل",
-    "slug": "جنگل",
+    "label": "جنگل",
     "province_id": 11
   },
   {
     "id": 397,
     "name": "چاپشلو",
-    "slug": "چاپشلو",
+    "label": "چاپشلو",
     "province_id": 11
   },
   {
     "id": 398,
     "name": "چکنه",
-    "slug": "چکنه",
+    "label": "چکنه",
     "province_id": 11
   },
   {
     "id": 399,
     "name": "چناران",
-    "slug": "چناران",
+    "label": "چناران",
     "province_id": 11
   },
   {
     "id": 400,
     "name": "خرو",
-    "slug": "خرو",
+    "label": "خرو",
     "province_id": 11
   },
   {
     "id": 401,
     "name": "خلیل آباد",
-    "slug": "خلیل-آباد",
+    "label": "خلیل-آباد",
     "province_id": 11
   },
   {
     "id": 402,
     "name": "خواف",
-    "slug": "خواف",
+    "label": "خواف",
     "province_id": 11
   },
   {
     "id": 403,
     "name": "داورزن",
-    "slug": "داورزن",
+    "label": "داورزن",
     "province_id": 11
   },
   {
     "id": 404,
     "name": "درگز",
-    "slug": "درگز",
+    "label": "درگز",
     "province_id": 11
   },
   {
     "id": 405,
     "name": "در رود",
-    "slug": "در-رود",
+    "label": "در-رود",
     "province_id": 11
   },
   {
     "id": 406,
     "name": "دولت آباد",
-    "slug": "خراسان-رضوی-دولت-آباد",
+    "label": "خراسان-رضوی-دولت-آباد",
     "province_id": 11
   },
   {
     "id": 407,
     "name": "رباط سنگ",
-    "slug": "رباط-سنگ",
+    "label": "رباط-سنگ",
     "province_id": 11
   },
   {
     "id": 408,
     "name": "رشتخوار",
-    "slug": "رشتخوار",
+    "label": "رشتخوار",
     "province_id": 11
   },
   {
     "id": 409,
     "name": "رضویه",
-    "slug": "رضویه",
+    "label": "رضویه",
     "province_id": 11
   },
   {
     "id": 410,
     "name": "روداب",
-    "slug": "روداب",
+    "label": "روداب",
     "province_id": 11
   },
   {
     "id": 411,
     "name": "ریوش",
-    "slug": "ریوش",
+    "label": "ریوش",
     "province_id": 11
   },
   {
     "id": 412,
     "name": "سبزوار",
-    "slug": "سبزوار",
+    "label": "سبزوار",
     "province_id": 11
   },
   {
     "id": 413,
     "name": "سرخس",
-    "slug": "سرخس",
+    "label": "سرخس",
     "province_id": 11
   },
   {
     "id": 414,
     "name": "سفیدسنگ",
-    "slug": "سفیدسنگ",
+    "label": "سفیدسنگ",
     "province_id": 11
   },
   {
     "id": 415,
     "name": "سلامی",
-    "slug": "سلامی",
+    "label": "سلامی",
     "province_id": 11
   },
   {
     "id": 416,
     "name": "سلطان آباد",
-    "slug": "سلطان-آباد",
+    "label": "سلطان-آباد",
     "province_id": 11
   },
   {
     "id": 417,
     "name": "سنگان",
-    "slug": "سنگان",
+    "label": "سنگان",
     "province_id": 11
   },
   {
     "id": 418,
     "name": "شادمهر",
-    "slug": "شادمهر",
+    "label": "شادمهر",
     "province_id": 11
   },
   {
     "id": 419,
     "name": "شاندیز",
-    "slug": "شاندیز",
+    "label": "شاندیز",
     "province_id": 11
   },
   {
     "id": 420,
     "name": "ششتمد",
-    "slug": "ششتمد",
+    "label": "ششتمد",
     "province_id": 11
   },
   {
     "id": 421,
     "name": "شهرآباد",
-    "slug": "شهرآباد",
+    "label": "شهرآباد",
     "province_id": 11
   },
   {
     "id": 422,
     "name": "شهرزو",
-    "slug": "شهرزو",
+    "label": "شهرزو",
     "province_id": 11
   },
   {
     "id": 423,
     "name": "صالح آباد",
-    "slug": "خراسان-رضوی-صالح-آباد",
+    "label": "خراسان-رضوی-صالح-آباد",
     "province_id": 11
   },
   {
     "id": 424,
     "name": "طرقبه",
-    "slug": "طرقبه",
+    "label": "طرقبه",
     "province_id": 11
   },
   {
     "id": 425,
     "name": "عشق آباد",
-    "slug": "خراسان-رضوی-عشق-آباد",
+    "label": "خراسان-رضوی-عشق-آباد",
     "province_id": 11
   },
   {
     "id": 426,
     "name": "فرهادگرد",
-    "slug": "فرهادگرد",
+    "label": "فرهادگرد",
     "province_id": 11
   },
   {
     "id": 427,
     "name": "فریمان",
-    "slug": "فریمان",
+    "label": "فریمان",
     "province_id": 11
   },
   {
     "id": 428,
     "name": "فیروزه",
-    "slug": "فیروزه",
+    "label": "فیروزه",
     "province_id": 11
   },
   {
     "id": 429,
     "name": "فیض آباد",
-    "slug": "فیض-آباد",
+    "label": "فیض-آباد",
     "province_id": 11
   },
   {
     "id": 430,
     "name": "قاسم آباد",
-    "slug": "قاسم-آباد",
+    "label": "قاسم-آباد",
     "province_id": 11
   },
   {
     "id": 431,
     "name": "قدمگاه",
-    "slug": "قدمگاه",
+    "label": "قدمگاه",
     "province_id": 11
   },
   {
     "id": 432,
     "name": "قلندرآباد",
-    "slug": "قلندرآباد",
+    "label": "قلندرآباد",
     "province_id": 11
   },
   {
     "id": 433,
     "name": "قوچان",
-    "slug": "قوچان",
+    "label": "قوچان",
     "province_id": 11
   },
   {
     "id": 434,
     "name": "کاخک",
-    "slug": "کاخک",
+    "label": "کاخک",
     "province_id": 11
   },
   {
     "id": 435,
     "name": "کاریز",
-    "slug": "کاریز",
+    "label": "کاریز",
     "province_id": 11
   },
   {
     "id": 436,
     "name": "کاشمر",
-    "slug": "کاشمر",
+    "label": "کاشمر",
     "province_id": 11
   },
   {
     "id": 437,
     "name": "کدکن",
-    "slug": "کدکن",
+    "label": "کدکن",
     "province_id": 11
   },
   {
     "id": 438,
     "name": "کلات",
-    "slug": "کلات",
+    "label": "کلات",
     "province_id": 11
   },
   {
     "id": 439,
     "name": "کندر",
-    "slug": "کندر",
+    "label": "کندر",
     "province_id": 11
   },
   {
     "id": 440,
     "name": "گلمکان",
-    "slug": "گلمکان",
+    "label": "گلمکان",
     "province_id": 11
   },
   {
     "id": 441,
     "name": "گناباد",
-    "slug": "گناباد",
+    "label": "گناباد",
     "province_id": 11
   },
   {
     "id": 442,
     "name": "لطف آباد",
-    "slug": "لطف-آباد",
+    "label": "لطف-آباد",
     "province_id": 11
   },
   {
     "id": 443,
     "name": "مزدآوند",
-    "slug": "مزدآوند",
+    "label": "مزدآوند",
     "province_id": 11
   },
   {
     "id": 444,
     "name": "مشهد",
-    "slug": "مشهد",
+    "label": "مشهد",
     "province_id": 11
   },
   {
     "id": 445,
     "name": "ملک آباد",
-    "slug": "ملک-آباد",
+    "label": "ملک-آباد",
     "province_id": 11
   },
   {
     "id": 446,
     "name": "نشتیفان",
-    "slug": "نشتیفان",
+    "label": "نشتیفان",
     "province_id": 11
   },
   {
     "id": 447,
     "name": "نصرآباد",
-    "slug": "خراسان-رضوی-نصرآباد",
+    "label": "خراسان-رضوی-نصرآباد",
     "province_id": 11
   },
   {
     "id": 448,
     "name": "نقاب",
-    "slug": "نقاب",
+    "label": "نقاب",
     "province_id": 11
   },
   {
     "id": 449,
     "name": "نوخندان",
-    "slug": "نوخندان",
+    "label": "نوخندان",
     "province_id": 11
   },
   {
     "id": 450,
     "name": "نیشابور",
-    "slug": "نیشابور",
+    "label": "نیشابور",
     "province_id": 11
   },
   {
     "id": 451,
     "name": "نیل شهر",
-    "slug": "نیل-شهر",
+    "label": "نیل-شهر",
     "province_id": 11
   },
   {
     "id": 452,
     "name": "همت آباد",
-    "slug": "همت-آباد",
+    "label": "همت-آباد",
     "province_id": 11
   },
   {
     "id": 453,
     "name": "یونسی",
-    "slug": "یونسی",
+    "label": "یونسی",
     "province_id": 11
   },
   {
     "id": 454,
     "name": "اسفراین",
-    "slug": "اسفراین",
+    "label": "اسفراین",
     "province_id": 12
   },
   {
     "id": 455,
     "name": "ایور",
-    "slug": "ایور",
+    "label": "ایور",
     "province_id": 12
   },
   {
     "id": 456,
     "name": "آشخانه",
-    "slug": "آشخانه",
+    "label": "آشخانه",
     "province_id": 12
   },
   {
     "id": 457,
     "name": "بجنورد",
-    "slug": "بجنورد",
+    "label": "بجنورد",
     "province_id": 12
   },
   {
     "id": 458,
     "name": "پیش قلعه",
-    "slug": "پیش-قلعه",
+    "label": "پیش-قلعه",
     "province_id": 12
   },
   {
     "id": 459,
     "name": "تیتکانلو",
-    "slug": "تیتکانلو",
+    "label": "تیتکانلو",
     "province_id": 12
   },
   {
     "id": 460,
     "name": "جاجرم",
-    "slug": "جاجرم",
+    "label": "جاجرم",
     "province_id": 12
   },
   {
     "id": 461,
     "name": "حصارگرمخان",
-    "slug": "حصارگرمخان",
+    "label": "حصارگرمخان",
     "province_id": 12
   },
   {
     "id": 462,
     "name": "درق",
-    "slug": "درق",
+    "label": "درق",
     "province_id": 12
   },
   {
     "id": 463,
     "name": "راز",
-    "slug": "راز",
+    "label": "راز",
     "province_id": 12
   },
   {
     "id": 464,
     "name": "سنخواست",
-    "slug": "سنخواست",
+    "label": "سنخواست",
     "province_id": 12
   },
   {
     "id": 465,
     "name": "شوقان",
-    "slug": "شوقان",
+    "label": "شوقان",
     "province_id": 12
   },
   {
     "id": 466,
     "name": "شیروان",
-    "slug": "شیروان",
+    "label": "شیروان",
     "province_id": 12
   },
   {
     "id": 467,
     "name": "صفی آباد",
-    "slug": "خراسان-شمالی-صفی-آباد",
+    "label": "خراسان-شمالی-صفی-آباد",
     "province_id": 12
   },
   {
     "id": 468,
     "name": "فاروج",
-    "slug": "فاروج",
+    "label": "فاروج",
     "province_id": 12
   },
   {
     "id": 469,
     "name": "قاضی",
-    "slug": "قاضی",
+    "label": "قاضی",
     "province_id": 12
   },
   {
     "id": 470,
     "name": "گرمه",
-    "slug": "گرمه",
+    "label": "گرمه",
     "province_id": 12
   },
   {
     "id": 471,
     "name": "لوجلی",
-    "slug": "لوجلی",
+    "label": "لوجلی",
     "province_id": 12
   },
   {
     "id": 472,
     "name": "اروندکنار",
-    "slug": "اروندکنار",
+    "label": "اروندکنار",
     "province_id": 13
   },
   {
     "id": 473,
     "name": "الوان",
-    "slug": "الوان",
+    "label": "الوان",
     "province_id": 13
   },
   {
     "id": 474,
     "name": "امیدیه",
-    "slug": "امیدیه",
+    "label": "امیدیه",
     "province_id": 13
   },
   {
     "id": 475,
     "name": "اندیمشک",
-    "slug": "اندیمشک",
+    "label": "اندیمشک",
     "province_id": 13
   },
   {
     "id": 476,
     "name": "اهواز",
-    "slug": "اهواز",
+    "label": "اهواز",
     "province_id": 13
   },
   {
     "id": 477,
     "name": "ایذه",
-    "slug": "ایذه",
+    "label": "ایذه",
     "province_id": 13
   },
   {
     "id": 478,
     "name": "آبادان",
-    "slug": "آبادان",
+    "label": "آبادان",
     "province_id": 13
   },
   {
     "id": 479,
     "name": "آغاجاری",
-    "slug": "آغاجاری",
+    "label": "آغاجاری",
     "province_id": 13
   },
   {
     "id": 480,
     "name": "باغ ملک",
-    "slug": "باغ-ملک",
+    "label": "باغ-ملک",
     "province_id": 13
   },
   {
     "id": 481,
     "name": "بستان",
-    "slug": "بستان",
+    "label": "بستان",
     "province_id": 13
   },
   {
     "id": 482,
     "name": "بندرامام خمینی",
-    "slug": "بندرامام-خمینی",
+    "label": "بندرامام-خمینی",
     "province_id": 13
   },
   {
     "id": 483,
     "name": "بندرماهشهر",
-    "slug": "بندرماهشهر",
+    "label": "بندرماهشهر",
     "province_id": 13
   },
   {
     "id": 484,
     "name": "بهبهان",
-    "slug": "بهبهان",
+    "label": "بهبهان",
     "province_id": 13
   },
   {
     "id": 485,
     "name": "ترکالکی",
-    "slug": "ترکالکی",
+    "label": "ترکالکی",
     "province_id": 13
   },
   {
     "id": 486,
     "name": "جایزان",
-    "slug": "جایزان",
+    "label": "جایزان",
     "province_id": 13
   },
   {
     "id": 487,
     "name": "چمران",
-    "slug": "چمران",
+    "label": "چمران",
     "province_id": 13
   },
   {
     "id": 488,
     "name": "چویبده",
-    "slug": "چویبده",
+    "label": "چویبده",
     "province_id": 13
   },
   {
     "id": 489,
     "name": "حر",
-    "slug": "حر",
+    "label": "حر",
     "province_id": 13
   },
   {
     "id": 490,
     "name": "حسینیه",
-    "slug": "حسینیه",
+    "label": "حسینیه",
     "province_id": 13
   },
   {
     "id": 491,
     "name": "حمزه",
-    "slug": "حمزه",
+    "label": "حمزه",
     "province_id": 13
   },
   {
     "id": 492,
     "name": "حمیدیه",
-    "slug": "حمیدیه",
+    "label": "حمیدیه",
     "province_id": 13
   },
   {
     "id": 493,
     "name": "خرمشهر",
-    "slug": "خرمشهر",
+    "label": "خرمشهر",
     "province_id": 13
   },
   {
     "id": 494,
     "name": "دارخوین",
-    "slug": "دارخوین",
+    "label": "دارخوین",
     "province_id": 13
   },
   {
     "id": 495,
     "name": "دزآب",
-    "slug": "دزآب",
+    "label": "دزآب",
     "province_id": 13
   },
   {
     "id": 496,
     "name": "دزفول",
-    "slug": "دزفول",
+    "label": "دزفول",
     "province_id": 13
   },
   {
     "id": 497,
     "name": "دهدز",
-    "slug": "دهدز",
+    "label": "دهدز",
     "province_id": 13
   },
   {
     "id": 498,
     "name": "رامشیر",
-    "slug": "رامشیر",
+    "label": "رامشیر",
     "province_id": 13
   },
   {
     "id": 499,
     "name": "رامهرمز",
-    "slug": "رامهرمز",
+    "label": "رامهرمز",
     "province_id": 13
   },
   {
     "id": 500,
     "name": "رفیع",
-    "slug": "رفیع",
+    "label": "رفیع",
     "province_id": 13
   },
   {
     "id": 501,
     "name": "زهره",
-    "slug": "زهره",
+    "label": "زهره",
     "province_id": 13
   },
   {
     "id": 502,
     "name": "سالند",
-    "slug": "سالند",
+    "label": "سالند",
     "province_id": 13
   },
   {
     "id": 503,
     "name": "سردشت",
-    "slug": "خوزستان-سردشت",
+    "label": "خوزستان-سردشت",
     "province_id": 13
   },
   {
     "id": 504,
     "name": "سوسنگرد",
-    "slug": "سوسنگرد",
+    "label": "سوسنگرد",
     "province_id": 13
   },
   {
     "id": 505,
     "name": "شادگان",
-    "slug": "شادگان",
+    "label": "شادگان",
     "province_id": 13
   },
   {
     "id": 506,
     "name": "شاوور",
-    "slug": "شاوور",
+    "label": "شاوور",
     "province_id": 13
   },
   {
     "id": 507,
     "name": "شرافت",
-    "slug": "شرافت",
+    "label": "شرافت",
     "province_id": 13
   },
   {
     "id": 508,
     "name": "شوش",
-    "slug": "شوش",
+    "label": "شوش",
     "province_id": 13
   },
   {
     "id": 509,
     "name": "شوشتر",
-    "slug": "شوشتر",
+    "label": "شوشتر",
     "province_id": 13
   },
   {
     "id": 510,
     "name": "شیبان",
-    "slug": "شیبان",
+    "label": "شیبان",
     "province_id": 13
   },
   {
     "id": 511,
     "name": "صالح شهر",
-    "slug": "صالح-شهر",
+    "label": "صالح-شهر",
     "province_id": 13
   },
   {
     "id": 512,
     "name": "صفی آباد",
-    "slug": "خوزستان-صفی-آباد",
+    "label": "خوزستان-صفی-آباد",
     "province_id": 13
   },
   {
     "id": 513,
     "name": "صیدون",
-    "slug": "صیدون",
+    "label": "صیدون",
     "province_id": 13
   },
   {
     "id": 514,
     "name": "قلعه تل",
-    "slug": "قلعه-تل",
+    "label": "قلعه-تل",
     "province_id": 13
   },
   {
     "id": 515,
     "name": "قلعه خواجه",
-    "slug": "قلعه-خواجه",
+    "label": "قلعه-خواجه",
     "province_id": 13
   },
   {
     "id": 516,
     "name": "گتوند",
-    "slug": "گتوند",
+    "label": "گتوند",
     "province_id": 13
   },
   {
     "id": 517,
     "name": "لالی",
-    "slug": "لالی",
+    "label": "لالی",
     "province_id": 13
   },
   {
     "id": 518,
     "name": "مسجدسلیمان",
-    "slug": "مسجدسلیمان",
+    "label": "مسجدسلیمان",
     "province_id": 13
   },
   {
     "id": 520,
     "name": "ملاثانی",
-    "slug": "ملاثانی",
+    "label": "ملاثانی",
     "province_id": 13
   },
   {
     "id": 521,
     "name": "میانرود",
-    "slug": "میانرود",
+    "label": "میانرود",
     "province_id": 13
   },
   {
     "id": 522,
     "name": "مینوشهر",
-    "slug": "مینوشهر",
+    "label": "مینوشهر",
     "province_id": 13
   },
   {
     "id": 523,
     "name": "هفتگل",
-    "slug": "هفتگل",
+    "label": "هفتگل",
     "province_id": 13
   },
   {
     "id": 524,
     "name": "هندیجان",
-    "slug": "هندیجان",
+    "label": "هندیجان",
     "province_id": 13
   },
   {
     "id": 525,
     "name": "هویزه",
-    "slug": "هویزه",
+    "label": "هویزه",
     "province_id": 13
   },
   {
     "id": 526,
     "name": "ویس",
-    "slug": "ویس",
+    "label": "ویس",
     "province_id": 13
   },
   {
     "id": 527,
     "name": "ابهر",
-    "slug": "ابهر",
+    "label": "ابهر",
     "province_id": 14
   },
   {
     "id": 528,
     "name": "ارمغان خانه",
-    "slug": "ارمغان-خانه",
+    "label": "ارمغان-خانه",
     "province_id": 14
   },
   {
     "id": 529,
     "name": "آب بر",
-    "slug": "آب-بر",
+    "label": "آب-بر",
     "province_id": 14
   },
   {
     "id": 530,
     "name": "چورزق",
-    "slug": "چورزق",
+    "label": "چورزق",
     "province_id": 14
   },
   {
     "id": 531,
     "name": "حلب",
-    "slug": "حلب",
+    "label": "حلب",
     "province_id": 14
   },
   {
     "id": 532,
     "name": "خرمدره",
-    "slug": "خرمدره",
+    "label": "خرمدره",
     "province_id": 14
   },
   {
     "id": 533,
     "name": "دندی",
-    "slug": "دندی",
+    "label": "دندی",
     "province_id": 14
   },
   {
     "id": 534,
     "name": "زرین آباد",
-    "slug": "زرین-آباد",
+    "label": "زرین-آباد",
     "province_id": 14
   },
   {
     "id": 535,
     "name": "زرین رود",
-    "slug": "زرین-رود",
+    "label": "زرین-رود",
     "province_id": 14
   },
   {
     "id": 536,
     "name": "زنجان",
-    "slug": "زنجان",
+    "label": "زنجان",
     "province_id": 14
   },
   {
     "id": 537,
     "name": "سجاس",
-    "slug": "سجاس",
+    "label": "سجاس",
     "province_id": 14
   },
   {
     "id": 538,
     "name": "سلطانیه",
-    "slug": "سلطانیه",
+    "label": "سلطانیه",
     "province_id": 14
   },
   {
     "id": 539,
     "name": "سهرورد",
-    "slug": "سهرورد",
+    "label": "سهرورد",
     "province_id": 14
   },
   {
     "id": 540,
     "name": "صائین قلعه",
-    "slug": "صائین-قلعه",
+    "label": "صائین-قلعه",
     "province_id": 14
   },
   {
     "id": 541,
     "name": "قیدار",
-    "slug": "قیدار",
+    "label": "قیدار",
     "province_id": 14
   },
   {
     "id": 542,
     "name": "گرماب",
-    "slug": "گرماب",
+    "label": "گرماب",
     "province_id": 14
   },
   {
     "id": 543,
     "name": "ماه نشان",
-    "slug": "ماه-نشان",
+    "label": "ماه-نشان",
     "province_id": 14
   },
   {
     "id": 544,
     "name": "هیدج",
-    "slug": "هیدج",
+    "label": "هیدج",
     "province_id": 14
   },
   {
     "id": 545,
     "name": "امیریه",
-    "slug": "امیریه",
+    "label": "امیریه",
     "province_id": 15
   },
   {
     "id": 546,
     "name": "ایوانکی",
-    "slug": "ایوانکی",
+    "label": "ایوانکی",
     "province_id": 15
   },
   {
     "id": 547,
     "name": "آرادان",
-    "slug": "آرادان",
+    "label": "آرادان",
     "province_id": 15
   },
   {
     "id": 548,
     "name": "بسطام",
-    "slug": "بسطام",
+    "label": "بسطام",
     "province_id": 15
   },
   {
     "id": 549,
     "name": "بیارجمند",
-    "slug": "بیارجمند",
+    "label": "بیارجمند",
     "province_id": 15
   },
   {
     "id": 550,
     "name": "دامغان",
-    "slug": "دامغان",
+    "label": "دامغان",
     "province_id": 15
   },
   {
     "id": 551,
     "name": "درجزین",
-    "slug": "درجزین",
+    "label": "درجزین",
     "province_id": 15
   },
   {
     "id": 552,
     "name": "دیباج",
-    "slug": "دیباج",
+    "label": "دیباج",
     "province_id": 15
   },
   {
     "id": 553,
     "name": "سرخه",
-    "slug": "سرخه",
+    "label": "سرخه",
     "province_id": 15
   },
   {
     "id": 554,
     "name": "سمنان",
-    "slug": "سمنان",
+    "label": "سمنان",
     "province_id": 15
   },
   {
     "id": 555,
     "name": "شاهرود",
-    "slug": "شاهرود",
+    "label": "شاهرود",
     "province_id": 15
   },
   {
     "id": 556,
     "name": "شهمیرزاد",
-    "slug": "شهمیرزاد",
+    "label": "شهمیرزاد",
     "province_id": 15
   },
   {
     "id": 557,
     "name": "کلاته خیج",
-    "slug": "کلاته-خیج",
+    "label": "کلاته-خیج",
     "province_id": 15
   },
   {
     "id": 558,
     "name": "گرمسار",
-    "slug": "گرمسار",
+    "label": "گرمسار",
     "province_id": 15
   },
   {
     "id": 559,
     "name": "مجن",
-    "slug": "مجن",
+    "label": "مجن",
     "province_id": 15
   },
   {
     "id": 560,
     "name": "مهدی شهر",
-    "slug": "مهدی-شهر",
+    "label": "مهدی-شهر",
     "province_id": 15
   },
   {
     "id": 561,
     "name": "میامی",
-    "slug": "میامی",
+    "label": "میامی",
     "province_id": 15
   },
   {
     "id": 562,
     "name": "ادیمی",
-    "slug": "ادیمی",
+    "label": "ادیمی",
     "province_id": 16
   },
   {
     "id": 563,
     "name": "اسپکه",
-    "slug": "اسپکه",
+    "label": "اسپکه",
     "province_id": 16
   },
   {
     "id": 564,
     "name": "ایرانشهر",
-    "slug": "ایرانشهر",
+    "label": "ایرانشهر",
     "province_id": 16
   },
   {
     "id": 565,
     "name": "بزمان",
-    "slug": "بزمان",
+    "label": "بزمان",
     "province_id": 16
   },
   {
     "id": 566,
     "name": "بمپور",
-    "slug": "بمپور",
+    "label": "بمپور",
     "province_id": 16
   },
   {
     "id": 567,
     "name": "بنت",
-    "slug": "بنت",
+    "label": "بنت",
     "province_id": 16
   },
   {
     "id": 568,
     "name": "بنجار",
-    "slug": "بنجار",
+    "label": "بنجار",
     "province_id": 16
   },
   {
     "id": 569,
     "name": "پیشین",
-    "slug": "پیشین",
+    "label": "پیشین",
     "province_id": 16
   },
   {
     "id": 570,
     "name": "جالق",
-    "slug": "جالق",
+    "label": "جالق",
     "province_id": 16
   },
   {
     "id": 571,
     "name": "چابهار",
-    "slug": "چابهار",
+    "label": "چابهار",
     "province_id": 16
   },
   {
     "id": 572,
     "name": "خاش",
-    "slug": "خاش",
+    "label": "خاش",
     "province_id": 16
   },
   {
     "id": 573,
     "name": "دوست محمد",
-    "slug": "دوست-محمد",
+    "label": "دوست-محمد",
     "province_id": 16
   },
   {
     "id": 574,
     "name": "راسک",
-    "slug": "راسک",
+    "label": "راسک",
     "province_id": 16
   },
   {
     "id": 575,
     "name": "زابل",
-    "slug": "زابل",
+    "label": "زابل",
     "province_id": 16
   },
   {
     "id": 576,
     "name": "زابلی",
-    "slug": "زابلی",
+    "label": "زابلی",
     "province_id": 16
   },
   {
     "id": 577,
     "name": "زاهدان",
-    "slug": "زاهدان",
+    "label": "زاهدان",
     "province_id": 16
   },
   {
     "id": 578,
     "name": "زهک",
-    "slug": "زهک",
+    "label": "زهک",
     "province_id": 16
   },
   {
     "id": 579,
     "name": "سراوان",
-    "slug": "سراوان",
+    "label": "سراوان",
     "province_id": 16
   },
   {
     "id": 580,
     "name": "سرباز",
-    "slug": "سرباز",
+    "label": "سرباز",
     "province_id": 16
   },
   {
     "id": 581,
     "name": "سوران",
-    "slug": "سوران",
+    "label": "سوران",
     "province_id": 16
   },
   {
     "id": 582,
     "name": "سیرکان",
-    "slug": "سیرکان",
+    "label": "سیرکان",
     "province_id": 16
   },
   {
     "id": 583,
     "name": "علی اکبر",
-    "slug": "علی-اکبر",
+    "label": "علی-اکبر",
     "province_id": 16
   },
   {
     "id": 584,
     "name": "فنوج",
-    "slug": "فنوج",
+    "label": "فنوج",
     "province_id": 16
   },
   {
     "id": 585,
     "name": "قصرقند",
-    "slug": "قصرقند",
+    "label": "قصرقند",
     "province_id": 16
   },
   {
     "id": 586,
     "name": "کنارک",
-    "slug": "کنارک",
+    "label": "کنارک",
     "province_id": 16
   },
   {
     "id": 587,
     "name": "گشت",
-    "slug": "گشت",
+    "label": "گشت",
     "province_id": 16
   },
   {
     "id": 588,
     "name": "گلمورتی",
-    "slug": "گلمورتی",
+    "label": "گلمورتی",
     "province_id": 16
   },
   {
     "id": 589,
     "name": "محمدان",
-    "slug": "محمدان",
+    "label": "محمدان",
     "province_id": 16
   },
   {
     "id": 590,
     "name": "محمدآباد",
-    "slug": "سیستان-و-بلوچستان-محمدآباد",
+    "label": "سیستان-و-بلوچستان-محمدآباد",
     "province_id": 16
   },
   {
     "id": 591,
     "name": "محمدی",
-    "slug": "محمدی",
+    "label": "محمدی",
     "province_id": 16
   },
   {
     "id": 592,
     "name": "میرجاوه",
-    "slug": "میرجاوه",
+    "label": "میرجاوه",
     "province_id": 16
   },
   {
     "id": 593,
     "name": "نصرت آباد",
-    "slug": "نصرت-آباد",
+    "label": "نصرت-آباد",
     "province_id": 16
   },
   {
     "id": 594,
     "name": "نگور",
-    "slug": "نگور",
+    "label": "نگور",
     "province_id": 16
   },
   {
     "id": 595,
     "name": "نوک آباد",
-    "slug": "نوک-آباد",
+    "label": "نوک-آباد",
     "province_id": 16
   },
   {
     "id": 596,
     "name": "نیک شهر",
-    "slug": "نیک-شهر",
+    "label": "نیک-شهر",
     "province_id": 16
   },
   {
     "id": 597,
     "name": "هیدوچ",
-    "slug": "هیدوچ",
+    "label": "هیدوچ",
     "province_id": 16
   },
   {
     "id": 598,
     "name": "اردکان",
-    "slug": "فارس-اردکان",
+    "label": "فارس-اردکان",
     "province_id": 17
   },
   {
     "id": 599,
     "name": "ارسنجان",
-    "slug": "ارسنجان",
+    "label": "ارسنجان",
     "province_id": 17
   },
   {
     "id": 600,
     "name": "استهبان",
-    "slug": "استهبان",
+    "label": "استهبان",
     "province_id": 17
   },
   {
     "id": 601,
     "name": "اشکنان",
-    "slug": "اشکنان",
+    "label": "اشکنان",
     "province_id": 17
   },
   {
     "id": 602,
     "name": "افزر",
-    "slug": "افزر",
+    "label": "افزر",
     "province_id": 17
   },
   {
     "id": 603,
     "name": "اقلید",
-    "slug": "اقلید",
+    "label": "اقلید",
     "province_id": 17
   },
   {
     "id": 604,
     "name": "امام شهر",
-    "slug": "امام-شهر",
+    "label": "امام-شهر",
     "province_id": 17
   },
   {
     "id": 605,
     "name": "اهل",
-    "slug": "اهل",
+    "label": "اهل",
     "province_id": 17
   },
   {
     "id": 606,
     "name": "اوز",
-    "slug": "اوز",
+    "label": "اوز",
     "province_id": 17
   },
   {
     "id": 607,
     "name": "ایج",
-    "slug": "ایج",
+    "label": "ایج",
     "province_id": 17
   },
   {
     "id": 608,
     "name": "ایزدخواست",
-    "slug": "ایزدخواست",
+    "label": "ایزدخواست",
     "province_id": 17
   },
   {
     "id": 609,
     "name": "آباده",
-    "slug": "آباده",
+    "label": "آباده",
     "province_id": 17
   },
   {
     "id": 610,
     "name": "آباده طشک",
-    "slug": "آباده-طشک",
+    "label": "آباده-طشک",
     "province_id": 17
   },
   {
     "id": 611,
     "name": "باب انار",
-    "slug": "باب-انار",
+    "label": "باب-انار",
     "province_id": 17
   },
   {
     "id": 612,
     "name": "بالاده",
-    "slug": "فارس-بالاده",
+    "label": "فارس-بالاده",
     "province_id": 17
   },
   {
     "id": 613,
     "name": "بنارویه",
-    "slug": "بنارویه",
+    "label": "بنارویه",
     "province_id": 17
   },
   {
     "id": 614,
     "name": "بهمن",
-    "slug": "بهمن",
+    "label": "بهمن",
     "province_id": 17
   },
   {
     "id": 615,
     "name": "بوانات",
-    "slug": "بوانات",
+    "label": "بوانات",
     "province_id": 17
   },
   {
     "id": 616,
     "name": "بیرم",
-    "slug": "بیرم",
+    "label": "بیرم",
     "province_id": 17
   },
   {
     "id": 617,
     "name": "بیضا",
-    "slug": "بیضا",
+    "label": "بیضا",
     "province_id": 17
   },
   {
     "id": 618,
     "name": "جنت شهر",
-    "slug": "جنت-شهر",
+    "label": "جنت-شهر",
     "province_id": 17
   },
   {
     "id": 619,
     "name": "جهرم",
-    "slug": "جهرم",
+    "label": "جهرم",
     "province_id": 17
   },
   {
     "id": 620,
     "name": "جویم",
-    "slug": "جویم",
+    "label": "جویم",
     "province_id": 17
   },
   {
     "id": 621,
     "name": "زرین دشت",
-    "slug": "زرین-دشت",
+    "label": "زرین-دشت",
     "province_id": 17
   },
   {
     "id": 622,
     "name": "حسن آباد",
-    "slug": "فارس-حسن-آباد",
+    "label": "فارس-حسن-آباد",
     "province_id": 17
   },
   {
     "id": 623,
     "name": "خان زنیان",
-    "slug": "خان-زنیان",
+    "label": "خان-زنیان",
     "province_id": 17
   },
   {
     "id": 624,
     "name": "خاوران",
-    "slug": "خاوران",
+    "label": "خاوران",
     "province_id": 17
   },
   {
     "id": 625,
     "name": "خرامه",
-    "slug": "خرامه",
+    "label": "خرامه",
     "province_id": 17
   },
   {
     "id": 626,
     "name": "خشت",
-    "slug": "خشت",
+    "label": "خشت",
     "province_id": 17
   },
   {
     "id": 627,
     "name": "خنج",
-    "slug": "خنج",
+    "label": "خنج",
     "province_id": 17
   },
   {
     "id": 628,
     "name": "خور",
-    "slug": "فارس-خور",
+    "label": "فارس-خور",
     "province_id": 17
   },
   {
     "id": 629,
     "name": "داراب",
-    "slug": "داراب",
+    "label": "داراب",
     "province_id": 17
   },
   {
     "id": 630,
     "name": "داریان",
-    "slug": "داریان",
+    "label": "داریان",
     "province_id": 17
   },
   {
     "id": 631,
     "name": "دبیران",
-    "slug": "دبیران",
+    "label": "دبیران",
     "province_id": 17
   },
   {
     "id": 632,
     "name": "دژکرد",
-    "slug": "دژکرد",
+    "label": "دژکرد",
     "province_id": 17
   },
   {
     "id": 633,
     "name": "دهرم",
-    "slug": "دهرم",
+    "label": "دهرم",
     "province_id": 17
   },
   {
     "id": 634,
     "name": "دوبرجی",
-    "slug": "دوبرجی",
+    "label": "دوبرجی",
     "province_id": 17
   },
   {
     "id": 635,
     "name": "رامجرد",
-    "slug": "رامجرد",
+    "label": "رامجرد",
     "province_id": 17
   },
   {
     "id": 636,
     "name": "رونیز",
-    "slug": "رونیز",
+    "label": "رونیز",
     "province_id": 17
   },
   {
     "id": 637,
     "name": "زاهدشهر",
-    "slug": "زاهدشهر",
+    "label": "زاهدشهر",
     "province_id": 17
   },
   {
     "id": 638,
     "name": "زرقان",
-    "slug": "زرقان",
+    "label": "زرقان",
     "province_id": 17
   },
   {
     "id": 639,
     "name": "سده",
-    "slug": "سده",
+    "label": "سده",
     "province_id": 17
   },
   {
     "id": 640,
     "name": "سروستان",
-    "slug": "سروستان",
+    "label": "سروستان",
     "province_id": 17
   },
   {
     "id": 641,
     "name": "سعادت شهر",
-    "slug": "سعادت-شهر",
+    "label": "سعادت-شهر",
     "province_id": 17
   },
   {
     "id": 642,
     "name": "سورمق",
-    "slug": "سورمق",
+    "label": "سورمق",
     "province_id": 17
   },
   {
     "id": 643,
     "name": "سیدان",
-    "slug": "سیدان",
+    "label": "سیدان",
     "province_id": 17
   },
   {
     "id": 644,
     "name": "ششده",
-    "slug": "ششده",
+    "label": "ششده",
     "province_id": 17
   },
   {
     "id": 645,
     "name": "شهرپیر",
-    "slug": "شهرپیر",
+    "label": "شهرپیر",
     "province_id": 17
   },
   {
     "id": 646,
     "name": "شهرصدرا",
-    "slug": "شهرصدرا",
+    "label": "شهرصدرا",
     "province_id": 17
   },
   {
     "id": 647,
     "name": "شیراز",
-    "slug": "شیراز",
+    "label": "شیراز",
     "province_id": 17
   },
   {
     "id": 648,
     "name": "صغاد",
-    "slug": "صغاد",
+    "label": "صغاد",
     "province_id": 17
   },
   {
     "id": 649,
     "name": "صفاشهر",
-    "slug": "صفاشهر",
+    "label": "صفاشهر",
     "province_id": 17
   },
   {
     "id": 650,
     "name": "علامرودشت",
-    "slug": "علامرودشت",
+    "label": "علامرودشت",
     "province_id": 17
   },
   {
     "id": 651,
     "name": "فدامی",
-    "slug": "فدامی",
+    "label": "فدامی",
     "province_id": 17
   },
   {
     "id": 652,
     "name": "فراشبند",
-    "slug": "فراشبند",
+    "label": "فراشبند",
     "province_id": 17
   },
   {
     "id": 653,
     "name": "فسا",
-    "slug": "فسا",
+    "label": "فسا",
     "province_id": 17
   },
   {
     "id": 654,
     "name": "فیروزآباد",
-    "slug": "فارس-فیروزآباد",
+    "label": "فارس-فیروزآباد",
     "province_id": 17
   },
   {
     "id": 655,
     "name": "قائمیه",
-    "slug": "قائمیه",
+    "label": "قائمیه",
     "province_id": 17
   },
   {
     "id": 656,
     "name": "قادرآباد",
-    "slug": "قادرآباد",
+    "label": "قادرآباد",
     "province_id": 17
   },
   {
     "id": 657,
     "name": "قطب آباد",
-    "slug": "قطب-آباد",
+    "label": "قطب-آباد",
     "province_id": 17
   },
   {
     "id": 658,
     "name": "قطرویه",
-    "slug": "قطرویه",
+    "label": "قطرویه",
     "province_id": 17
   },
   {
     "id": 659,
     "name": "قیر",
-    "slug": "قیر",
+    "label": "قیر",
     "province_id": 17
   },
   {
     "id": 660,
     "name": "کارزین (فتح آباد)",
-    "slug": "کارزین-فتح-آباد",
+    "label": "کارزین-فتح-آباد",
     "province_id": 17
   },
   {
     "id": 661,
     "name": "کازرون",
-    "slug": "کازرون",
+    "label": "کازرون",
     "province_id": 17
   },
   {
     "id": 662,
     "name": "کامفیروز",
-    "slug": "کامفیروز",
+    "label": "کامفیروز",
     "province_id": 17
   },
   {
     "id": 663,
     "name": "کره ای",
-    "slug": "کره-ای",
+    "label": "کره-ای",
     "province_id": 17
   },
   {
     "id": 664,
     "name": "کنارتخته",
-    "slug": "کنارتخته",
+    "label": "کنارتخته",
     "province_id": 17
   },
   {
     "id": 665,
     "name": "کوار",
-    "slug": "کوار",
+    "label": "کوار",
     "province_id": 17
   },
   {
     "id": 666,
     "name": "گراش",
-    "slug": "گراش",
+    "label": "گراش",
     "province_id": 17
   },
   {
     "id": 667,
     "name": "گله دار",
-    "slug": "گله-دار",
+    "label": "گله-دار",
     "province_id": 17
   },
   {
     "id": 668,
     "name": "لار",
-    "slug": "لار",
+    "label": "لار",
     "province_id": 17
   },
   {
     "id": 669,
     "name": "لامرد",
-    "slug": "لامرد",
+    "label": "لامرد",
     "province_id": 17
   },
   {
     "id": 670,
     "name": "لپویی",
-    "slug": "لپویی",
+    "label": "لپویی",
     "province_id": 17
   },
   {
     "id": 671,
     "name": "لطیفی",
-    "slug": "لطیفی",
+    "label": "لطیفی",
     "province_id": 17
   },
   {
     "id": 672,
     "name": "مبارک آباددیز",
-    "slug": "مبارک-آباددیز",
+    "label": "مبارک-آباددیز",
     "province_id": 17
   },
   {
     "id": 673,
     "name": "مرودشت",
-    "slug": "مرودشت",
+    "label": "مرودشت",
     "province_id": 17
   },
   {
     "id": 674,
     "name": "مشکان",
-    "slug": "مشکان",
+    "label": "مشکان",
     "province_id": 17
   },
   {
     "id": 675,
     "name": "مصیری",
-    "slug": "مصیری",
+    "label": "مصیری",
     "province_id": 17
   },
   {
     "id": 676,
     "name": "مهر",
-    "slug": "مهر",
+    "label": "مهر",
     "province_id": 17
   },
   {
     "id": 677,
     "name": "میمند",
-    "slug": "میمند",
+    "label": "میمند",
     "province_id": 17
   },
   {
     "id": 678,
     "name": "نوبندگان",
-    "slug": "نوبندگان",
+    "label": "نوبندگان",
     "province_id": 17
   },
   {
     "id": 679,
     "name": "نوجین",
-    "slug": "نوجین",
+    "label": "نوجین",
     "province_id": 17
   },
   {
     "id": 680,
     "name": "نودان",
-    "slug": "نودان",
+    "label": "نودان",
     "province_id": 17
   },
   {
     "id": 681,
     "name": "نورآباد",
-    "slug": "فارس-نورآباد",
+    "label": "فارس-نورآباد",
     "province_id": 17
   },
   {
     "id": 682,
     "name": "نی ریز",
-    "slug": "نی-ریز",
+    "label": "نی-ریز",
     "province_id": 17
   },
   {
     "id": 683,
     "name": "وراوی",
-    "slug": "وراوی",
+    "label": "وراوی",
     "province_id": 17
   },
   {
     "id": 684,
     "name": "ارداق",
-    "slug": "ارداق",
+    "label": "ارداق",
     "province_id": 18
   },
   {
     "id": 685,
     "name": "اسفرورین",
-    "slug": "اسفرورین",
+    "label": "اسفرورین",
     "province_id": 18
   },
   {
     "id": 686,
     "name": "اقبالیه",
-    "slug": "اقبالیه",
+    "label": "اقبالیه",
     "province_id": 18
   },
   {
     "id": 687,
     "name": "الوند",
-    "slug": "الوند",
+    "label": "الوند",
     "province_id": 18
   },
   {
     "id": 688,
     "name": "آبگرم",
-    "slug": "آبگرم",
+    "label": "آبگرم",
     "province_id": 18
   },
   {
     "id": 689,
     "name": "آبیک",
-    "slug": "آبیک",
+    "label": "آبیک",
     "province_id": 18
   },
   {
     "id": 690,
     "name": "آوج",
-    "slug": "آوج",
+    "label": "آوج",
     "province_id": 18
   },
   {
     "id": 691,
     "name": "بوئین زهرا",
-    "slug": "بوئین-زهرا",
+    "label": "بوئین-زهرا",
     "province_id": 18
   },
   {
     "id": 692,
     "name": "بیدستان",
-    "slug": "بیدستان",
+    "label": "بیدستان",
     "province_id": 18
   },
   {
     "id": 693,
     "name": "تاکستان",
-    "slug": "تاکستان",
+    "label": "تاکستان",
     "province_id": 18
   },
   {
     "id": 694,
     "name": "خاکعلی",
-    "slug": "خاکعلی",
+    "label": "خاکعلی",
     "province_id": 18
   },
   {
     "id": 695,
     "name": "خرمدشت",
-    "slug": "خرمدشت",
+    "label": "خرمدشت",
     "province_id": 18
   },
   {
     "id": 696,
     "name": "دانسفهان",
-    "slug": "دانسفهان",
+    "label": "دانسفهان",
     "province_id": 18
   },
   {
     "id": 697,
     "name": "رازمیان",
-    "slug": "رازمیان",
+    "label": "رازمیان",
     "province_id": 18
   },
   {
     "id": 698,
     "name": "سگزآباد",
-    "slug": "سگزآباد",
+    "label": "سگزآباد",
     "province_id": 18
   },
   {
     "id": 699,
     "name": "سیردان",
-    "slug": "سیردان",
+    "label": "سیردان",
     "province_id": 18
   },
   {
     "id": 700,
     "name": "شال",
-    "slug": "شال",
+    "label": "شال",
     "province_id": 18
   },
   {
     "id": 701,
     "name": "شریفیه",
-    "slug": "شریفیه",
+    "label": "شریفیه",
     "province_id": 18
   },
   {
     "id": 702,
     "name": "ضیاآباد",
-    "slug": "ضیاآباد",
+    "label": "ضیاآباد",
     "province_id": 18
   },
   {
     "id": 703,
     "name": "قزوین",
-    "slug": "قزوین",
+    "label": "قزوین",
     "province_id": 18
   },
   {
     "id": 704,
     "name": "کوهین",
-    "slug": "کوهین",
+    "label": "کوهین",
     "province_id": 18
   },
   {
     "id": 705,
     "name": "محمدیه",
-    "slug": "محمدیه",
+    "label": "محمدیه",
     "province_id": 18
   },
   {
     "id": 706,
     "name": "محمودآباد نمونه",
-    "slug": "محمودآباد-نمونه",
+    "label": "محمودآباد-نمونه",
     "province_id": 18
   },
   {
     "id": 707,
     "name": "معلم کلایه",
-    "slug": "معلم-کلایه",
+    "label": "معلم-کلایه",
     "province_id": 18
   },
   {
     "id": 708,
     "name": "نرجه",
-    "slug": "نرجه",
+    "label": "نرجه",
     "province_id": 18
   },
   {
     "id": 709,
     "name": "جعفریه",
-    "slug": "جعفریه",
+    "label": "جعفریه",
     "province_id": 19
   },
   {
     "id": 710,
     "name": "دستجرد",
-    "slug": "دستجرد",
+    "label": "دستجرد",
     "province_id": 19
   },
   {
     "id": 711,
     "name": "سلفچگان",
-    "slug": "سلفچگان",
+    "label": "سلفچگان",
     "province_id": 19
   },
   {
     "id": 712,
     "name": "قم",
-    "slug": "قم",
+    "label": "قم",
     "province_id": 19
   },
   {
     "id": 713,
     "name": "قنوات",
-    "slug": "قنوات",
+    "label": "قنوات",
     "province_id": 19
   },
   {
     "id": 714,
     "name": "کهک",
-    "slug": "کهک",
+    "label": "کهک",
     "province_id": 19
   },
   {
     "id": 715,
     "name": "آرمرده",
-    "slug": "آرمرده",
+    "label": "آرمرده",
     "province_id": 20
   },
   {
     "id": 716,
     "name": "بابارشانی",
-    "slug": "بابارشانی",
+    "label": "بابارشانی",
     "province_id": 20
   },
   {
     "id": 717,
     "name": "بانه",
-    "slug": "بانه",
+    "label": "بانه",
     "province_id": 20
   },
   {
     "id": 718,
     "name": "بلبان آباد",
-    "slug": "بلبان-آباد",
+    "label": "بلبان-آباد",
     "province_id": 20
   },
   {
     "id": 719,
     "name": "بوئین سفلی",
-    "slug": "بوئین-سفلی",
+    "label": "بوئین-سفلی",
     "province_id": 20
   },
   {
     "id": 720,
     "name": "بیجار",
-    "slug": "بیجار",
+    "label": "بیجار",
     "province_id": 20
   },
   {
     "id": 721,
     "name": "چناره",
-    "slug": "چناره",
+    "label": "چناره",
     "province_id": 20
   },
   {
     "id": 722,
     "name": "دزج",
-    "slug": "دزج",
+    "label": "دزج",
     "province_id": 20
   },
   {
     "id": 723,
     "name": "دلبران",
-    "slug": "دلبران",
+    "label": "دلبران",
     "province_id": 20
   },
   {
     "id": 724,
     "name": "دهگلان",
-    "slug": "دهگلان",
+    "label": "دهگلان",
     "province_id": 20
   },
   {
     "id": 725,
     "name": "دیواندره",
-    "slug": "دیواندره",
+    "label": "دیواندره",
     "province_id": 20
   },
   {
     "id": 726,
     "name": "زرینه",
-    "slug": "زرینه",
+    "label": "زرینه",
     "province_id": 20
   },
   {
     "id": 727,
     "name": "سروآباد",
-    "slug": "سروآباد",
+    "label": "سروآباد",
     "province_id": 20
   },
   {
     "id": 728,
     "name": "سریش آباد",
-    "slug": "سریش-آباد",
+    "label": "سریش-آباد",
     "province_id": 20
   },
   {
     "id": 729,
     "name": "سقز",
-    "slug": "سقز",
+    "label": "سقز",
     "province_id": 20
   },
   {
     "id": 730,
     "name": "سنندج",
-    "slug": "سنندج",
+    "label": "سنندج",
     "province_id": 20
   },
   {
     "id": 731,
     "name": "شویشه",
-    "slug": "شویشه",
+    "label": "شویشه",
     "province_id": 20
   },
   {
     "id": 732,
     "name": "صاحب",
-    "slug": "صاحب",
+    "label": "صاحب",
     "province_id": 20
   },
   {
     "id": 733,
     "name": "قروه",
-    "slug": "قروه",
+    "label": "قروه",
     "province_id": 20
   },
   {
     "id": 734,
     "name": "کامیاران",
-    "slug": "کامیاران",
+    "label": "کامیاران",
     "province_id": 20
   },
   {
     "id": 735,
     "name": "کانی دینار",
-    "slug": "کانی-دینار",
+    "label": "کانی-دینار",
     "province_id": 20
   },
   {
     "id": 736,
     "name": "کانی سور",
-    "slug": "کانی-سور",
+    "label": "کانی-سور",
     "province_id": 20
   },
   {
     "id": 737,
     "name": "مریوان",
-    "slug": "مریوان",
+    "label": "مریوان",
     "province_id": 20
   },
   {
     "id": 738,
     "name": "موچش",
-    "slug": "موچش",
+    "label": "موچش",
     "province_id": 20
   },
   {
     "id": 739,
     "name": "یاسوکند",
-    "slug": "یاسوکند",
+    "label": "یاسوکند",
     "province_id": 20
   },
   {
     "id": 740,
     "name": "اختیارآباد",
-    "slug": "اختیارآباد",
+    "label": "اختیارآباد",
     "province_id": 21
   },
   {
     "id": 741,
     "name": "ارزوئیه",
-    "slug": "ارزوئیه",
+    "label": "ارزوئیه",
     "province_id": 21
   },
   {
     "id": 742,
     "name": "امین شهر",
-    "slug": "امین-شهر",
+    "label": "امین-شهر",
     "province_id": 21
   },
   {
     "id": 743,
     "name": "انار",
-    "slug": "انار",
+    "label": "انار",
     "province_id": 21
   },
   {
     "id": 744,
     "name": "اندوهجرد",
-    "slug": "اندوهجرد",
+    "label": "اندوهجرد",
     "province_id": 21
   },
   {
     "id": 745,
     "name": "باغین",
-    "slug": "باغین",
+    "label": "باغین",
     "province_id": 21
   },
   {
     "id": 746,
     "name": "بافت",
-    "slug": "بافت",
+    "label": "بافت",
     "province_id": 21
   },
   {
     "id": 747,
     "name": "بردسیر",
-    "slug": "بردسیر",
+    "label": "بردسیر",
     "province_id": 21
   },
   {
     "id": 748,
     "name": "بروات",
-    "slug": "بروات",
+    "label": "بروات",
     "province_id": 21
   },
   {
     "id": 749,
     "name": "بزنجان",
-    "slug": "بزنجان",
+    "label": "بزنجان",
     "province_id": 21
   },
   {
     "id": 750,
     "name": "بم",
-    "slug": "بم",
+    "label": "بم",
     "province_id": 21
   },
   {
     "id": 751,
     "name": "بهرمان",
-    "slug": "بهرمان",
+    "label": "بهرمان",
     "province_id": 21
   },
   {
     "id": 752,
     "name": "پاریز",
-    "slug": "پاریز",
+    "label": "پاریز",
     "province_id": 21
   },
   {
     "id": 753,
     "name": "جبالبارز",
-    "slug": "جبالبارز",
+    "label": "جبالبارز",
     "province_id": 21
   },
   {
     "id": 754,
     "name": "جوپار",
-    "slug": "جوپار",
+    "label": "جوپار",
     "province_id": 21
   },
   {
     "id": 755,
     "name": "جوزم",
-    "slug": "جوزم",
+    "label": "جوزم",
     "province_id": 21
   },
   {
     "id": 756,
     "name": "جیرفت",
-    "slug": "جیرفت",
+    "label": "جیرفت",
     "province_id": 21
   },
   {
     "id": 757,
     "name": "چترود",
-    "slug": "چترود",
+    "label": "چترود",
     "province_id": 21
   },
   {
     "id": 758,
     "name": "خاتون آباد",
-    "slug": "خاتون-آباد",
+    "label": "خاتون-آباد",
     "province_id": 21
   },
   {
     "id": 759,
     "name": "خانوک",
-    "slug": "خانوک",
+    "label": "خانوک",
     "province_id": 21
   },
   {
     "id": 760,
     "name": "خورسند",
-    "slug": "خورسند",
+    "label": "خورسند",
     "province_id": 21
   },
   {
     "id": 761,
     "name": "درب بهشت",
-    "slug": "درب-بهشت",
+    "label": "درب-بهشت",
     "province_id": 21
   },
   {
     "id": 762,
     "name": "دهج",
-    "slug": "دهج",
+    "label": "دهج",
     "province_id": 21
   },
   {
     "id": 763,
     "name": "رابر",
-    "slug": "رابر",
+    "label": "رابر",
     "province_id": 21
   },
   {
     "id": 764,
     "name": "راور",
-    "slug": "راور",
+    "label": "راور",
     "province_id": 21
   },
   {
     "id": 765,
     "name": "راین",
-    "slug": "راین",
+    "label": "راین",
     "province_id": 21
   },
   {
     "id": 766,
     "name": "رفسنجان",
-    "slug": "رفسنجان",
+    "label": "رفسنجان",
     "province_id": 21
   },
   {
     "id": 767,
     "name": "رودبار",
-    "slug": "کرمان-رودبار",
+    "label": "کرمان-رودبار",
     "province_id": 21
   },
   {
     "id": 768,
     "name": "ریحان شهر",
-    "slug": "ریحان-شهر",
+    "label": "ریحان-شهر",
     "province_id": 21
   },
   {
     "id": 769,
     "name": "زرند",
-    "slug": "زرند",
+    "label": "زرند",
     "province_id": 21
   },
   {
     "id": 770,
     "name": "زنگی آباد",
-    "slug": "زنگی-آباد",
+    "label": "زنگی-آباد",
     "province_id": 21
   },
   {
     "id": 771,
     "name": "زیدآباد",
-    "slug": "زیدآباد",
+    "label": "زیدآباد",
     "province_id": 21
   },
   {
     "id": 772,
     "name": "سیرجان",
-    "slug": "سیرجان",
+    "label": "سیرجان",
     "province_id": 21
   },
   {
     "id": 773,
     "name": "شهداد",
-    "slug": "شهداد",
+    "label": "شهداد",
     "province_id": 21
   },
   {
     "id": 774,
     "name": "شهربابک",
-    "slug": "شهربابک",
+    "label": "شهربابک",
     "province_id": 21
   },
   {
     "id": 775,
     "name": "صفائیه",
-    "slug": "صفائیه",
+    "label": "صفائیه",
     "province_id": 21
   },
   {
     "id": 776,
     "name": "عنبرآباد",
-    "slug": "عنبرآباد",
+    "label": "عنبرآباد",
     "province_id": 21
   },
   {
     "id": 777,
     "name": "فاریاب",
-    "slug": "فاریاب",
+    "label": "فاریاب",
     "province_id": 21
   },
   {
     "id": 778,
     "name": "فهرج",
-    "slug": "فهرج",
+    "label": "فهرج",
     "province_id": 21
   },
   {
     "id": 779,
     "name": "قلعه گنج",
-    "slug": "قلعه-گنج",
+    "label": "قلعه-گنج",
     "province_id": 21
   },
   {
     "id": 780,
     "name": "کاظم آباد",
-    "slug": "کاظم-آباد",
+    "label": "کاظم-آباد",
     "province_id": 21
   },
   {
     "id": 781,
     "name": "کرمان",
-    "slug": "کرمان",
+    "label": "کرمان",
     "province_id": 21
   },
   {
     "id": 782,
     "name": "کشکوئیه",
-    "slug": "کشکوئیه",
+    "label": "کشکوئیه",
     "province_id": 21
   },
   {
     "id": 783,
     "name": "کهنوج",
-    "slug": "کهنوج",
+    "label": "کهنوج",
     "province_id": 21
   },
   {
     "id": 784,
     "name": "کوهبنان",
-    "slug": "کوهبنان",
+    "label": "کوهبنان",
     "province_id": 21
   },
   {
     "id": 785,
     "name": "کیانشهر",
-    "slug": "کیانشهر",
+    "label": "کیانشهر",
     "province_id": 21
   },
   {
     "id": 786,
     "name": "گلباف",
-    "slug": "گلباف",
+    "label": "گلباف",
     "province_id": 21
   },
   {
     "id": 787,
     "name": "گلزار",
-    "slug": "گلزار",
+    "label": "گلزار",
     "province_id": 21
   },
   {
     "id": 788,
     "name": "لاله زار",
-    "slug": "لاله-زار",
+    "label": "لاله-زار",
     "province_id": 21
   },
   {
     "id": 789,
     "name": "ماهان",
-    "slug": "ماهان",
+    "label": "ماهان",
     "province_id": 21
   },
   {
     "id": 790,
     "name": "محمدآباد",
-    "slug": "کرمان-محمدآباد",
+    "label": "کرمان-محمدآباد",
     "province_id": 21
   },
   {
     "id": 791,
     "name": "محی آباد",
-    "slug": "محی-آباد",
+    "label": "محی-آباد",
     "province_id": 21
   },
   {
     "id": 792,
     "name": "مردهک",
-    "slug": "مردهک",
+    "label": "مردهک",
     "province_id": 21
   },
   {
     "id": 793,
     "name": "مس سرچشمه",
-    "slug": "مس-سرچشمه",
+    "label": "مس-سرچشمه",
     "province_id": 21
   },
   {
     "id": 794,
     "name": "منوجان",
-    "slug": "منوجان",
+    "label": "منوجان",
     "province_id": 21
   },
   {
     "id": 795,
     "name": "نجف شهر",
-    "slug": "نجف-شهر",
+    "label": "نجف-شهر",
     "province_id": 21
   },
   {
     "id": 796,
     "name": "نرماشیر",
-    "slug": "نرماشیر",
+    "label": "نرماشیر",
     "province_id": 21
   },
   {
     "id": 797,
     "name": "نظام شهر",
-    "slug": "نظام-شهر",
+    "label": "نظام-شهر",
     "province_id": 21
   },
   {
     "id": 798,
     "name": "نگار",
-    "slug": "نگار",
+    "label": "نگار",
     "province_id": 21
   },
   {
     "id": 799,
     "name": "نودژ",
-    "slug": "نودژ",
+    "label": "نودژ",
     "province_id": 21
   },
   {
     "id": 800,
     "name": "هجدک",
-    "slug": "هجدک",
+    "label": "هجدک",
     "province_id": 21
   },
   {
     "id": 801,
     "name": "یزدان شهر",
-    "slug": "یزدان-شهر",
+    "label": "یزدان-شهر",
     "province_id": 21
   },
   {
     "id": 802,
     "name": "ازگله",
-    "slug": "ازگله",
+    "label": "ازگله",
     "province_id": 22
   },
   {
     "id": 803,
     "name": "اسلام آباد غرب",
-    "slug": "اسلام-آباد-غرب",
+    "label": "اسلام-آباد-غرب",
     "province_id": 22
   },
   {
     "id": 804,
     "name": "باینگان",
-    "slug": "باینگان",
+    "label": "باینگان",
     "province_id": 22
   },
   {
     "id": 805,
     "name": "بیستون",
-    "slug": "بیستون",
+    "label": "بیستون",
     "province_id": 22
   },
   {
     "id": 806,
     "name": "پاوه",
-    "slug": "پاوه",
+    "label": "پاوه",
     "province_id": 22
   },
   {
     "id": 807,
     "name": "تازه آباد",
-    "slug": "تازه-آباد",
+    "label": "تازه-آباد",
     "province_id": 22
   },
   {
     "id": 808,
     "name": "جوان رود",
-    "slug": "جوان-رود",
+    "label": "جوان-رود",
     "province_id": 22
   },
   {
     "id": 809,
     "name": "حمیل",
-    "slug": "حمیل",
+    "label": "حمیل",
     "province_id": 22
   },
   {
     "id": 810,
     "name": "ماهیدشت",
-    "slug": "ماهیدشت",
+    "label": "ماهیدشت",
     "province_id": 22
   },
   {
     "id": 811,
     "name": "روانسر",
-    "slug": "روانسر",
+    "label": "روانسر",
     "province_id": 22
   },
   {
     "id": 812,
     "name": "سرپل ذهاب",
-    "slug": "سرپل-ذهاب",
+    "label": "سرپل-ذهاب",
     "province_id": 22
   },
   {
     "id": 813,
     "name": "سرمست",
-    "slug": "سرمست",
+    "label": "سرمست",
     "province_id": 22
   },
   {
     "id": 814,
     "name": "سطر",
-    "slug": "سطر",
+    "label": "سطر",
     "province_id": 22
   },
   {
     "id": 815,
     "name": "سنقر",
-    "slug": "سنقر",
+    "label": "سنقر",
     "province_id": 22
   },
   {
     "id": 816,
     "name": "سومار",
-    "slug": "سومار",
+    "label": "سومار",
     "province_id": 22
   },
   {
     "id": 817,
     "name": "شاهو",
-    "slug": "شاهو",
+    "label": "شاهو",
     "province_id": 22
   },
   {
     "id": 818,
     "name": "صحنه",
-    "slug": "صحنه",
+    "label": "صحنه",
     "province_id": 22
   },
   {
     "id": 819,
     "name": "قصرشیرین",
-    "slug": "قصرشیرین",
+    "label": "قصرشیرین",
     "province_id": 22
   },
   {
     "id": 820,
     "name": "کرمانشاه",
-    "slug": "کرمانشاه",
+    "label": "کرمانشاه",
     "province_id": 22
   },
   {
     "id": 821,
     "name": "کرندغرب",
-    "slug": "کرندغرب",
+    "label": "کرندغرب",
     "province_id": 22
   },
   {
     "id": 822,
     "name": "کنگاور",
-    "slug": "کنگاور",
+    "label": "کنگاور",
     "province_id": 22
   },
   {
     "id": 823,
     "name": "کوزران",
-    "slug": "کوزران",
+    "label": "کوزران",
     "province_id": 22
   },
   {
     "id": 824,
     "name": "گهواره",
-    "slug": "گهواره",
+    "label": "گهواره",
     "province_id": 22
   },
   {
     "id": 825,
     "name": "گیلانغرب",
-    "slug": "گیلانغرب",
+    "label": "گیلانغرب",
     "province_id": 22
   },
   {
     "id": 826,
     "name": "میان راهان",
-    "slug": "میان-راهان",
+    "label": "میان-راهان",
     "province_id": 22
   },
   {
     "id": 827,
     "name": "نودشه",
-    "slug": "نودشه",
+    "label": "نودشه",
     "province_id": 22
   },
   {
     "id": 828,
     "name": "نوسود",
-    "slug": "نوسود",
+    "label": "نوسود",
     "province_id": 22
   },
   {
     "id": 829,
     "name": "هرسین",
-    "slug": "هرسین",
+    "label": "هرسین",
     "province_id": 22
   },
   {
     "id": 830,
     "name": "هلشی",
-    "slug": "هلشی",
+    "label": "هلشی",
     "province_id": 22
   },
   {
     "id": 831,
     "name": "باشت",
-    "slug": "باشت",
+    "label": "باشت",
     "province_id": 23
   },
   {
     "id": 832,
     "name": "پاتاوه",
-    "slug": "پاتاوه",
+    "label": "پاتاوه",
     "province_id": 23
   },
   {
     "id": 833,
     "name": "چرام",
-    "slug": "چرام",
+    "label": "چرام",
     "province_id": 23
   },
   {
     "id": 834,
     "name": "چیتاب",
-    "slug": "چیتاب",
+    "label": "چیتاب",
     "province_id": 23
   },
   {
     "id": 835,
     "name": "دهدشت",
-    "slug": "دهدشت",
+    "label": "دهدشت",
     "province_id": 23
   },
   {
     "id": 836,
     "name": "دوگنبدان",
-    "slug": "دوگنبدان",
+    "label": "دوگنبدان",
     "province_id": 23
   },
   {
     "id": 837,
     "name": "دیشموک",
-    "slug": "دیشموک",
+    "label": "دیشموک",
     "province_id": 23
   },
   {
     "id": 838,
     "name": "سوق",
-    "slug": "سوق",
+    "label": "سوق",
     "province_id": 23
   },
   {
     "id": 839,
     "name": "سی سخت",
-    "slug": "سی-سخت",
+    "label": "سی-سخت",
     "province_id": 23
   },
   {
     "id": 840,
     "name": "قلعه رئیسی",
-    "slug": "قلعه-رئیسی",
+    "label": "قلعه-رئیسی",
     "province_id": 23
   },
   {
     "id": 841,
     "name": "گراب سفلی",
-    "slug": "گراب-سفلی",
+    "label": "گراب-سفلی",
     "province_id": 23
   },
   {
     "id": 842,
     "name": "لنده",
-    "slug": "لنده",
+    "label": "لنده",
     "province_id": 23
   },
   {
     "id": 843,
     "name": "لیکک",
-    "slug": "لیکک",
+    "label": "لیکک",
     "province_id": 23
   },
   {
     "id": 844,
     "name": "مادوان",
-    "slug": "مادوان",
+    "label": "مادوان",
     "province_id": 23
   },
   {
     "id": 845,
     "name": "مارگون",
-    "slug": "مارگون",
+    "label": "مارگون",
     "province_id": 23
   },
   {
     "id": 846,
     "name": "یاسوج",
-    "slug": "یاسوج",
+    "label": "یاسوج",
     "province_id": 23
   },
   {
     "id": 847,
     "name": "انبارآلوم",
-    "slug": "انبارآلوم",
+    "label": "انبارآلوم",
     "province_id": 24
   },
   {
     "id": 848,
     "name": "اینچه برون",
-    "slug": "اینچه-برون",
+    "label": "اینچه-برون",
     "province_id": 24
   },
   {
     "id": 849,
     "name": "آزادشهر",
-    "slug": "آزادشهر",
+    "label": "آزادشهر",
     "province_id": 24
   },
   {
     "id": 850,
     "name": "آق قلا",
-    "slug": "آق-قلا",
+    "label": "آق-قلا",
     "province_id": 24
   },
   {
     "id": 851,
     "name": "بندرترکمن",
-    "slug": "بندرترکمن",
+    "label": "بندرترکمن",
     "province_id": 24
   },
   {
     "id": 852,
     "name": "بندرگز",
-    "slug": "بندرگز",
+    "label": "بندرگز",
     "province_id": 24
   },
   {
     "id": 853,
     "name": "جلین",
-    "slug": "جلین",
+    "label": "جلین",
     "province_id": 24
   },
   {
     "id": 854,
     "name": "خان ببین",
-    "slug": "خان-ببین",
+    "label": "خان-ببین",
     "province_id": 24
   },
   {
     "id": 855,
     "name": "دلند",
-    "slug": "دلند",
+    "label": "دلند",
     "province_id": 24
   },
   {
     "id": 856,
     "name": "رامیان",
-    "slug": "رامیان",
+    "label": "رامیان",
     "province_id": 24
   },
   {
     "id": 857,
     "name": "سرخنکلاته",
-    "slug": "سرخنکلاته",
+    "label": "سرخنکلاته",
     "province_id": 24
   },
   {
     "id": 858,
     "name": "سیمین شهر",
-    "slug": "سیمین-شهر",
+    "label": "سیمین-شهر",
     "province_id": 24
   },
   {
     "id": 859,
     "name": "علی آباد کتول",
-    "slug": "علی-آباد-کتول",
+    "label": "علی-آباد-کتول",
     "province_id": 24
   },
   {
     "id": 860,
     "name": "فاضل آباد",
-    "slug": "فاضل-آباد",
+    "label": "فاضل-آباد",
     "province_id": 24
   },
   {
     "id": 861,
     "name": "کردکوی",
-    "slug": "کردکوی",
+    "label": "کردکوی",
     "province_id": 24
   },
   {
     "id": 862,
     "name": "کلاله",
-    "slug": "کلاله",
+    "label": "کلاله",
     "province_id": 24
   },
   {
     "id": 863,
     "name": "گالیکش",
-    "slug": "گالیکش",
+    "label": "گالیکش",
     "province_id": 24
   },
   {
     "id": 864,
     "name": "گرگان",
-    "slug": "گرگان",
+    "label": "گرگان",
     "province_id": 24
   },
   {
     "id": 865,
     "name": "گمیش تپه",
-    "slug": "گمیش-تپه",
+    "label": "گمیش-تپه",
     "province_id": 24
   },
   {
     "id": 866,
     "name": "گنبدکاووس",
-    "slug": "گنبدکاووس",
+    "label": "گنبدکاووس",
     "province_id": 24
   },
   {
     "id": 867,
     "name": "مراوه",
-    "slug": "مراوه",
+    "label": "مراوه",
     "province_id": 24
   },
   {
     "id": 868,
     "name": "مینودشت",
-    "slug": "مینودشت",
+    "label": "مینودشت",
     "province_id": 24
   },
   {
     "id": 869,
     "name": "نگین شهر",
-    "slug": "نگین-شهر",
+    "label": "نگین-شهر",
     "province_id": 24
   },
   {
     "id": 870,
     "name": "نوده خاندوز",
-    "slug": "نوده-خاندوز",
+    "label": "نوده-خاندوز",
     "province_id": 24
   },
   {
     "id": 871,
     "name": "نوکنده",
-    "slug": "نوکنده",
+    "label": "نوکنده",
     "province_id": 24
   },
   {
     "id": 872,
     "name": "ازنا",
-    "slug": "ازنا",
+    "label": "ازنا",
     "province_id": 25
   },
   {
     "id": 873,
     "name": "اشترینان",
-    "slug": "اشترینان",
+    "label": "اشترینان",
     "province_id": 25
   },
   {
     "id": 874,
     "name": "الشتر",
-    "slug": "الشتر",
+    "label": "الشتر",
     "province_id": 25
   },
   {
     "id": 875,
     "name": "الیگودرز",
-    "slug": "الیگودرز",
+    "label": "الیگودرز",
     "province_id": 25
   },
   {
     "id": 876,
     "name": "بروجرد",
-    "slug": "بروجرد",
+    "label": "بروجرد",
     "province_id": 25
   },
   {
     "id": 877,
     "name": "پلدختر",
-    "slug": "پلدختر",
+    "label": "پلدختر",
     "province_id": 25
   },
   {
     "id": 878,
     "name": "چالانچولان",
-    "slug": "چالانچولان",
+    "label": "چالانچولان",
     "province_id": 25
   },
   {
     "id": 879,
     "name": "چغلوندی",
-    "slug": "چغلوندی",
+    "label": "چغلوندی",
     "province_id": 25
   },
   {
     "id": 880,
     "name": "چقابل",
-    "slug": "چقابل",
+    "label": "چقابل",
     "province_id": 25
   },
   {
     "id": 881,
     "name": "خرم آباد",
-    "slug": "لرستان-خرم-آباد",
+    "label": "لرستان-خرم-آباد",
     "province_id": 25
   },
   {
     "id": 882,
     "name": "درب گنبد",
-    "slug": "درب-گنبد",
+    "label": "درب-گنبد",
     "province_id": 25
   },
   {
     "id": 883,
     "name": "دورود",
-    "slug": "دورود",
+    "label": "دورود",
     "province_id": 25
   },
   {
     "id": 884,
     "name": "زاغه",
-    "slug": "زاغه",
+    "label": "زاغه",
     "province_id": 25
   },
   {
     "id": 885,
     "name": "سپیددشت",
-    "slug": "سپیددشت",
+    "label": "سپیددشت",
     "province_id": 25
   },
   {
     "id": 886,
     "name": "سراب دوره",
-    "slug": "سراب-دوره",
+    "label": "سراب-دوره",
     "province_id": 25
   },
   {
     "id": 887,
     "name": "فیروزآباد",
-    "slug": "لرستان-فیروزآباد",
+    "label": "لرستان-فیروزآباد",
     "province_id": 25
   },
   {
     "id": 888,
     "name": "کونانی",
-    "slug": "کونانی",
+    "label": "کونانی",
     "province_id": 25
   },
   {
     "id": 889,
     "name": "کوهدشت",
-    "slug": "کوهدشت",
+    "label": "کوهدشت",
     "province_id": 25
   },
   {
     "id": 890,
     "name": "گراب",
-    "slug": "گراب",
+    "label": "گراب",
     "province_id": 25
   },
   {
     "id": 891,
     "name": "معمولان",
-    "slug": "معمولان",
+    "label": "معمولان",
     "province_id": 25
   },
   {
     "id": 892,
     "name": "مومن آباد",
-    "slug": "مومن-آباد",
+    "label": "مومن-آباد",
     "province_id": 25
   },
   {
     "id": 893,
     "name": "نورآباد",
-    "slug": "لرستان-نورآباد",
+    "label": "لرستان-نورآباد",
     "province_id": 25
   },
   {
     "id": 894,
     "name": "ویسیان",
-    "slug": "ویسیان",
+    "label": "ویسیان",
     "province_id": 25
   },
   {
     "id": 895,
     "name": "احمدسرگوراب",
-    "slug": "احمدسرگوراب",
+    "label": "احمدسرگوراب",
     "province_id": 26
   },
   {
     "id": 896,
     "name": "اسالم",
-    "slug": "اسالم",
+    "label": "اسالم",
     "province_id": 26
   },
   {
     "id": 897,
     "name": "اطاقور",
-    "slug": "اطاقور",
+    "label": "اطاقور",
     "province_id": 26
   },
   {
     "id": 898,
     "name": "املش",
-    "slug": "املش",
+    "label": "املش",
     "province_id": 26
   },
   {
     "id": 899,
     "name": "آستارا",
-    "slug": "آستارا",
+    "label": "آستارا",
     "province_id": 26
   },
   {
     "id": 900,
     "name": "آستانه اشرفیه",
-    "slug": "آستانه-اشرفیه",
+    "label": "آستانه-اشرفیه",
     "province_id": 26
   },
   {
     "id": 901,
     "name": "بازار جمعه",
-    "slug": "بازار-جمعه",
+    "label": "بازار-جمعه",
     "province_id": 26
   },
   {
     "id": 902,
     "name": "بره سر",
-    "slug": "بره-سر",
+    "label": "بره-سر",
     "province_id": 26
   },
   {
     "id": 903,
     "name": "بندرانزلی",
-    "slug": "بندرانزلی",
+    "label": "بندرانزلی",
     "province_id": 26
   },
   {
     "id": 906,
     "name": "پره سر",
-    "slug": "پره-سر",
+    "label": "پره-سر",
     "province_id": 26
   },
   {
     "id": 907,
     "name": "تالش",
-    "slug": "تالش",
+    "label": "تالش",
     "province_id": 26
   },
   {
     "id": 908,
     "name": "توتکابن",
-    "slug": "توتکابن",
+    "label": "توتکابن",
     "province_id": 26
   },
   {
     "id": 909,
     "name": "جیرنده",
-    "slug": "جیرنده",
+    "label": "جیرنده",
     "province_id": 26
   },
   {
     "id": 910,
     "name": "چابکسر",
-    "slug": "چابکسر",
+    "label": "چابکسر",
     "province_id": 26
   },
   {
     "id": 911,
     "name": "چاف و چمخاله",
-    "slug": "چاف-و-چمخاله",
+    "label": "چاف-و-چمخاله",
     "province_id": 26
   },
   {
     "id": 912,
     "name": "چوبر",
-    "slug": "چوبر",
+    "label": "چوبر",
     "province_id": 26
   },
   {
     "id": 913,
     "name": "حویق",
-    "slug": "حویق",
+    "label": "حویق",
     "province_id": 26
   },
   {
     "id": 914,
     "name": "خشکبیجار",
-    "slug": "خشکبیجار",
+    "label": "خشکبیجار",
     "province_id": 26
   },
   {
     "id": 915,
     "name": "خمام",
-    "slug": "خمام",
+    "label": "خمام",
     "province_id": 26
   },
   {
     "id": 916,
     "name": "دیلمان",
-    "slug": "دیلمان",
+    "label": "دیلمان",
     "province_id": 26
   },
   {
     "id": 917,
     "name": "رانکوه",
-    "slug": "رانکوه",
+    "label": "رانکوه",
     "province_id": 26
   },
   {
     "id": 918,
     "name": "رحیم آباد",
-    "slug": "رحیم-آباد",
+    "label": "رحیم-آباد",
     "province_id": 26
   },
   {
     "id": 919,
     "name": "رستم آباد",
-    "slug": "رستم-آباد",
+    "label": "رستم-آباد",
     "province_id": 26
   },
   {
     "id": 920,
     "name": "رشت",
-    "slug": "رشت",
+    "label": "رشت",
     "province_id": 26
   },
   {
     "id": 921,
     "name": "رضوانشهر",
-    "slug": "گیلان-رضوانشهر",
+    "label": "گیلان-رضوانشهر",
     "province_id": 26
   },
   {
     "id": 922,
     "name": "رودبار",
-    "slug": "گیلان-رودبار",
+    "label": "گیلان-رودبار",
     "province_id": 26
   },
   {
     "id": 923,
     "name": "رودبنه",
-    "slug": "رودبنه",
+    "label": "رودبنه",
     "province_id": 26
   },
   {
     "id": 924,
     "name": "رودسر",
-    "slug": "رودسر",
+    "label": "رودسر",
     "province_id": 26
   },
   {
     "id": 925,
     "name": "سنگر",
-    "slug": "سنگر",
+    "label": "سنگر",
     "province_id": 26
   },
   {
     "id": 926,
     "name": "سیاهکل",
-    "slug": "سیاهکل",
+    "label": "سیاهکل",
     "province_id": 26
   },
   {
     "id": 927,
     "name": "شفت",
-    "slug": "شفت",
+    "label": "شفت",
     "province_id": 26
   },
   {
     "id": 928,
     "name": "شلمان",
-    "slug": "شلمان",
+    "label": "شلمان",
     "province_id": 26
   },
   {
     "id": 929,
     "name": "صومعه سرا",
-    "slug": "صومعه-سرا",
+    "label": "صومعه-سرا",
     "province_id": 26
   },
   {
     "id": 930,
     "name": "فومن",
-    "slug": "فومن",
+    "label": "فومن",
     "province_id": 26
   },
   {
     "id": 931,
     "name": "کلاچای",
-    "slug": "کلاچای",
+    "label": "کلاچای",
     "province_id": 26
   },
   {
     "id": 932,
     "name": "کوچصفهان",
-    "slug": "کوچصفهان",
+    "label": "کوچصفهان",
     "province_id": 26
   },
   {
     "id": 933,
     "name": "کومله",
-    "slug": "کومله",
+    "label": "کومله",
     "province_id": 26
   },
   {
     "id": 934,
     "name": "کیاشهر",
-    "slug": "کیاشهر",
+    "label": "کیاشهر",
     "province_id": 26
   },
   {
     "id": 935,
     "name": "گوراب زرمیخ",
-    "slug": "گوراب-زرمیخ",
+    "label": "گوراب-زرمیخ",
     "province_id": 26
   },
   {
     "id": 936,
     "name": "لاهیجان",
-    "slug": "لاهیجان",
+    "label": "لاهیجان",
     "province_id": 26
   },
   {
     "id": 937,
     "name": "لشت نشا",
-    "slug": "لشت-نشا",
+    "label": "لشت-نشا",
     "province_id": 26
   },
   {
     "id": 938,
     "name": "لنگرود",
-    "slug": "لنگرود",
+    "label": "لنگرود",
     "province_id": 26
   },
   {
     "id": 939,
     "name": "لوشان",
-    "slug": "لوشان",
+    "label": "لوشان",
     "province_id": 26
   },
   {
     "id": 940,
     "name": "لولمان",
-    "slug": "لولمان",
+    "label": "لولمان",
     "province_id": 26
   },
   {
     "id": 941,
     "name": "لوندویل",
-    "slug": "لوندویل",
+    "label": "لوندویل",
     "province_id": 26
   },
   {
     "id": 942,
     "name": "لیسار",
-    "slug": "لیسار",
+    "label": "لیسار",
     "province_id": 26
   },
   {
     "id": 943,
     "name": "ماسال",
-    "slug": "ماسال",
+    "label": "ماسال",
     "province_id": 26
   },
   {
     "id": 944,
     "name": "ماسوله",
-    "slug": "ماسوله",
+    "label": "ماسوله",
     "province_id": 26
   },
   {
     "id": 945,
     "name": "مرجقل",
-    "slug": "مرجقل",
+    "label": "مرجقل",
     "province_id": 26
   },
   {
     "id": 946,
     "name": "منجیل",
-    "slug": "منجیل",
+    "label": "منجیل",
     "province_id": 26
   },
   {
     "id": 947,
     "name": "واجارگاه",
-    "slug": "واجارگاه",
+    "label": "واجارگاه",
     "province_id": 26
   },
   {
     "id": 948,
     "name": "امیرکلا",
-    "slug": "امیرکلا",
+    "label": "امیرکلا",
     "province_id": 27
   },
   {
     "id": 949,
     "name": "ایزدشهر",
-    "slug": "ایزدشهر",
+    "label": "ایزدشهر",
     "province_id": 27
   },
   {
     "id": 950,
     "name": "آلاشت",
-    "slug": "آلاشت",
+    "label": "آلاشت",
     "province_id": 27
   },
   {
     "id": 951,
     "name": "آمل",
-    "slug": "آمل",
+    "label": "آمل",
     "province_id": 27
   },
   {
     "id": 952,
     "name": "بابل",
-    "slug": "بابل",
+    "label": "بابل",
     "province_id": 27
   },
   {
     "id": 953,
     "name": "بابلسر",
-    "slug": "بابلسر",
+    "label": "بابلسر",
     "province_id": 27
   },
   {
     "id": 954,
     "name": "بلده",
-    "slug": "مازندران-بلده",
+    "label": "مازندران-بلده",
     "province_id": 27
   },
   {
     "id": 955,
     "name": "بهشهر",
-    "slug": "بهشهر",
+    "label": "بهشهر",
     "province_id": 27
   },
   {
     "id": 956,
     "name": "بهنمیر",
-    "slug": "بهنمیر",
+    "label": "بهنمیر",
     "province_id": 27
   },
   {
     "id": 957,
     "name": "پل سفید",
-    "slug": "پل-سفید",
+    "label": "پل-سفید",
     "province_id": 27
   },
   {
     "id": 958,
     "name": "تنکابن",
-    "slug": "تنکابن",
+    "label": "تنکابن",
     "province_id": 27
   },
   {
     "id": 959,
     "name": "جویبار",
-    "slug": "جویبار",
+    "label": "جویبار",
     "province_id": 27
   },
   {
     "id": 960,
     "name": "چالوس",
-    "slug": "چالوس",
+    "label": "چالوس",
     "province_id": 27
   },
   {
     "id": 961,
     "name": "چمستان",
-    "slug": "چمستان",
+    "label": "چمستان",
     "province_id": 27
   },
   {
     "id": 962,
     "name": "خرم آباد",
-    "slug": "مازندران-خرم-آباد",
+    "label": "مازندران-خرم-آباد",
     "province_id": 27
   },
   {
     "id": 963,
     "name": "خلیل شهر",
-    "slug": "خلیل-شهر",
+    "label": "خلیل-شهر",
     "province_id": 27
   },
   {
     "id": 964,
     "name": "خوش رودپی",
-    "slug": "خوش-رودپی",
+    "label": "خوش-رودپی",
     "province_id": 27
   },
   {
     "id": 965,
     "name": "دابودشت",
-    "slug": "دابودشت",
+    "label": "دابودشت",
     "province_id": 27
   },
   {
     "id": 966,
     "name": "رامسر",
-    "slug": "رامسر",
+    "label": "رامسر",
     "province_id": 27
   },
   {
     "id": 967,
     "name": "رستمکلا",
-    "slug": "رستمکلا",
+    "label": "رستمکلا",
     "province_id": 27
   },
   {
     "id": 968,
     "name": "رویان",
-    "slug": "رویان",
+    "label": "رویان",
     "province_id": 27
   },
   {
     "id": 969,
     "name": "رینه",
-    "slug": "رینه",
+    "label": "رینه",
     "province_id": 27
   },
   {
     "id": 970,
     "name": "زرگرمحله",
-    "slug": "زرگرمحله",
+    "label": "زرگرمحله",
     "province_id": 27
   },
   {
     "id": 971,
     "name": "زیرآب",
-    "slug": "زیرآب",
+    "label": "زیرآب",
     "province_id": 27
   },
   {
     "id": 972,
     "name": "ساری",
-    "slug": "ساری",
+    "label": "ساری",
     "province_id": 27
   },
   {
     "id": 973,
     "name": "سرخرود",
-    "slug": "سرخرود",
+    "label": "سرخرود",
     "province_id": 27
   },
   {
     "id": 974,
     "name": "سلمان شهر",
-    "slug": "سلمان-شهر",
+    "label": "سلمان-شهر",
     "province_id": 27
   },
   {
     "id": 975,
     "name": "سورک",
-    "slug": "سورک",
+    "label": "سورک",
     "province_id": 27
   },
   {
     "id": 976,
     "name": "شیرگاه",
-    "slug": "شیرگاه",
+    "label": "شیرگاه",
     "province_id": 27
   },
   {
     "id": 977,
     "name": "شیرود",
-    "slug": "شیرود",
+    "label": "شیرود",
     "province_id": 27
   },
   {
     "id": 978,
     "name": "عباس آباد",
-    "slug": "عباس-آباد",
+    "label": "عباس-آباد",
     "province_id": 27
   },
   {
     "id": 979,
     "name": "فریدونکنار",
-    "slug": "فریدونکنار",
+    "label": "فریدونکنار",
     "province_id": 27
   },
   {
     "id": 980,
     "name": "فریم",
-    "slug": "فریم",
+    "label": "فریم",
     "province_id": 27
   },
   {
     "id": 981,
     "name": "قائم شهر",
-    "slug": "قائم-شهر",
+    "label": "قائم-شهر",
     "province_id": 27
   },
   {
     "id": 982,
     "name": "کتالم",
-    "slug": "کتالم",
+    "label": "کتالم",
     "province_id": 27
   },
   {
     "id": 983,
     "name": "کلارآباد",
-    "slug": "کلارآباد",
+    "label": "کلارآباد",
     "province_id": 27
   },
   {
     "id": 984,
     "name": "کلاردشت",
-    "slug": "کلاردشت",
+    "label": "کلاردشت",
     "province_id": 27
   },
   {
     "id": 985,
     "name": "کله بست",
-    "slug": "کله-بست",
+    "label": "کله-بست",
     "province_id": 27
   },
   {
     "id": 986,
     "name": "کوهی خیل",
-    "slug": "کوهی-خیل",
+    "label": "کوهی-خیل",
     "province_id": 27
   },
   {
     "id": 987,
     "name": "کیاسر",
-    "slug": "کیاسر",
+    "label": "کیاسر",
     "province_id": 27
   },
   {
     "id": 988,
     "name": "کیاکلا",
-    "slug": "کیاکلا",
+    "label": "کیاکلا",
     "province_id": 27
   },
   {
     "id": 989,
     "name": "گتاب",
-    "slug": "گتاب",
+    "label": "گتاب",
     "province_id": 27
   },
   {
     "id": 990,
     "name": "گزنک",
-    "slug": "گزنک",
+    "label": "گزنک",
     "province_id": 27
   },
   {
     "id": 991,
     "name": "گلوگاه",
-    "slug": "گلوگاه",
+    "label": "گلوگاه",
     "province_id": 27
   },
   {
     "id": 992,
     "name": "محمودآباد",
-    "slug": "مازندران-محمودآباد",
+    "label": "مازندران-محمودآباد",
     "province_id": 27
   },
   {
     "id": 993,
     "name": "مرزن آباد",
-    "slug": "مرزن-آباد",
+    "label": "مرزن-آباد",
     "province_id": 27
   },
   {
     "id": 994,
     "name": "مرزیکلا",
-    "slug": "مرزیکلا",
+    "label": "مرزیکلا",
     "province_id": 27
   },
   {
     "id": 995,
     "name": "نشتارود",
-    "slug": "نشتارود",
+    "label": "نشتارود",
     "province_id": 27
   },
   {
     "id": 996,
     "name": "نکا",
-    "slug": "نکا",
+    "label": "نکا",
     "province_id": 27
   },
   {
     "id": 997,
     "name": "نور",
-    "slug": "نور",
+    "label": "نور",
     "province_id": 27
   },
   {
     "id": 998,
     "name": "نوشهر",
-    "slug": "نوشهر",
+    "label": "نوشهر",
     "province_id": 27
   },
   {
     "id": 999,
     "name": "اراک",
-    "slug": "اراک",
+    "label": "اراک",
     "province_id": 28
   },
   {
     "id": 1000,
     "name": "آستانه",
-    "slug": "آستانه",
+    "label": "آستانه",
     "province_id": 28
   },
   {
     "id": 1001,
     "name": "آشتیان",
-    "slug": "آشتیان",
+    "label": "آشتیان",
     "province_id": 28
   },
   {
     "id": 1002,
     "name": "پرندک",
-    "slug": "پرندک",
+    "label": "پرندک",
     "province_id": 28
   },
   {
     "id": 1003,
     "name": "تفرش",
-    "slug": "تفرش",
+    "label": "تفرش",
     "province_id": 28
   },
   {
     "id": 1004,
     "name": "توره",
-    "slug": "توره",
+    "label": "توره",
     "province_id": 28
   },
   {
     "id": 1005,
     "name": "جاورسیان",
-    "slug": "جاورسیان",
+    "label": "جاورسیان",
     "province_id": 28
   },
   {
     "id": 1006,
     "name": "خشکرود",
-    "slug": "خشکرود",
+    "label": "خشکرود",
     "province_id": 28
   },
   {
     "id": 1007,
     "name": "خمین",
-    "slug": "خمین",
+    "label": "خمین",
     "province_id": 28
   },
   {
     "id": 1008,
     "name": "خنداب",
-    "slug": "خنداب",
+    "label": "خنداب",
     "province_id": 28
   },
   {
     "id": 1009,
     "name": "داودآباد",
-    "slug": "داودآباد",
+    "label": "داودآباد",
     "province_id": 28
   },
   {
     "id": 1010,
     "name": "دلیجان",
-    "slug": "دلیجان",
+    "label": "دلیجان",
     "province_id": 28
   },
   {
     "id": 1011,
     "name": "رازقان",
-    "slug": "رازقان",
+    "label": "رازقان",
     "province_id": 28
   },
   {
     "id": 1012,
     "name": "زاویه",
-    "slug": "زاویه",
+    "label": "زاویه",
     "province_id": 28
   },
   {
     "id": 1013,
     "name": "ساروق",
-    "slug": "ساروق",
+    "label": "ساروق",
     "province_id": 28
   },
   {
     "id": 1014,
     "name": "ساوه",
-    "slug": "ساوه",
+    "label": "ساوه",
     "province_id": 28
   },
   {
     "id": 1015,
     "name": "سنجان",
-    "slug": "سنجان",
+    "label": "سنجان",
     "province_id": 28
   },
   {
     "id": 1016,
     "name": "شازند",
-    "slug": "شازند",
+    "label": "شازند",
     "province_id": 28
   },
   {
     "id": 1017,
     "name": "غرق آباد",
-    "slug": "غرق-آباد",
+    "label": "غرق-آباد",
     "province_id": 28
   },
   {
     "id": 1018,
     "name": "فرمهین",
-    "slug": "فرمهین",
+    "label": "فرمهین",
     "province_id": 28
   },
   {
     "id": 1019,
     "name": "قورچی باشی",
-    "slug": "قورچی-باشی",
+    "label": "قورچی-باشی",
     "province_id": 28
   },
   {
     "id": 1020,
     "name": "کرهرود",
-    "slug": "کرهرود",
+    "label": "کرهرود",
     "province_id": 28
   },
   {
     "id": 1021,
     "name": "کمیجان",
-    "slug": "کمیجان",
+    "label": "کمیجان",
     "province_id": 28
   },
   {
     "id": 1022,
     "name": "مامونیه",
-    "slug": "مامونیه",
+    "label": "مامونیه",
     "province_id": 28
   },
   {
     "id": 1023,
     "name": "محلات",
-    "slug": "محلات",
+    "label": "محلات",
     "province_id": 28
   },
   {
     "id": 1024,
     "name": "مهاجران",
-    "slug": "مهاجران",
+    "label": "مهاجران",
     "province_id": 28
   },
   {
     "id": 1025,
     "name": "میلاجرد",
-    "slug": "میلاجرد",
+    "label": "میلاجرد",
     "province_id": 28
   },
   {
     "id": 1026,
     "name": "نراق",
-    "slug": "نراق",
+    "label": "نراق",
     "province_id": 28
   },
   {
     "id": 1027,
     "name": "نوبران",
-    "slug": "نوبران",
+    "label": "نوبران",
     "province_id": 28
   },
   {
     "id": 1028,
     "name": "نیمور",
-    "slug": "نیمور",
+    "label": "نیمور",
     "province_id": 28
   },
   {
     "id": 1029,
     "name": "هندودر",
-    "slug": "هندودر",
+    "label": "هندودر",
     "province_id": 28
   },
   {
     "id": 1030,
     "name": "ابوموسی",
-    "slug": "ابوموسی",
+    "label": "ابوموسی",
     "province_id": 29
   },
   {
     "id": 1031,
     "name": "بستک",
-    "slug": "بستک",
+    "label": "بستک",
     "province_id": 29
   },
   {
     "id": 1032,
     "name": "بندرجاسک",
-    "slug": "بندرجاسک",
+    "label": "بندرجاسک",
     "province_id": 29
   },
   {
     "id": 1033,
     "name": "بندرچارک",
-    "slug": "بندرچارک",
+    "label": "بندرچارک",
     "province_id": 29
   },
   {
     "id": 1034,
     "name": "بندرخمیر",
-    "slug": "بندرخمیر",
+    "label": "بندرخمیر",
     "province_id": 29
   },
   {
     "id": 1035,
     "name": "بندرعباس",
-    "slug": "بندرعباس",
+    "label": "بندرعباس",
     "province_id": 29
   },
   {
     "id": 1036,
     "name": "بندرلنگه",
-    "slug": "بندرلنگه",
+    "label": "بندرلنگه",
     "province_id": 29
   },
   {
     "id": 1037,
     "name": "بیکا",
-    "slug": "بیکا",
+    "label": "بیکا",
     "province_id": 29
   },
   {
     "id": 1038,
     "name": "پارسیان",
-    "slug": "پارسیان",
+    "label": "پارسیان",
     "province_id": 29
   },
   {
     "id": 1039,
     "name": "تخت",
-    "slug": "تخت",
+    "label": "تخت",
     "province_id": 29
   },
   {
     "id": 1040,
     "name": "جناح",
-    "slug": "جناح",
+    "label": "جناح",
     "province_id": 29
   },
   {
     "id": 1041,
     "name": "حاجی آباد",
-    "slug": "هرمزگان-حاجی-آباد",
+    "label": "هرمزگان-حاجی-آباد",
     "province_id": 29
   },
   {
     "id": 1042,
     "name": "درگهان",
-    "slug": "درگهان",
+    "label": "درگهان",
     "province_id": 29
   },
   {
     "id": 1043,
     "name": "دهبارز",
-    "slug": "دهبارز",
+    "label": "دهبارز",
     "province_id": 29
   },
   {
     "id": 1044,
     "name": "رویدر",
-    "slug": "رویدر",
+    "label": "رویدر",
     "province_id": 29
   },
   {
     "id": 1045,
     "name": "زیارتعلی",
-    "slug": "زیارتعلی",
+    "label": "زیارتعلی",
     "province_id": 29
   },
   {
     "id": 1046,
     "name": "سردشت",
-    "slug": "هرمزگان-سردشت",
+    "label": "هرمزگان-سردشت",
     "province_id": 29
   },
   {
     "id": 1047,
     "name": "سندرک",
-    "slug": "سندرک",
+    "label": "سندرک",
     "province_id": 29
   },
   {
     "id": 1048,
     "name": "سوزا",
-    "slug": "سوزا",
+    "label": "سوزا",
     "province_id": 29
   },
   {
     "id": 1049,
     "name": "سیریک",
-    "slug": "سیریک",
+    "label": "سیریک",
     "province_id": 29
   },
   {
     "id": 1050,
     "name": "فارغان",
-    "slug": "فارغان",
+    "label": "فارغان",
     "province_id": 29
   },
   {
     "id": 1051,
     "name": "فین",
-    "slug": "فین",
+    "label": "فین",
     "province_id": 29
   },
   {
     "id": 1052,
     "name": "قشم",
-    "slug": "قشم",
+    "label": "قشم",
     "province_id": 29
   },
   {
     "id": 1053,
     "name": "قلعه قاضی",
-    "slug": "قلعه-قاضی",
+    "label": "قلعه-قاضی",
     "province_id": 29
   },
   {
     "id": 1054,
     "name": "کنگ",
-    "slug": "کنگ",
+    "label": "کنگ",
     "province_id": 29
   },
   {
     "id": 1055,
     "name": "کوشکنار",
-    "slug": "کوشکنار",
+    "label": "کوشکنار",
     "province_id": 29
   },
   {
     "id": 1056,
     "name": "کیش",
-    "slug": "کیش",
+    "label": "کیش",
     "province_id": 29
   },
   {
     "id": 1057,
     "name": "گوهران",
-    "slug": "گوهران",
+    "label": "گوهران",
     "province_id": 29
   },
   {
     "id": 1058,
     "name": "میناب",
-    "slug": "میناب",
+    "label": "میناب",
     "province_id": 29
   },
   {
     "id": 1059,
     "name": "هرمز",
-    "slug": "هرمز",
+    "label": "هرمز",
     "province_id": 29
   },
   {
     "id": 1060,
     "name": "هشتبندی",
-    "slug": "هشتبندی",
+    "label": "هشتبندی",
     "province_id": 29
   },
   {
     "id": 1061,
     "name": "ازندریان",
-    "slug": "ازندریان",
+    "label": "ازندریان",
     "province_id": 30
   },
   {
     "id": 1062,
     "name": "اسدآباد",
-    "slug": "اسدآباد",
+    "label": "اسدآباد",
     "province_id": 30
   },
   {
     "id": 1063,
     "name": "برزول",
-    "slug": "برزول",
+    "label": "برزول",
     "province_id": 30
   },
   {
     "id": 1064,
     "name": "بهار",
-    "slug": "بهار",
+    "label": "بهار",
     "province_id": 30
   },
   {
     "id": 1065,
     "name": "تویسرکان",
-    "slug": "تویسرکان",
+    "label": "تویسرکان",
     "province_id": 30
   },
   {
     "id": 1066,
     "name": "جورقان",
-    "slug": "جورقان",
+    "label": "جورقان",
     "province_id": 30
   },
   {
     "id": 1067,
     "name": "جوکار",
-    "slug": "جوکار",
+    "label": "جوکار",
     "province_id": 30
   },
   {
     "id": 1068,
     "name": "دمق",
-    "slug": "دمق",
+    "label": "دمق",
     "province_id": 30
   },
   {
     "id": 1069,
     "name": "رزن",
-    "slug": "رزن",
+    "label": "رزن",
     "province_id": 30
   },
   {
     "id": 1070,
     "name": "زنگنه",
-    "slug": "زنگنه",
+    "label": "زنگنه",
     "province_id": 30
   },
   {
     "id": 1071,
     "name": "سامن",
-    "slug": "سامن",
+    "label": "سامن",
     "province_id": 30
   },
   {
     "id": 1072,
     "name": "سرکان",
-    "slug": "سرکان",
+    "label": "سرکان",
     "province_id": 30
   },
   {
     "id": 1073,
     "name": "شیرین سو",
-    "slug": "شیرین-سو",
+    "label": "شیرین-سو",
     "province_id": 30
   },
   {
     "id": 1074,
     "name": "صالح آباد",
-    "slug": "همدان-صالح-آباد",
+    "label": "همدان-صالح-آباد",
     "province_id": 30
   },
   {
     "id": 1075,
     "name": "فامنین",
-    "slug": "فامنین",
+    "label": "فامنین",
     "province_id": 30
   },
   {
     "id": 1076,
     "name": "فرسفج",
-    "slug": "فرسفج",
+    "label": "فرسفج",
     "province_id": 30
   },
   {
     "id": 1077,
     "name": "فیروزان",
-    "slug": "فیروزان",
+    "label": "فیروزان",
     "province_id": 30
   },
   {
     "id": 1078,
     "name": "قروه درجزین",
-    "slug": "قروه-درجزین",
+    "label": "قروه-درجزین",
     "province_id": 30
   },
   {
     "id": 1079,
     "name": "قهاوند",
-    "slug": "قهاوند",
+    "label": "قهاوند",
     "province_id": 30
   },
   {
     "id": 1080,
     "name": "کبودر آهنگ",
-    "slug": "کبودر-آهنگ",
+    "label": "کبودر-آهنگ",
     "province_id": 30
   },
   {
     "id": 1081,
     "name": "گل تپه",
-    "slug": "گل-تپه",
+    "label": "گل-تپه",
     "province_id": 30
   },
   {
     "id": 1082,
     "name": "گیان",
-    "slug": "گیان",
+    "label": "گیان",
     "province_id": 30
   },
   {
     "id": 1083,
     "name": "لالجین",
-    "slug": "لالجین",
+    "label": "لالجین",
     "province_id": 30
   },
   {
     "id": 1084,
     "name": "مریانج",
-    "slug": "مریانج",
+    "label": "مریانج",
     "province_id": 30
   },
   {
     "id": 1085,
     "name": "ملایر",
-    "slug": "ملایر",
+    "label": "ملایر",
     "province_id": 30
   },
   {
     "id": 1086,
     "name": "نهاوند",
-    "slug": "نهاوند",
+    "label": "نهاوند",
     "province_id": 30
   },
   {
     "id": 1087,
     "name": "همدان",
-    "slug": "همدان",
+    "label": "همدان",
     "province_id": 30
   },
   {
     "id": 1088,
     "name": "ابرکوه",
-    "slug": "ابرکوه",
+    "label": "ابرکوه",
     "province_id": 31
   },
   {
     "id": 1089,
     "name": "احمدآباد",
-    "slug": "احمدآباد",
+    "label": "احمدآباد",
     "province_id": 31
   },
   {
     "id": 1090,
     "name": "اردکان",
-    "slug": "یزد-اردکان",
+    "label": "یزد-اردکان",
     "province_id": 31
   },
   {
     "id": 1091,
     "name": "اشکذر",
-    "slug": "اشکذر",
+    "label": "اشکذر",
     "province_id": 31
   },
   {
     "id": 1092,
     "name": "بافق",
-    "slug": "بافق",
+    "label": "بافق",
     "province_id": 31
   },
   {
     "id": 1093,
     "name": "بفروئیه",
-    "slug": "بفروئیه",
+    "label": "بفروئیه",
     "province_id": 31
   },
   {
     "id": 1094,
     "name": "بهاباد",
-    "slug": "بهاباد",
+    "label": "بهاباد",
     "province_id": 31
   },
   {
     "id": 1095,
     "name": "تفت",
-    "slug": "تفت",
+    "label": "تفت",
     "province_id": 31
   },
   {
     "id": 1096,
     "name": "حمیدیا",
-    "slug": "حمیدیا",
+    "label": "حمیدیا",
     "province_id": 31
   },
   {
     "id": 1097,
     "name": "خضرآباد",
-    "slug": "خضرآباد",
+    "label": "خضرآباد",
     "province_id": 31
   },
   {
     "id": 1098,
     "name": "دیهوک",
-    "slug": "دیهوک",
+    "label": "دیهوک",
     "province_id": 31
   },
   {
     "id": 1099,
     "name": "زارچ",
-    "slug": "زارچ",
+    "label": "زارچ",
     "province_id": 31
   },
   {
     "id": 1100,
     "name": "شاهدیه",
-    "slug": "شاهدیه",
+    "label": "شاهدیه",
     "province_id": 31
   },
   {
     "id": 1101,
     "name": "طبس",
-    "slug": "یزد-طبس",
+    "label": "یزد-طبس",
     "province_id": 31
   },
   {
     "id": 1103,
     "name": "عقدا",
-    "slug": "عقدا",
+    "label": "عقدا",
     "province_id": 31
   },
   {
     "id": 1104,
     "name": "مروست",
-    "slug": "مروست",
+    "label": "مروست",
     "province_id": 31
   },
   {
     "id": 1105,
     "name": "مهردشت",
-    "slug": "مهردشت",
+    "label": "مهردشت",
     "province_id": 31
   },
   {
     "id": 1106,
     "name": "مهریز",
-    "slug": "مهریز",
+    "label": "مهریز",
     "province_id": 31
   },
   {
     "id": 1107,
     "name": "میبد",
-    "slug": "میبد",
+    "label": "میبد",
     "province_id": 31
   },
   {
     "id": 1108,
     "name": "ندوشن",
-    "slug": "ندوشن",
+    "label": "ندوشن",
     "province_id": 31
   },
   {
     "id": 1109,
     "name": "نیر",
-    "slug": "یزد-نیر",
+    "label": "یزد-نیر",
     "province_id": 31
   },
   {
     "id": 1110,
     "name": "هرات",
-    "slug": "هرات",
+    "label": "هرات",
     "province_id": 31
   },
   {
     "id": 1111,
     "name": "یزد",
-    "slug": "یزد",
+    "label": "یزد",
     "province_id": 31
   },
   {
     "id": 1116,
     "name": "پرند",
-    "slug": "پرند",
+    "label": "پرند",
     "province_id": 8
   },
   {
     "id": 1117,
     "name": "فردیس",
-    "slug": "فردیس",
+    "label": "فردیس",
     "province_id": 5
   },
   {
     "id": 1118,
     "name": "مارلیک",
-    "slug": "مارلیک",
+    "label": "مارلیک",
     "province_id": 5
   },
   {
     "id": 1119,
     "name": "سادات شهر",
-    "slug": "سادات-شهر",
+    "label": "سادات-شهر",
     "province_id": 27
   },
   {
     "id": 1121,
     "name": "زیباکنار",
-    "slug": "زیباکنار",
+    "label": "زیباکنار",
     "province_id": 26
   },
   {
     "id": 1135,
     "name": "کردان",
-    "slug": "کردان",
+    "label": "کردان",
     "province_id": 5
   },
   {
     "id": 1137,
     "name": "ساوجبلاغ",
-    "slug": "ساوجبلاغ",
+    "label": "ساوجبلاغ",
     "province_id": 5
   },
   {
     "id": 1138,
     "name": "تهران دشت",
-    "slug": "تهران-دشت",
+    "label": "تهران-دشت",
     "province_id": 5
   },
   {
     "id": 1150,
     "name": "گلبهار",
-    "slug": "",
+    "label": "",
     "province_id": 11
   },
   {
     "id": 1153,
     "name": "قیامدشت",
-    "slug": "قیامدشت",
+    "label": "قیامدشت",
     "province_id": 8
   },
   {
     "id": 1155,
     "name": "بینالود",
-    "slug": "بینالود",
+    "label": "بینالود",
     "province_id": 11
   },
   {
     "id": 1159,
     "name": "پیربازار",
-    "slug": "پیربازار",
+    "label": "پیربازار",
     "province_id": 26
   },
   {
     "id": 1160,
     "name": "رضوانشهر",
-    "slug": "رضوانشهر",
+    "label": "رضوانشهر",
     "province_id": 31
   }
 ]
