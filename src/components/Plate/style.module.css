@@ -1,0 +1,46 @@
+.license_plate_container {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  position: relative;
+  margin: 1rem;
+}
+
+.license_plate_container img {
+  max-width: 21rem;
+}
+
+.license_plate_container input {
+  text-align: center;
+  font-weight: bold;
+}
+
+.pelak_input {
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.text_input_container {
+  width: 3.5rem;
+}
+
+.pelak_box_1 {
+  padding-top: 1.25rem;
+  margin-right: 0.2rem;
+}
+
+.pelak_box_2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}
+
+.pelak_box_2 .text_input_container {
+  margin: 0.25rem;
+  width: 4rem;
+}

@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 
 import { auth } from "../../store";
 
+import Plate from "components/Plate";
+
 class HomePage extends React.Component {
   state = {
     username: "",
@@ -27,10 +29,7 @@ class HomePage extends React.Component {
 
     return (
       <div>
-        home page
-        <p>{authentication.me}</p>
-        <button onClick={this.onButtonClicked}>Click Me</button>
-        <input value={username} onChange={this.changeUsername} />
+        <Plate />
       </div>
     );
   }
