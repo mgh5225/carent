@@ -16,16 +16,16 @@ const Input = ({
   setValue,
   minLength,
   maxLength,
-  prev_index,
-  next_index,
   options,
   is_select = false,
+  name,
 }) => {
   if (is_select) {
     return (
       <Select
         size="small"
         options={options}
+        name={name}
         value={value}
         onChange={(e) => {
           setValue(e.target.value);
@@ -45,17 +45,10 @@ const Input = ({
       size="small"
       inputProps={{ maxLength, minLength }}
       value={value}
+      name={name}
       onChange={(e) => {
         const value = Number(e.target.value);
         if (!isNaN(value)) setValue(e.target.value);
-        const form = e.target.form;
-
-        if (e.target.value.length == maxLength) {
-          form.elements[next_index]?.focus();
-        }
-        if (e.target.value.length == 0) {
-          form.elements[prev_index]?.focus();
-        }
       }}
     />
   );
@@ -73,11 +66,11 @@ const Plate = ({ onFinish }) => {
     plate_3.length == LEN_PLATE_3 &&
     plate_4.length == LEN_PLATE_4
   ) {
-    onFinish({ plate_1, plate_2, plate_3, plate_4 });
+    onFinish?.({ plate_1, plate_2, plate_3, plate_4 });
   }
 
   return (
-    <form className={classes.license_plate_container}>
+    <div className={classes.license_plate_container}>
       <img src={plate_img} alt="پلاک خودرو" />
       <div className={classes.pelak_input}>
         <div className={classes.pelak_box_1}>
@@ -86,9 +79,9 @@ const Plate = ({ onFinish }) => {
               <Input
                 setValue={setPlate_4}
                 value={plate_4}
-                minLength={LEN_PLATE_1}
-                maxLength={LEN_PLATE_1}
-                next_index={2}
+                minLength={LEN_PLATE_4}
+                maxLength={LEN_PLATE_4}
+                name="plate_4"
               />
             </div>
           </div>
@@ -101,8 +94,7 @@ const Plate = ({ onFinish }) => {
                 value={plate_3}
                 minLength={LEN_PLATE_3}
                 maxLength={LEN_PLATE_3}
-                prev_index={0}
-                next_index={6}
+                name="plate_3"
               />
             </div>
           </div>
@@ -113,6 +105,7 @@ const Plate = ({ onFinish }) => {
                 value={plate_2}
                 is_select
                 options={alphabets}
+                name="plate_2"
               />
             </div>
           </div>
@@ -121,15 +114,15 @@ const Plate = ({ onFinish }) => {
               <Input
                 setValue={setPlate_1}
                 value={plate_1}
-                minLength={LEN_PLATE_4}
-                maxLength={LEN_PLATE_4}
-                prev_index={2}
+                minLength={LEN_PLATE_1}
+                maxLength={LEN_PLATE_1}
+                name="plate_1"
               />
             </div>
           </div>
         </div>
       </div>
-    </form>
+    </div>
   );
 };
 
