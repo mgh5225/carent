@@ -7,6 +7,10 @@ import { TextField, Select, MenuItem } from "@mui/material";
 
 import alphabets from "utils/alphabets.json";
 
+const LEN_PLATE_1 = 2;
+const LEN_PLATE_3 = 3;
+const LEN_PLATE_4 = 2;
+
 const Input = ({
   value,
   setValue,
@@ -22,10 +26,8 @@ const Input = ({
       <Select
         size="small"
         options={options}
+        value={value}
         onChange={(e) => {
-          console.log(e.target);
-          const form = e.target.form;
-          form.elements[next_index]?.focus();
           setValue(e.target.value);
         }}
       >
@@ -59,13 +61,20 @@ const Input = ({
   );
 };
 
-const Plate = () => {
+const Plate = ({ onFinish }) => {
   const [plate_4, setPlate_4] = useState("");
   const [plate_3, setPlate_3] = useState("");
   const [plate_2, setPlate_2] = useState("");
   const [plate_1, setPlate_1] = useState("");
 
-  console.log(plate_2);
+  if (
+    plate_1.length == LEN_PLATE_1 &&
+    plate_2.length > 0 &&
+    plate_3.length == LEN_PLATE_3 &&
+    plate_4.length == LEN_PLATE_4
+  ) {
+    onFinish({ plate_1, plate_2, plate_3, plate_4 });
+  }
 
   return (
     <form className={classes.license_plate_container}>
@@ -77,8 +86,8 @@ const Plate = () => {
               <Input
                 setValue={setPlate_4}
                 value={plate_4}
-                minLength={2}
-                maxLength={2}
+                minLength={LEN_PLATE_1}
+                maxLength={LEN_PLATE_1}
                 next_index={2}
               />
             </div>
@@ -90,10 +99,10 @@ const Plate = () => {
               <Input
                 setValue={setPlate_3}
                 value={plate_3}
-                minLength={3}
-                maxLength={3}
+                minLength={LEN_PLATE_3}
+                maxLength={LEN_PLATE_3}
                 prev_index={0}
-                next_index={4}
+                next_index={6}
               />
             </div>
           </div>
@@ -102,8 +111,6 @@ const Plate = () => {
               <Input
                 setValue={setPlate_2}
                 value={plate_2}
-                prev_index={2}
-                next_index={6}
                 is_select
                 options={alphabets}
               />
@@ -114,9 +121,9 @@ const Plate = () => {
               <Input
                 setValue={setPlate_1}
                 value={plate_1}
-                minLength={2}
-                maxLength={2}
-                prev_index={4}
+                minLength={LEN_PLATE_4}
+                maxLength={LEN_PLATE_4}
+                prev_index={2}
               />
             </div>
           </div>
