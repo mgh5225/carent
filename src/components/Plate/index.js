@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import classes from "./style.module.css";
 import plate_img from "./plate.jpg";
@@ -60,14 +60,16 @@ const Plate = ({ onFinish, value_1, value_2, value_3, value_4 }) => {
   const [plate_2, setPlate_2] = useState(value_3 || "");
   const [plate_1, setPlate_1] = useState(value_4 || "");
 
-  if (
-    plate_1.length == LEN_PLATE_1 &&
-    plate_2.length > 0 &&
-    plate_3.length == LEN_PLATE_3 &&
-    plate_4.length == LEN_PLATE_4
-  ) {
-    onFinish?.({ plate_1, plate_2, plate_3, plate_4 });
-  }
+  useEffect(() => {
+    if (
+      plate_1.length === LEN_PLATE_1 &&
+      plate_2.length > 0 &&
+      plate_3.length === LEN_PLATE_3 &&
+      plate_4.length === LEN_PLATE_4
+    ) {
+      onFinish?.({ plate_1, plate_2, plate_3, plate_4 });
+    }
+  }, [onFinish, plate_1, plate_2, plate_3, plate_4]);
 
   return (
     <div className={classes.license_plate_container}>
