@@ -55,10 +55,17 @@ const Input = ({
 };
 
 const Plate = ({ onFinish, value_1, value_2, value_3, value_4 }) => {
-  const [plate_4, setPlate_4] = useState(value_1 || "");
-  const [plate_3, setPlate_3] = useState(value_2 || "");
-  const [plate_2, setPlate_2] = useState(value_3 || "");
-  const [plate_1, setPlate_1] = useState(value_4 || "");
+  const [plate_4, setPlate_4] = useState("");
+  const [plate_3, setPlate_3] = useState("");
+  const [plate_2, setPlate_2] = useState("");
+  const [plate_1, setPlate_1] = useState("");
+
+  useEffect(() => {
+    setPlate_1(value_1);
+    setPlate_2(value_2);
+    setPlate_3(value_3);
+    setPlate_4(value_4);
+  }, [value_1, value_2, value_3, value_4]);
 
   useEffect(() => {
     if (
@@ -67,7 +74,15 @@ const Plate = ({ onFinish, value_1, value_2, value_3, value_4 }) => {
       plate_3.length === LEN_PLATE_3 &&
       plate_4.length === LEN_PLATE_4
     ) {
-      onFinish?.({ plate_1, plate_2, plate_3, plate_4 });
+      if (
+        plate_1 === value_1 &&
+        plate_2 === value_2 &&
+        plate_3 === value_3 &&
+        plate_4 === value_4
+      ) {
+      } else {
+        onFinish?.({ plate_1, plate_2, plate_3, plate_4 });
+      }
     }
   }, [onFinish, plate_1, plate_2, plate_3, plate_4]);
 
