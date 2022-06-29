@@ -134,3 +134,10 @@ export const update_advert = ({
     return data;
   };
 };
+
+export const get_last_car = () => {
+  return async () => {
+    const { data } = await adverts.get("/last-car");
+    return data;
+  };
+};
