@@ -141,7 +141,7 @@ export const update_advert = ({
 
 export const get_last_car = () => {
   return async () => {
-    const { data } = await adverts.get("/last-car");
+    const { data } = await adverts.get("/last-car/");
     return data;
   };
 };

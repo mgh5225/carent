@@ -3,7 +3,7 @@ import { auth } from "../store";
 
 export const login = ({ username, password }) => {
   return async (dispatch) => {
-    const { data } = await users.post("/login", {
+    const { data } = await users.post("/login/", {
       username,
       password,
     });
@@ -16,7 +16,7 @@ export const login = ({ username, password }) => {
 
 export const logout = () => {
   return async (dispatch) => {
-    const { data } = await users.get("/logout");
+    const { data } = await users.get("/logout/");
 
     dispatch(auth.setMe(null));
     dispatch(auth.setAuthenticated(false));
@@ -28,7 +28,7 @@ export const logout = () => {
 export const get_me = () => {
   return async (dispatch) => {
     try {
-      const { data } = await users.get("/me");
+      const { data } = await users.get("/me/");
 
       dispatch(auth.setMe(data.me));
       dispatch(auth.setAuthenticated(true));
@@ -50,7 +50,7 @@ export const signup = ({
   password_confirm,
 }) => {
   return async (dispatch) => {
-    const { data } = await users.post("/signup", {
+    const { data } = await users.post("/signup/", {
       first_name,
       last_name,
       username,
