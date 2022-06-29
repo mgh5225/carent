@@ -14,7 +14,7 @@ export const create_advert = ({
     plate_2,
     plate_3,
     plate_4,
-    existing_problems,
+    color,
     owner,
     photo,
     birth_certificate,
@@ -24,6 +24,7 @@ export const create_advert = ({
   rental_time,
   rental_daily_rate,
   deposit_amount,
+  city,
   delivery_location,
   return_location,
 }) => {
@@ -37,7 +38,7 @@ export const create_advert = ({
       plate_2,
       plate_3,
       plate_4,
-      existing_problems,
+      color,
       owner,
     };
 
@@ -45,6 +46,7 @@ export const create_advert = ({
       rental_time,
       rental_daily_rate,
       deposit_amount,
+      city,
       delivery_location,
       return_location,
     };
@@ -82,7 +84,7 @@ export const update_advert = ({
     plate_2,
     plate_3,
     plate_4,
-    existing_problems,
+    color,
     owner,
     photo,
     birth_certificate,
@@ -92,6 +94,7 @@ export const update_advert = ({
   rental_time,
   rental_daily_rate,
   deposit_amount,
+  city,
   delivery_location,
   return_location,
 }) => {
@@ -105,7 +108,7 @@ export const update_advert = ({
       plate_2,
       plate_3,
       plate_4,
-      existing_problems,
+      color,
       owner,
     };
 
@@ -113,6 +116,7 @@ export const update_advert = ({
       rental_time,
       rental_daily_rate,
       deposit_amount,
+      city,
       delivery_location,
       return_location,
     };
@@ -141,7 +145,7 @@ export const update_advert = ({
 
 export const get_last_car = () => {
   return async () => {
-    const { data } = await adverts.get("/last-car");
+    const { data } = await adverts.get("/last-car/");
     return data;
   };
 };
