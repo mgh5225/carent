@@ -55,8 +55,8 @@ export const signup = ({
       last_name,
       username,
       email,
-      password,
-      password_confirm,
+      password1: password,
+      password2: password_confirm,
     });
 
     dispatch(auth.setAuthenticated(true));
