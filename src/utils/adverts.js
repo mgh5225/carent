@@ -109,12 +109,15 @@ export const get_adverts = ({
   };
 };
 
-export const rent = ({ advert_id, start_date, end_date }) => {
+export const get_my_adverts = ({ page, limit }) => {
   return async () => {
-    const { data } = await adverts.post(`/${advert_id}/rent/`, {
-      start_date,
-      end_date,
+    const { data } = await adverts.get("/my/", {
+      params: {
+        page,
+        limit,
+      },
     });
+
     return data;
   };
 };

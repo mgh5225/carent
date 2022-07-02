@@ -19,3 +19,8 @@ export const adverts = axios.create({
   baseURL: `${url}${api_url}/adverts`,
   withCredentials,
 });
+
+export const rents = axios.create({
+  baseURL: `${url}${api_url}/rents`,
+  withCredentials,
+});
