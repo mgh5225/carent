@@ -20,6 +20,7 @@ import CardContent from "@mui/material/CardContent";
 import Paper from "@mui/material/Paper";
 import InputAdornment from "@mui/material/InputAdornment";
 import Plate from "components/Plate";
+import AdvertContainerComponent from "../Adverts/AdvertContainer";
 
 import { create_advert } from "utils/adverts";
 const steps = ["ماشین خود را انتخاب کنید", "اجاره "];
@@ -136,10 +137,16 @@ const NewAdvertComponent = (props) => {
     }
   };
 
+  const UploadFile = (e) => {
+    const [file] = e.target.files;
+    console.log(e.target.files[0]);
+  };
+
   const RenderCurrentStep = () => {
     if (activeStep === 0) {
       return (
         <>
+          <AdvertContainerComponent></AdvertContainerComponent>
           <TextField
             key={1}
             sx={{ width: "100%", marginTop: "2rem" }}
@@ -267,6 +274,21 @@ const NewAdvertComponent = (props) => {
               <TextField key={18} {...params} label="شهر" />
             )}
           />
+          <Box textAlign="center">
+            <Button
+              sx={{ width: "50%", marginTop: "1rem" }}
+              variant="contained"
+              component="label"
+            >
+              آپلود عکس ماشین
+              <input
+                accept="image/*"
+                onChange={UploadFile}
+                type="file"
+                hidden
+              />
+            </Button>
+          </Box>
         </>
       );
     } else {
