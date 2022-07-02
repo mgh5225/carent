@@ -10,6 +10,10 @@ import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
 import Dialog from "@mui/material/Dialog";
 
+import numbro from "numbro";
+const _ = (n) => {
+  return numbro(Number(n) || 0).format({ thousandSeparated: true });
+};
 const AdvertCardInfoComponent = (props) => {
   //
   const { open } = props;
@@ -42,18 +46,18 @@ const AdvertCardInfoComponent = (props) => {
                 variant="outlined"
               >
                 <Box marginLeft={2}>
-                  <Grid container marginRight={3} spacing={2}>
-                    <Grid marginTop={2} item xs={6} key={2}>
+                  <Grid container marginRight={3} spacing={1}>
+                    <Grid marginTop={2} item xs={5} key={2}>
                       <Typography gutterBottom variant="h5" component="div">
                         {props.value.vehicleType}
                       </Typography>
                     </Grid>
-                    <Grid marginTop={2} item xs={4} key={2}>
+                    <Grid marginTop={2} marginRight="2rem" item xs={4} key={2}>
                       <Typography
                         sx={{ margiBottom: "2rem", marginTop: "0rem" }}
                         color="text.secondary"
                       >
-                        {props.value.rental_daily_rate}
+                        {`${_(props.value.rental_daily_rate)} تومان روزانه`}
                       </Typography>
                     </Grid>
                     <Grid marginTop={2} item xs={2} key={2}>

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -45,12 +45,33 @@ const AdvertCardInfo = [
 
 const AdvertContainerComponent = (props) => {
   const [open, setOpen] = React.useState(false);
+  const [Adverts, setAdverts] = React.useState({
+    id: 0,
+    vehicleType: "",
+    rental_daily_rate: "",
+    image: "https://source.unsplash.com/400x304/?car",
+    city: "",
+  });
   const [selectedAdvert, setSelectedAdvert] = React.useState(0);
 
   const [page, setPage] = React.useState(1);
-  const HandlePageChange = (event, value) => {
 
-    
+  // TODO get the adverts from back using the current page
+  useEffect(() => {
+    // declare the async data fetching function
+    const fetchAdvertsData = async () => {
+      //// get the data from the api
+      //const data = await fetch('https://yourapi.com');
+      //// convert the data to json
+      //const json = await response.json();
+      // set state with the result
+      ////setAdverts(json);
+    };
+
+    fetchAdvertsData().catch(console.error);
+  }, [page]);
+
+  const HandlePageChange = (event, value) => {
     console.log(value);
     setPage(value);
   };
