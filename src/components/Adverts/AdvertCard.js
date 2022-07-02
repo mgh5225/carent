@@ -23,6 +23,10 @@ const AdvertCardComponent = (props) => {
     setTransform("scale(1,1)");
   };
 
+  const onClickCard = () => {
+    props.onClick();
+  };
+
   return (
     <>
       <Card
@@ -31,7 +35,6 @@ const AdvertCardComponent = (props) => {
         sx={{
           width: 220,
           height: 300,
-          marginRight: "2rem",
           color: "text.secondary",
           boxShadow: CardShadow,
           transition: "0.3s",
@@ -39,6 +42,7 @@ const AdvertCardComponent = (props) => {
         }}
       >
         <CardActionArea
+          onClick={onClickCard}
           sx={{
             width: 220,
             height: 300,

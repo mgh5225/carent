@@ -1,6 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { HomePage, LoginPage, SignupPage,NewAdvertPage } from "pages";
+import {
+  HomePage,
+  LoginPage,
+  SignupPage,
+  NewAdvertPage,
+  AdvertPage,
+} from "pages";
 
 //Routes -> it's like switch case
 
@@ -10,7 +16,8 @@ const MainRouter = () => {
       <Route path="login" element={<LoginPage />} />
       <Route path="" element={<HomePage />} />
       <Route path="signup" element={<SignupPage />} />
-      <Route path="NewAdvert" element={<NewAdvertPage />} />
+      <Route path="newAdvert" element={<NewAdvertPage />} />
+      <Route path="advertPage" element={<AdvertPage />} />
     </Routes>
   );
 };

@@ -77,9 +77,8 @@ const SignupComponent = (props) => {
     // everything is correct
     else {
       try {
-        console.log("here");
         const { message } = await Signup(SubmitData);
-        toast.success(message);
+        toast.success("ثبتنام موفقیت آمیز بود");
       } catch (err) {
         const message = err.response
           ? err.response.data?.message

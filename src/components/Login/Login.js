@@ -27,7 +27,7 @@ const LoginComponent = (props) => {
 
     try {
       const { message } = await Login(user, pass);
-      toast.success(message);
+      toast.success("شما با موفقیت وارد شدید.");
     } catch (err) {
       const message = err.response
         ? err.response.data?.message
