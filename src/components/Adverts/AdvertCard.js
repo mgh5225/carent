@@ -8,6 +8,12 @@ import { ThemeProvider, createTheme } from "@mui/system";
 import Grow from "@mui/material/Grow";
 import { Collapse } from "@mui/material";
 
+import numbro from "numbro";
+
+const _ = (n) => {
+  return numbro(Number(n) || 0).format({ thousandSeparated: true });
+};
+
 const AdvertCardComponent = (props) => {
   //
   const [CardShadow, setCardShadow] = React.useState(1);
@@ -64,7 +70,7 @@ const AdvertCardComponent = (props) => {
               sx={{ marginTop: "2rem", marginBottom: "0rem" }}
               color="text.secondary"
             >
-              {props.value.rental_daily_rate}
+              {`${_(props.value.rental_daily_rate)} تومان در روز`}
             </Typography>
             <Typography
               sx={{ mb: 1.5, marginTop: "0rem", marginBottom: "0rem" }}
