@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
 import Dialog from "@mui/material/Dialog";
+import PendingIcon from "@mui/icons-material/Pending";
 
 import numbro from "numbro";
 const _ = (n) => {
@@ -20,6 +21,8 @@ const AdvertCardInfoComponent = (props) => {
   const HandleClose = () => {
     props.onClose();
   };
+
+  console.log(props);
   return (
     <Dialog onClose={HandleClose} open={open}>
       <Box>

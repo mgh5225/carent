@@ -15,4 +15,4 @@ class LoginPage extends React.Component {
   }
 }
 
-export default withoutAuth(LoginPage, "/dashboard");
+export default withoutAuth(LoginPage, "/advertPage");

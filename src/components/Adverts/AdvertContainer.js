@@ -6,10 +6,14 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import AdvertCardComponent from "../Adverts/AdvertCard";
 import Grid from "@mui/material/Grid";
+import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import AdvertCardInfoComponent from "../Adverts/AdvertCardInfo";
 import Pagination from "@mui/material/Pagination";
+import { get_adverts } from "utils/adverts";
+import { useSelector, useDispatch } from "react-redux";
+
 const AdvertCardInfo = [
   {
     vehicleType: "بایک سابرینا هاچ بک",
@@ -40,36 +44,30 @@ const AdvertCardInfo = [
     rental_daily_rate: "5000000",
     image: "https://source.unsplash.com/400x304/?car",
     city: "تبریز",
+    status: "Denied",
   },
 ];
 
 const AdvertContainerComponent = (props) => {
   const [open, setOpen] = React.useState(false);
-  const [Adverts, setAdverts] = React.useState({
-    id: 0,
-    vehicleType: "",
-    rental_daily_rate: "",
-    image: "https://source.unsplash.com/400x304/?car",
-    city: "",
-  });
+  const [AdvertCardInfo, setAdverts] = React.useState([]);
   const [selectedAdvert, setSelectedAdvert] = React.useState(0);
 
   const [page, setPage] = React.useState(1);
-
+  const dispatch = useDispatch();
   // TODO get the adverts from back using the current page
   useEffect(() => {
     // declare the async data fetching function
     const fetchAdvertsData = async () => {
+      console.log("data");
       //// get the data from the api
-      //const data = await fetch('https://yourapi.com');
-      //// convert the data to json
-      //const json = await response.json();
+      const data = await dispatch(get_adverts({ page: page, limit: 12 }));
       // set state with the result
-      ////setAdverts(json);
+      setAdverts(data);
     };
 
     fetchAdvertsData().catch(console.error);
-  }, [page]);
+  }, [page, dispatch]);
 
   const HandlePageChange = (event, value) => {
     console.log(value);
@@ -101,11 +99,13 @@ const AdvertContainerComponent = (props) => {
         variant="outlined"
       >
         <Box marginLeft={2}>
-          <AdvertCardInfoComponent
-            open={open}
-            onClose={handleClose}
-            value={AdvertCardInfo[selectedAdvert]}
-          ></AdvertCardInfoComponent>
+          {AdvertCardInfo.length > 0 ? (
+            <AdvertCardInfoComponent
+              open={open}
+              onClose={handleClose}
+              value={AdvertCardInfo[selectedAdvert]}
+            ></AdvertCardInfoComponent>
+          ) : null}
           <Grid container marginRight={3} spacing={2}>
             {AdvertCardInfo.map((info, index) => (
               <Grid marginTop={2} item xs={3} key={index}>
