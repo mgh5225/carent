@@ -1,26 +1,38 @@
 import axios from "axios";
-export const url = "http://api.carent.com:9000";
+import Cookies from "js-cookie";
+
+export const url = "http://localhost:8000";
 const api_url = "/api/v1";
 const withCredentials = true;
 
 export const full_url = `${url}${api_url}`;
 
-export const api = axios.create({
-  baseURL: url,
-  withCredentials,
-});
+const create_child = (base_url) => {
+  const obj = axios.create({
+    baseURL: base_url,
+    withCredentials,
+  });
 
-export const users = axios.create({
-  baseURL: `${url}${api_url}/users`,
-  withCredentials,
-});
+  obj.interceptors.request.use(
+    function (config) {
+      const csrf = Cookies.get("csrftoken");
+      if (csrf) {
+        config.headers.common["x-csrftoken"] = csrf;
+      }
+      return config;
+    },
+    function (error) {
+      return Promise.reject(error);
+    }
+  );
 
-export const adverts = axios.create({
-  baseURL: `${url}${api_url}/rentalcars`,
-  withCredentials,
-});
+  return obj;
+};
 
-export const rents = axios.create({
-  baseURL: `${url}${api_url}/rents`,
-  withCredentials,
-});
+export const api = create_child(url);
+
+export const users = create_child(`${url}${api_url}/users`);
+
+export const adverts = create_child(`${url}${api_url}/rentalcars`);
+
+export const rents = create_child(`${url}${api_url}/rents`);
