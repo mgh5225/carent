@@ -30,7 +30,7 @@ export const get_me = () => {
     try {
       const { data } = await users.get("/me/");
 
-      dispatch(auth.setMe(data.me));
+      dispatch(auth.setMe(data));
       dispatch(auth.setAuthenticated(true));
     } catch (err) {
       dispatch(auth.setMe(null));
