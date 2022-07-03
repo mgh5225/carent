@@ -1,5 +1,7 @@
 import React from "react";
 
+import { withoutAuth } from "components/Auth";
+
 import LoginComponent from "../../components/Login/Login";
 import Container from "@mui/material/Container";
 
@@ -13,4 +15,4 @@ class LoginPage extends React.Component {
   }
 }
 
-export default LoginPage;
+export default withoutAuth(LoginPage, "/dashboard");

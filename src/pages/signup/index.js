@@ -1,5 +1,7 @@
 import React from "react";
 
+import { withoutAuth } from "components/Auth";
+
 import SignupComponent from "../../components/Signup/Signup";
 import Container from "@mui/material/Container";
 
@@ -13,4 +15,4 @@ class SignupPage extends React.Component {
   }
 }
 
-export default SignupPage;
+export default withoutAuth(SignupPage, "/dashboard");
