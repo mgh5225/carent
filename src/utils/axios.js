@@ -16,7 +16,7 @@ export const users = axios.create({
 });
 
 export const adverts = axios.create({
-  baseURL: `${url}${api_url}/adverts`,
+  baseURL: `${url}${api_url}/rentalcars`,
   withCredentials,
 });
 

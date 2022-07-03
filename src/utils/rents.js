@@ -1,9 +1,17 @@
 import { rents } from "./axios";
 
+export const status_type = {
+  request: "R",
+  in_rent: "I",
+  expired: "E",
+  denied: "D",
+  pending: "P",
+};
+
 export const rent = ({ advert_id, start_date, end_date }) => {
   return async () => {
     const { data } = await rents.post("/", {
-      advert_id,
+      rentalcar: advert_id,
       start_date,
       end_date,
     });
@@ -13,11 +21,12 @@ export const rent = ({ advert_id, start_date, end_date }) => {
 
 export const get_my_rents_in = ({ page, limit, advert_id }) => {
   return async () => {
-    const { data } = await rents.get("/my/in/", {
+    const { data } = await rents.get("/my/", {
       params: {
         page,
         limit,
-        advert_id,
+        rentalcar: advert_id,
+        owener: 1,
       },
     });
 
@@ -27,10 +36,11 @@ export const get_my_rents_in = ({ page, limit, advert_id }) => {
 
 export const get_my_rents_out = ({ page, limit }) => {
   return async () => {
-    const { data } = await rents.get("/my/out/", {
+    const { data } = await rents.get("/my/", {
       params: {
         page,
         limit,
+        owner: 0,
       },
     });
 
@@ -38,11 +48,9 @@ export const get_my_rents_out = ({ page, limit }) => {
   };
 };
 
-export const change_rent = ({ advert_id, client_id, status }) => {
+export const change_status = ({ rent_id, status }) => {
   return async () => {
-    const { data } = rents.patch("/", {
-      advert_id,
-      client_id,
+    const { data } = rents.patch(`/${rent_id}/`, {
       status,
     });
 
