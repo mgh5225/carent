@@ -27,26 +27,20 @@ const steps = ["ماشین خود را انتخاب کنید", "اجاره "];
 
 const NewAdvertComponent = (props) => {
   const [activeStep, setActiveStep] = React.useState(0);
-  const [manufactureVehicleData, setManufactureVehicleData] = React.useState(0);
   const [Advert, setAdvert] = React.useState({
     type: "",
     creation_date: "",
-    milelage_rate: "",
+    mileage_rate: "",
     value: "",
     plate_1: "",
     plate_2: "",
     plate_3: "",
     plate_4: "",
     color: "",
-    owner: "",
-    photo: "",
-    birth_certificate: "",
-    insurance: "",
-    deed: "",
-
     rental_time: "",
     rental_daily_rate: "",
     deposit_amount: "",
+    city: "",
     delivery_location: "",
     return_location: "",
   });
@@ -60,12 +54,13 @@ const NewAdvertComponent = (props) => {
     console.log(Advert);
   };
 
-  const handleNext = () => {
+  const handleNext = async () => {
+    let flag = true;
     if (activeStep === steps.length - 1) {
-      SubmitNewAdvert();
+      flag = await SubmitNewAdvert();
     }
 
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    if (flag) setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
 
   const handleBack = () => {
@@ -78,11 +73,11 @@ const NewAdvertComponent = (props) => {
   };
 
   const HandleCitySelected = (event, value) => {
-    console.log(value);
+    HandleOnChange("city", { target: { value } });
   };
 
   const HandleVehicleManufactureDateBlur = (event, value) => {
-    if (manufactureVehicleData < 1350 || manufactureVehicleData > 1402) {
+    if (value < 1350 || value > 1402) {
       HandleOnChange("creation_date", { target: { value: 1350 } });
     } else {
       HandleOnChange("creation_date", event);
@@ -105,35 +100,31 @@ const NewAdvertComponent = (props) => {
       car: {
         type: Advert.type,
         creation_date: Advert.creation_date,
-        milelage_rate: Advert.milelage_rate,
+        mileage_rate: Advert.mileage_rate,
         value: Advert.value,
         plate_1: Advert.plate_1,
         plate_2: Advert.plate_2,
         plate_3: Advert.plate_3,
         plate_4: Advert.plate_4,
         color: Advert.color,
-        owner: Advert.owner,
-        photo: Advert.photo,
-        birth_certificate: Advert.birth_certificate,
-        insurance: Advert.insurance,
-        deed: Advert.deed,
       },
-
       rental_time: Advert.rental_time,
       rental_daily_rate: Advert.rental_daily_rate,
       deposit_amount: Advert.deposit_amount,
-      delivery_location: Advert.delivery_locationq,
+      city: Advert.city.name,
+      delivery_location: Advert.delivery_location,
       return_location: Advert.return_location,
     };
     try {
-      console.log("here");
       const { message } = await props.CreateAdvert(SubmitData);
       toast.success(message);
+      return true;
     } catch (err) {
       const message = err.response
         ? err.response.data?.message
         : "Something went wrong! Please try again later";
       toast.error(message);
+      return false;
     }
   };
 
@@ -176,8 +167,8 @@ const NewAdvertComponent = (props) => {
           <TextField
             key={3}
             sx={{ width: "100%", marginTop: "2rem" }}
-            onChange={HandleOnChange.bind(this, "milelage_rate")}
-            value={Advert.milelage_rate}
+            onChange={HandleOnChange.bind(this, "mileage_rate")}
+            value={Advert.mileage_rate}
             inputProps={{
               min: 0,
 
@@ -236,7 +227,9 @@ const NewAdvertComponent = (props) => {
             hintStyle={{ textAlign: "center" }}
             label="رنگ خودرو"
           />
-          <TextField
+          {/*
+          
+                    <TextField
             key={16}
             sx={{ width: "100%", marginTop: "2rem" }}
             onChange={HandleOnChange.bind(this, "owner")}
@@ -258,9 +251,11 @@ const NewAdvertComponent = (props) => {
             hintStyle={{ textAlign: "center" }}
             label="شماره شناسنامه صاحب خودرو"
           />
+          */}
           <Autocomplete
             disablePortal
             id="combo-box-demo"
+            value={Advert.city}
             options={cities}
             onChange={HandleCitySelected}
             sx={{ width: "100%", marginTop: "1rem" }}
@@ -364,7 +359,7 @@ const NewAdvertComponent = (props) => {
           </Typography>
           <Box sx={{ display: "flex", flexDirection: "row", pt: 2 }}>
             <Box sx={{ flex: "1 1 auto" }} />
-            <Button onClick={handleReset}>Reset</Button>
+            <Button onClick={handleReset}>شروع دوباره</Button>
           </Box>
         </React.Fragment>
       ) : (
@@ -398,6 +393,7 @@ const mapDispatchToProps = (dispatch) => {
   return {
     CreateAdvert: ({
       car,
+      city,
       rental_time,
       rental_daily_rate,
       deposit_amount,
@@ -407,6 +403,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(
         create_advert({
           car,
+          city,
           rental_time,
           rental_daily_rate,
           deposit_amount,

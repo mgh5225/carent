@@ -4,7 +4,7 @@ export const create_advert = ({
   car: {
     type,
     creation_date,
-    milelage_rate,
+    mileage_rate,
     value,
     plate_1,
     plate_2,
@@ -21,17 +21,15 @@ export const create_advert = ({
 }) => {
   return async () => {
     const { data } = await adverts.post("/", {
-      car: {
-        type,
-        creation_date,
-        milelage_rate,
-        value,
-        plate_1,
-        plate_2,
-        plate_3,
-        plate_4,
-        color,
-      },
+      type,
+      creation_date,
+      mileage_rate,
+      value,
+      plate_1,
+      plate_2,
+      plate_3,
+      plate_4,
+      color,
       rental_time,
       rental_daily_rate,
       deposit_amount,
@@ -48,7 +46,7 @@ export const update_advert = ({
   car: {
     type,
     creation_date,
-    milelage_rate,
+    mileage_rate,
     value,
     plate_1,
     plate_2,
@@ -65,17 +63,15 @@ export const update_advert = ({
 }) => {
   return async () => {
     const { data } = await adverts.patch(`/${advert_id}/`, {
-      car: {
-        type,
-        creation_date,
-        milelage_rate,
-        value,
-        plate_1,
-        plate_2,
-        plate_3,
-        plate_4,
-        color,
-      },
+      type,
+      creation_date,
+      mileage_rate,
+      value,
+      plate_1,
+      plate_2,
+      plate_3,
+      plate_4,
+      color,
       rental_time,
       rental_daily_rate,
       deposit_amount,
