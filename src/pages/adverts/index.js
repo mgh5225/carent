@@ -78,6 +78,46 @@ const MyAdvertPageComponent = () => {
   );
 };
 
+
+const MyRentRequestPageComponent = () => {
+  const [AdvertCardInfo, setAdverts] = React.useState([]);
+  const [page, setPage] = React.useState(1);
+  const dispatch = useDispatch();
+
+  // TODO get the adverts from back using the current page
+  useEffect(() => {
+    // declare the async data fetching function
+    const fetchAdvertsData = async () => {
+      //// get the data from the api
+      const data = await dispatch(get_my_adverts({ page: page, limit: 12 }));
+      // set state with the result
+      setAdverts(data);
+    };
+
+    fetchAdvertsData().catch(console.error);
+  }, [page, dispatch]);
+
+  const HandleChangePage = (page) => {
+    setPage(page);
+  };
+
+  return (
+    <Container
+      component="main"
+      sx={{ justifyContent: "center", alignItems: "center" }}
+    >
+      <AdvertContainer
+        readOnly={true}
+        HandleChangePage={HandleChangePage}
+        CardInfo={AdvertCardInfo}
+      ></AdvertContainer>
+    </Container>
+  );
+};
+
+
+
+
 const NewAdvertPageComponent = () => {
   return (
     <Container component="main" maxWidth="md">
@@ -88,4 +128,5 @@ const NewAdvertPageComponent = () => {
 
 export const AdvertPage = AdvertPageComponent;
 export const MyAdvertPage = withAuth(MyAdvertPageComponent, "/login");
+export const MyRentRequestPage = withAuth(MyRentRequestPageComponent, "/login");
 export const NewAdvertPage = withAuth(NewAdvertPageComponent, "/login");

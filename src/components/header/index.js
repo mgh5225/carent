@@ -40,6 +40,7 @@ const ResponsiveAppBar = () => {
   const settings = [
     { label: "ایجاد آگهی", callback: () => navigate("/newadvert") },
     { label: "آگهی‌های من", callback: () => navigate("/myAdvertPage") },
+    { label: "درخواست‌های من", callback: () => navigate("/myRentRequestPage") },
     { label: "خروج", callback: LogoutHandler },
   ];
 

@@ -6,6 +6,7 @@ import {
   SignupPage,
   NewAdvertPage,
   AdvertPage,
+  MyRentRequestPage,
   MyAdvertPage,
 } from "pages";
 
@@ -20,6 +21,7 @@ const MainRouter = () => {
       <Route path="newAdvert" element={<NewAdvertPage />} />
       <Route path="advertPage" element={<AdvertPage />} />
       <Route path="myAdvertPage" element={<MyAdvertPage />} />
+      <Route path="myRentRequestPage" element={<MyRentRequestPage />} />
     </Routes>
   );
 };
