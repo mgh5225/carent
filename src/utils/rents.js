@@ -8,12 +8,13 @@ export const status_type = {
   pending: "P",
 };
 
-export const rent = ({ advert_id, start_date, end_date }) => {
+export const rent = ({ advert_id, start_date, end_date, description }) => {
   return async () => {
     const { data } = await rents.post("/", {
       rentalcar: advert_id,
       start_date,
       end_date,
+      description,
     });
     return data;
   };
