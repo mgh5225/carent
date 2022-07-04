@@ -70,6 +70,7 @@ const MyAdvertPageComponent = () => {
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
       <AdvertContainer
+        readOnly={true}
         HandleChangePage={HandleChangePage}
         CardInfo={AdvertCardInfo}
       ></AdvertContainer>
@@ -85,6 +86,6 @@ const NewAdvertPageComponent = () => {
   );
 };
 
-export const AdvertPage = withAuth(AdvertPageComponent, "/login");
+export const AdvertPage = AdvertPageComponent;
 export const MyAdvertPage = withAuth(MyAdvertPageComponent, "/login");
 export const NewAdvertPage = withAuth(NewAdvertPageComponent, "/login");

@@ -55,6 +55,7 @@ const AdvertContainerComponent = (props) => {
         <Box marginLeft={2}>
           {AdvertCardInfo.length > 0 ? (
             <AdvertCardInfoComponent
+              readOnly={props.readOnly}
               open={open}
               onClose={handleClose}
               value={AdvertCardInfo[selectedAdvert]}

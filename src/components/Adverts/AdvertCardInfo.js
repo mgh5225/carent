@@ -107,7 +107,7 @@ const AdvertCardInfoComponent = (props) => {
                     <Grid container marginRight={3} spacing={14}>
                       <Grid marginTop={2} item xs={6}>
                         <TextField
-                          disabled={props.value.readOnly}
+                          disabled={props.readOnly}
                           name="StartDate"
                           label="تاریخ شروع اجاره"
                           InputLabelProps={{ shrink: true, required: true }}
@@ -116,7 +116,7 @@ const AdvertCardInfoComponent = (props) => {
                       </Grid>
                       <Grid marginRight={2} marginTop={2} item xs={5}>
                         <TextField
-                          disabled={props.value.readOnly}
+                          disabled={props.readOnly}
                           name="EndDate"
                           label="تاریخ پایان اجاره"
                           InputLabelProps={{ shrink: true, required: true }}
@@ -133,7 +133,7 @@ const AdvertCardInfoComponent = (props) => {
                         xs={12}
                       >
                         <TextField
-                          disabled={props.value.readOnly}
+                          disabled={props.readOnly}
                           fullWidth
                           multiline
                           name="Description"
@@ -153,7 +153,7 @@ const AdvertCardInfoComponent = (props) => {
                         marginBottom={2}
                         xs={12}
                       >
-                        {!props.value.readOnly && (
+                        {!props.readOnly && (
                           <Button
                             variant="contained"
                             fullWidth
