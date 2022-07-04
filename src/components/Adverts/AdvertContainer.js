@@ -62,11 +62,10 @@ const AdvertContainerComponent = (props) => {
           ) : null}
           <Grid container marginRight={3} spacing={2}>
             {AdvertCardInfo.map((info, index) => (
-              <Grid marginTop={2} item xs={3} key={index}>
+              <Grid marginTop={2} item xs={3} key={info.id}>
                 <AdvertCardComponent
                   onClick={(event) => handleClickOpen(event, index)}
                   value={info}
-                  key={index}
                 />
               </Grid>
             ))}

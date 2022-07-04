@@ -22,7 +22,6 @@ const AdvertCardInfoComponent = (props) => {
     props.onClose();
   };
 
-  console.log(props);
   return (
     <Dialog onClose={HandleClose} open={open}>
       <Box>
@@ -50,12 +49,12 @@ const AdvertCardInfoComponent = (props) => {
               >
                 <Box marginLeft={2}>
                   <Grid container marginRight={3} spacing={1}>
-                    <Grid marginTop={2} item xs={5} key={2}>
+                    <Grid marginTop={2} item xs={5}>
                       <Typography gutterBottom variant="h5" component="div">
                         {props.value.vehicleType}
                       </Typography>
                     </Grid>
-                    <Grid marginTop={2} marginRight="2rem" item xs={4} key={2}>
+                    <Grid marginTop={2} marginRight="2rem" item xs={4}>
                       <Typography
                         sx={{ margiBottom: "2rem", marginTop: "0rem" }}
                         color="text.secondary"
@@ -63,7 +62,7 @@ const AdvertCardInfoComponent = (props) => {
                         {`${_(props.value.rental_daily_rate)} تومان روزانه`}
                       </Typography>
                     </Grid>
-                    <Grid marginTop={2} item xs={2} key={2}>
+                    <Grid marginTop={2} item xs={2}>
                       <Typography
                         sx={{
                           mb: 1.5,
@@ -77,7 +76,7 @@ const AdvertCardInfoComponent = (props) => {
                     </Grid>
                   </Grid>
                   <Grid container marginRight={3} spacing={14}>
-                    <Grid marginTop={2} item xs={6} key={2}>
+                    <Grid marginTop={2} item xs={6}>
                       <TextField
                         name="StartDate"
                         label="تاریخ شروع اجاره"
@@ -85,7 +84,7 @@ const AdvertCardInfoComponent = (props) => {
                         type="date"
                       />
                     </Grid>
-                    <Grid marginRight={2} marginTop={2} item xs={5} key={2}>
+                    <Grid marginRight={2} marginTop={2} item xs={5}>
                       <TextField
                         name="EndDate"
                         label="تاریخ پایان اجاره"
@@ -101,7 +100,6 @@ const AdvertCardInfoComponent = (props) => {
                       marginTop={2}
                       item
                       xs={12}
-                      key={2}
                     >
                       <TextField
                         fullWidth
@@ -122,7 +120,6 @@ const AdvertCardInfoComponent = (props) => {
                       marginRight={2}
                       marginBottom={2}
                       xs={12}
-                      key={2}
                     >
                       <Button
                         variant="contained"
