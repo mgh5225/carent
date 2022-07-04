@@ -5,8 +5,9 @@ import AdvertContainer from "../../components/Adverts/AdvertContainer";
 import Container from "@mui/material/Container";
 import { useDispatch } from "react-redux";
 import { get_adverts, get_my_adverts } from "utils/adverts";
+import { withAuth } from "components/Auth";
 
-const AdvertPage = () => {
+const AdvertPageComponent = () => {
   const [AdvertCardInfo, setAdverts] = React.useState([]);
   const [page, setPage] = React.useState(1);
   const dispatch = useDispatch();
@@ -41,7 +42,7 @@ const AdvertPage = () => {
   );
 };
 
-const MyAdvertPage = () => {
+const MyAdvertPageComponent = () => {
   const [AdvertCardInfo, setAdverts] = React.useState([]);
   const [page, setPage] = React.useState(1);
   const dispatch = useDispatch();
@@ -76,14 +77,14 @@ const MyAdvertPage = () => {
   );
 };
 
-class NewAdvertPage extends React.Component {
-  render() {
-    return (
-      <Container component="main" maxWidth="md">
-        <NewAdvertComponent></NewAdvertComponent>
-      </Container>
-    );
-  }
-}
+const NewAdvertPageComponent = () => {
+  return (
+    <Container component="main" maxWidth="md">
+      <NewAdvertComponent></NewAdvertComponent>
+    </Container>
+  );
+};
 
-export { AdvertPage, MyAdvertPage, NewAdvertPage };
+export const AdvertPage = withAuth(AdvertPageComponent, "/login");
+export const MyAdvertPage = withAuth(MyAdvertPageComponent, "/login");
+export const NewAdvertPage = withAuth(NewAdvertPageComponent, "/login");
