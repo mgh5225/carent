@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -11,67 +11,21 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import AdvertCardInfoComponent from "../Adverts/AdvertCardInfo";
 import Pagination from "@mui/material/Pagination";
-import { get_adverts } from "utils/adverts";
-import { useSelector, useDispatch } from "react-redux";
-
-const AdvertCardInfo = [
-  {
-    vehicleType: "بایک سابرینا هاچ بک",
-    rental_daily_rate: "10000",
-    image: "https://source.unsplash.com/400x300/?car",
-    city: "تهران",
-  },
-  {
-    vehicleType: "بایک X25",
-    rental_daily_rate: "400000",
-    image: "https://source.unsplash.com/400x301/?car",
-    city: "اصفهان",
-  },
-  {
-    vehicleType: " ب ام و 120i کروک",
-    rental_daily_rate: "200000",
-    image: "https://source.unsplash.com/400x302/?car",
-    city: "گرگان",
-  },
-  {
-    vehicleType: "ب ام و 530i",
-    rental_daily_rate: "1000000",
-    image: "https://source.unsplash.com/400x303/?car",
-    city: "مشهد",
-  },
-  {
-    vehicleType: "فولکس واگن پاسات",
-    rental_daily_rate: "5000000",
-    image: "https://source.unsplash.com/400x304/?car",
-    city: "تبریز",
-    status: "Denied",
-  },
-];
 
 const AdvertContainerComponent = (props) => {
   const [open, setOpen] = React.useState(false);
   const [AdvertCardInfo, setAdverts] = React.useState([]);
   const [selectedAdvert, setSelectedAdvert] = React.useState(0);
-
   const [page, setPage] = React.useState(1);
-  const dispatch = useDispatch();
-  // TODO get the adverts from back using the current page
-  useEffect(() => {
-    // declare the async data fetching function
-    const fetchAdvertsData = async () => {
-      console.log("data");
-      //// get the data from the api
-      const data = await dispatch(get_adverts({ page: page, limit: 12 }));
-      // set state with the result
-      setAdverts(data);
-    };
 
-    fetchAdvertsData().catch(console.error);
-  }, [page, dispatch]);
+  useEffect(() => {
+    setAdverts(props.CardInfo);
+  }, [props.CardInfo]);
 
   const HandlePageChange = (event, value) => {
     console.log(value);
     setPage(value);
+    props.HandleChangePage(value);
   };
 
   const handleClickOpen = (event, index) => {
