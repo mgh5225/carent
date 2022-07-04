@@ -101,6 +101,12 @@ export const get_adverts = ({
       },
     });
 
+    if (Array.isArray(data)) {
+      for (const i in data) {
+        data[i].image = `https://source.unsplash.com/400x304/?car&sig=${i}`;
+        data[i].vehicleType = data[i].type;
+      }
+    }
     return data;
   };
 };
@@ -114,6 +120,12 @@ export const get_my_adverts = ({ page, limit }) => {
       },
     });
 
+    if (Array.isArray(data)) {
+      for (const i in data) {
+        data[i].image = `https://source.unsplash.com/400x304/?car&sig=${i}`;
+        data[i].vehicleType = data[i].type;
+      }
+    }
     return data;
   };
 };

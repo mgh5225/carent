@@ -37,7 +37,10 @@ const ResponsiveAppBar = () => {
       toast.error(message);
     }
   };
-  const settings = [{ label: "Logout", callback: LogoutHandler }];
+  const settings = [
+    { label: "ایجاد آگهی", callback: () => navigate("/newadvert") },
+    { label: "خروج", callback: LogoutHandler },
+  ];
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
