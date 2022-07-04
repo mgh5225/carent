@@ -6,6 +6,7 @@ import {
   SignupPage,
   NewAdvertPage,
   AdvertPage,
+  MyAdvertPage,
 } from "pages";
 
 //Routes -> it's like switch case
@@ -18,6 +19,7 @@ const MainRouter = () => {
       <Route path="signup" element={<SignupPage />} />
       <Route path="newAdvert" element={<NewAdvertPage />} />
       <Route path="advertPage" element={<AdvertPage />} />
+      <Route path="myAdvertPage" element={<MyAdvertPage />} />
     </Routes>
   );
 };
