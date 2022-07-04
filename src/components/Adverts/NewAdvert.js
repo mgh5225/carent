@@ -20,7 +20,6 @@ import CardContent from "@mui/material/CardContent";
 import Paper from "@mui/material/Paper";
 import InputAdornment from "@mui/material/InputAdornment";
 import Plate from "components/Plate";
-import AdvertRentRequestComponent from "../Adverts/AdvertRentRequest";
 
 import { create_advert } from "utils/adverts";
 const steps = ["ماشین خود را انتخاب کنید", "اجاره "];
@@ -140,9 +139,6 @@ const NewAdvertComponent = (props) => {
     if (activeStep === 0) {
       return (
         <>
-          <AdvertRentRequestComponent
-            value={AdvertCardInfo}
-          ></AdvertRentRequestComponent>
           <TextField
             key={1}
             sx={{ width: "100%", marginTop: "2rem" }}

@@ -9,7 +9,7 @@ export const withAuth = (Component, redirect_location = "/") => {
     const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
     const navigate = useNavigate();
     useEffect(() => {
-      // if (!isAuthenticated) navigate(redirect_location, { replace: true });
+      if (!isAuthenticated) navigate(redirect_location, { replace: true });
     }, [isAuthenticated]);
 
     return <Component {...props} />;
@@ -21,7 +21,7 @@ export const withoutAuth = (Component, redirect_location = "/") => {
     const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
     const navigate = useNavigate();
     useEffect(() => {
-      // if (!!isAuthenticated) navigate(redirect_location, { replace: true });
+      if (!!isAuthenticated) navigate(redirect_location, { replace: true });
     }, [isAuthenticated]);
 
     return <Component {...props} />;
