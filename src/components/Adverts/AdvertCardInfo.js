@@ -14,6 +14,7 @@ import PendingIcon from "@mui/icons-material/Pending";
 
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import numbro from "numbro";
 import { DataUsage } from "@mui/icons-material";
 
@@ -25,6 +26,7 @@ const _ = (n) => {
 };
 const AdvertCardInfoComponent = (props) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { open } = props;
   const HandleClose = () => {
     props.onClose();
@@ -44,6 +46,7 @@ const AdvertCardInfoComponent = (props) => {
         })
       );
       toast.success("شما با موفقیت درخواست خود را ثبت کردید");
+      navigate("/myRentRequestPage");
     } catch (err) {
       const message = err.response
         ? err.response.data?.message
