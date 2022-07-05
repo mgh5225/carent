@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useEffect, useState } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -20,6 +20,10 @@ import { rent } from "utils/rents";
 
 const AdvertRentRequestComponent = (props) => {
   const dispatch = useDispatch();
+  const [status, setStatus] = useState("R");
+  useEffect(() => {
+    setStatus(props.value.status);
+  }, [props.value.status]);
   console.log(props.value);
 
   const HandleApprove = async () => {
@@ -28,6 +32,7 @@ const AdvertRentRequestComponent = (props) => {
       const data = await dispatch(
         change_status({ rent_id: props.value.id, status: "I" })
       );
+      setStatus("I");
     } catch (e) {}
   };
 
@@ -37,7 +42,7 @@ const AdvertRentRequestComponent = (props) => {
       const data = await dispatch(
         change_status({ rent_id: props.value.id, status: "D" })
       );
-      
+      setStatus("D");
     } catch (e) {}
   };
 
@@ -90,46 +95,48 @@ const AdvertRentRequestComponent = (props) => {
               type="text"
             />
           </Grid>
-          <Grid container spacing={2} marginRight={2}>
-            <Grid
-              justifyContent="center"
-              width="100%"
-              alignItems="center"
-              marginTop={2}
-              item
-              marginBottom={2}
-              xs={6}
-            >
-              <Button
-                onClick={HandleApprove}
-                variant="contained"
-                fullWidth
-                name="Rent"
-                type="submit"
+          {status == "R" ? (
+            <Grid container spacing={2} marginRight={2}>
+              <Grid
+                justifyContent="center"
+                width="100%"
+                alignItems="center"
+                marginTop={2}
+                item
+                marginBottom={2}
+                xs={6}
               >
-                تایید
-              </Button>
-            </Grid>
-            <Grid
-              justifyContent="center"
-              width="100%"
-              alignItems="center"
-              marginTop={2}
-              item
-              marginBottom={2}
-              xs={6}
-            >
-              <Button
-                onClick={HandleDenied}
-                variant="contained"
-                fullWidth
-                name="Rent"
-                type="submit"
+                <Button
+                  onClick={HandleApprove}
+                  variant="contained"
+                  fullWidth
+                  name="Rent"
+                  type="submit"
+                >
+                  تایید
+                </Button>
+              </Grid>
+              <Grid
+                justifyContent="center"
+                width="100%"
+                alignItems="center"
+                marginTop={2}
+                item
+                marginBottom={2}
+                xs={6}
               >
-                رد
-              </Button>
+                <Button
+                  onClick={HandleDenied}
+                  variant="contained"
+                  fullWidth
+                  name="Rent"
+                  type="submit"
+                >
+                  رد
+                </Button>
+              </Grid>
             </Grid>
-          </Grid>
+          ) : null}
         </Grid>
       </Box>
     </Paper>
