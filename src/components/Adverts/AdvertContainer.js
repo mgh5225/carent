@@ -32,22 +32,24 @@ const AdvertContainerComponent = (props) => {
     props.HandleChangePage(value);
   };
 
+  const getData = async (advertID) => {
+    try {
+      const data = await dispatch(
+        get_my_rents_in({ page: page, limit: 12, advert_id: advertID })
+      );
+      setRentRequest(data);
+    } catch (e) {}
+  };
+
   const handleClickOpen = async (event, index) => {
     setSelectedAdvert(index);
 
     const advertID = AdvertCardInfo[index].id;
 
-    try {
-      if (props.normal === false) {
-        console.log("AdvertCardInfo[index]");
-        const data = await dispatch(
-          get_my_rents_in({ page: page, limit: 12, advert_id: advertID })
-        );
-        setRentRequest(data);
-      }
-
-      // set state with the result
-    } catch (e) {}
+    if (props.normal === false) {
+      console.log("AdvertCardInfo[index]");
+      getData(advertID);
+    }
 
     setOpen(true);
   };
@@ -79,6 +81,7 @@ const AdvertContainerComponent = (props) => {
               onClose={handleClose}
               value={AdvertCardInfo[selectedAdvert]}
               rentRequest={rentRequest}
+              shouldUpdate={getData}
             ></AdvertCardInfoComponent>
           ) : null}
           <Grid container marginRight={3} spacing={2}>

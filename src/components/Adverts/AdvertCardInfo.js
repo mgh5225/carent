@@ -18,7 +18,7 @@ import { useNavigate } from "react-router-dom";
 import numbro from "numbro";
 import { DataUsage } from "@mui/icons-material";
 
-import { rent } from "utils/rents";
+import { rent, change_status } from "utils/rents";
 import AdvertRentRequestComponent from "./AdvertRentRequest";
 
 const _ = (n) => {
@@ -30,6 +30,20 @@ const AdvertCardInfoComponent = (props) => {
   const { open } = props;
   const HandleClose = () => {
     props.onClose();
+  };
+
+  const rejectOthers = async (id) => {
+    if (props.rentRequest.length > 0) {
+      let flag = false;
+      const arr = props.rentRequest.filter((r) => r.id !== id);
+      for (const { id } of arr) {
+        try {
+          await dispatch(change_status({ rent_id: id, status: "D" }));
+          flag = true;
+        } catch (e) {}
+      }
+      if (flag) props.shouldUpdate?.(props.value?.id);
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -63,6 +77,7 @@ const AdvertCardInfoComponent = (props) => {
             readOnly={true}
             value={rent}
             key={index}
+            rejectOthers={rejectOthers}
           />
         ));
       }

@@ -9,12 +9,14 @@ import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
 import Dialog from "@mui/material/Dialog";
-import PendingIcon from "@mui/icons-material/Pending";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { change_status } from "utils/rents";
 import numbro from "numbro";
 import { DataUsage } from "@mui/icons-material";
+import CancelIcon from "@mui/icons-material/Cancel";
+import PendingIcon from "@mui/icons-material/Pending";
+import CarRentalIcon from "@mui/icons-material/CarRental";
 
 import { rent } from "utils/rents";
 
@@ -26,6 +28,45 @@ const AdvertRentRequestComponent = (props) => {
   }, [props.value.rent_status]);
   console.log(props.value);
 
+  const RenderIcon = () => {
+    if (status === "R") {
+      return (
+        <>
+          <PendingIcon
+            sx={{ marginBottom: "0rem", marginright: "1rem" }}
+          ></PendingIcon>
+          <Typography gutterBottom variant="h9" component="div">
+            در انتظار
+          </Typography>
+        </>
+      );
+    } else if (status === "D") {
+      return (
+        <>
+          <CancelIcon
+            sx={{ marginBottom: "0rem", marginright: "1rem" }}
+          ></CancelIcon>
+          <Typography gutterBottom variant="h9" component="div">
+            پذیرفته نشد
+          </Typography>
+        </>
+      );
+    } else if (status === "I") {
+      return (
+        <>
+          <CarRentalIcon
+            sx={{ marginBottom: "0rem", marginright: "1rem" }}
+          ></CarRentalIcon>
+          <Typography gutterBottom variant="h9" component="div">
+            درحال اجاره
+          </Typography>
+        </>
+      );
+    }
+
+    return;
+  };
+
   const HandleApprove = async () => {
     try {
       console.log("AdvertCardInfo[index]");
@@ -33,6 +74,7 @@ const AdvertRentRequestComponent = (props) => {
         change_status({ rent_id: props.value.id, status: "I" })
       );
       setStatus("I");
+      props.rejectOthers?.(props.value.id);
     } catch (e) {}
   };
 
@@ -134,7 +176,11 @@ const AdvertRentRequestComponent = (props) => {
                 </Button>
               </Grid>
             </Grid>
-          ) : null}
+          ) : (
+            <Grid container margin={3}>
+              {RenderIcon()}
+            </Grid>
+          )}
         </Grid>
       </Box>
     </Paper>
