@@ -22,8 +22,8 @@ const AdvertRentRequestComponent = (props) => {
   const dispatch = useDispatch();
   const [status, setStatus] = useState("R");
   useEffect(() => {
-    setStatus(props.value.status);
-  }, [props.value.status]);
+    setStatus(props.value.rent_status);
+  }, [props.value.rent_status]);
   console.log(props.value);
 
   const HandleApprove = async () => {
@@ -111,7 +111,6 @@ const AdvertRentRequestComponent = (props) => {
                   variant="contained"
                   fullWidth
                   name="Rent"
-                  type="submit"
                 >
                   تایید
                 </Button>
@@ -130,7 +129,6 @@ const AdvertRentRequestComponent = (props) => {
                   variant="contained"
                   fullWidth
                   name="Rent"
-                  type="submit"
                 >
                   رد
                 </Button>

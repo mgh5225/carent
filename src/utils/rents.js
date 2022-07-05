@@ -61,7 +61,7 @@ export const get_my_rents_out = ({ page, limit }) => {
 
 export const change_status = ({ rent_id, status }) => {
   return async () => {
-    const { data } = rents.patch(`/${rent_id}/`, {
+    const { data } = await rents.patch(`/${rent_id}/`, {
       status: status,
     });
 
