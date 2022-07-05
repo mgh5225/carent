@@ -5,6 +5,7 @@ import AdvertContainer from "../../components/Adverts/AdvertContainer";
 import Container from "@mui/material/Container";
 import { useDispatch } from "react-redux";
 import { get_adverts, get_my_adverts } from "utils/adverts";
+import { get_my_rents_in, get_my_rents_out } from "utils/rents";
 import { withAuth } from "components/Auth";
 
 const AdvertPageComponent = () => {
@@ -35,6 +36,7 @@ const AdvertPageComponent = () => {
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
       <AdvertContainer
+        normal={true}
         HandleChangePage={HandleChangePage}
         CardInfo={AdvertCardInfo}
       ></AdvertContainer>
@@ -70,6 +72,7 @@ const MyAdvertPageComponent = () => {
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
       <AdvertContainer
+        normal={false}
         readOnly={true}
         HandleChangePage={HandleChangePage}
         CardInfo={AdvertCardInfo}
@@ -77,7 +80,6 @@ const MyAdvertPageComponent = () => {
     </Container>
   );
 };
-
 
 const MyRentRequestPageComponent = () => {
   const [AdvertCardInfo, setAdverts] = React.useState([]);
@@ -89,7 +91,8 @@ const MyRentRequestPageComponent = () => {
     // declare the async data fetching function
     const fetchAdvertsData = async () => {
       //// get the data from the api
-      const data = await dispatch(get_my_adverts({ page: page, limit: 12 }));
+      const data = await dispatch(get_my_rents_out({ page: page, limit: 12 }));
+      console.log(data);
       // set state with the result
       setAdverts(data);
     };
@@ -107,6 +110,7 @@ const MyRentRequestPageComponent = () => {
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
       <AdvertContainer
+        normal={true}
         readOnly={true}
         HandleChangePage={HandleChangePage}
         CardInfo={AdvertCardInfo}
@@ -114,9 +118,6 @@ const MyRentRequestPageComponent = () => {
     </Container>
   );
 };
-
-
-
 
 const NewAdvertPageComponent = () => {
   return (

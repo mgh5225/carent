@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
 import Dialog from "@mui/material/Dialog";
+import Stack from "@mui/material/Stack";
 import PendingIcon from "@mui/icons-material/Pending";
 
 import { toast } from "react-toastify";
@@ -17,6 +18,7 @@ import numbro from "numbro";
 import { DataUsage } from "@mui/icons-material";
 
 import { rent } from "utils/rents";
+import AdvertRentRequestComponent from "./AdvertRentRequest";
 
 const _ = (n) => {
   return numbro(Number(n) || 0).format({ thousandSeparated: true });
@@ -47,6 +49,90 @@ const AdvertCardInfoComponent = (props) => {
         ? err.response.data?.message
         : "Something went wrong! Please try again later";
       toast.error(message);
+    }
+  };
+
+  const RenderDetails = () => {
+    if (props.normal === false) {
+      if (props.rentRequest.length > 0) {
+        return props.rentRequest.map((rent, index) => (
+          <AdvertRentRequestComponent
+            readOnly={true}
+            value={rent}
+            key={index}
+          />
+        ));
+      }
+    } else {
+      return (
+        <Box>
+          <Grid container marginRight={3} spacing={14}>
+            <Grid marginTop={2} item xs={6}>
+              <TextField
+                disabled={props.readOnly}
+                name="StartDate"
+                label="تاریخ شروع اجاره"
+                InputLabelProps={{ shrink: true, required: true }}
+                defaultValue={
+                  props.readOnly
+                    ? props.value?.start_date?.substring(0, 10)
+                    : ""
+                }
+                type="date"
+              />
+            </Grid>
+            <Grid marginRight={2} marginTop={2} item xs={5}>
+              <TextField
+                disabled={props.readOnly}
+                name="EndDate"
+                label="تاریخ پایان اجاره"
+                InputLabelProps={{ shrink: true, required: true }}
+                defaultValue={
+                  props.readOnly ? props.value?.end_date?.substring(0, 10) : ""
+                }
+                type="date"
+              />
+            </Grid>
+          </Grid>
+          <Grid container marginRight={3}>
+            <Grid marginRight={2} width="90%" marginTop={2} item xs={12}>
+              <TextField
+                disabled={props.readOnly}
+                fullWidth
+                multiline
+                name="Description"
+                label="توضیحات"
+                width="90%"
+                type="text"
+                defaultValue={props.readOnly ? props.value?.desc : ""}
+              />
+            </Grid>
+
+            <Grid
+              justifyContent="center"
+              width="100%"
+              alignItems="center"
+              marginTop={2}
+              item
+              marginRight={2}
+              marginBottom={2}
+              xs={12}
+            >
+              {!props.readOnly && (
+                <Button
+                  variant="contained"
+                  fullWidth
+                  name="Rent"
+                  type="submit"
+                  key={99}
+                >
+                  درخواست اجاره ماشین
+                </Button>
+              )}
+            </Grid>
+          </Grid>
+        </Box>
+      );
     }
   };
 
@@ -104,67 +190,7 @@ const AdvertCardInfoComponent = (props) => {
                         </Typography>
                       </Grid>
                     </Grid>
-                    <Grid container marginRight={3} spacing={14}>
-                      <Grid marginTop={2} item xs={6}>
-                        <TextField
-                          disabled={props.readOnly}
-                          name="StartDate"
-                          label="تاریخ شروع اجاره"
-                          InputLabelProps={{ shrink: true, required: true }}
-                          type="date"
-                        />
-                      </Grid>
-                      <Grid marginRight={2} marginTop={2} item xs={5}>
-                        <TextField
-                          disabled={props.readOnly}
-                          name="EndDate"
-                          label="تاریخ پایان اجاره"
-                          InputLabelProps={{ shrink: true, required: true }}
-                          type="date"
-                        />
-                      </Grid>
-                    </Grid>
-                    <Grid container marginRight={3}>
-                      <Grid
-                        marginRight={2}
-                        width="90%"
-                        marginTop={2}
-                        item
-                        xs={12}
-                      >
-                        <TextField
-                          disabled={props.readOnly}
-                          fullWidth
-                          multiline
-                          name="Description"
-                          label="توضیحات"
-                          width="90%"
-                          type="text"
-                        />
-                      </Grid>
-
-                      <Grid
-                        justifyContent="center"
-                        width="100%"
-                        alignItems="center"
-                        marginTop={2}
-                        item
-                        marginRight={2}
-                        marginBottom={2}
-                        xs={12}
-                      >
-                        {!props.readOnly && (
-                          <Button
-                            variant="contained"
-                            fullWidth
-                            name="Rent"
-                            type="submit"
-                          >
-                            درخواست اجاره ماشین
-                          </Button>
-                        )}
-                      </Grid>
-                    </Grid>
+                    <Stack>{RenderDetails()}</Stack>
                   </Box>
                 </Paper>
               </Box>

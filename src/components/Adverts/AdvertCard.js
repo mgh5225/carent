@@ -36,7 +36,7 @@ const AdvertCardComponent = (props) => {
   };
 
   const RenderIcon = (status) => {
-    if (status === "Request") {
+    if (status === "R") {
       return (
         <>
           <PendingIcon
@@ -47,7 +47,7 @@ const AdvertCardComponent = (props) => {
           </Typography>
         </>
       );
-    } else if (status === "Denied") {
+    } else if (status === "D") {
       return (
         <>
           <CancelIcon
@@ -58,7 +58,7 @@ const AdvertCardComponent = (props) => {
           </Typography>
         </>
       );
-    } else if (status === "In Rent") {
+    } else if (status === "I") {
       return (
         <>
           <CarRentalIcon

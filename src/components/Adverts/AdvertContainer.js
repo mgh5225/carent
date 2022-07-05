@@ -11,12 +11,16 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import AdvertCardInfoComponent from "../Adverts/AdvertCardInfo";
 import Pagination from "@mui/material/Pagination";
+import { useDispatch } from "react-redux";
+import { get_my_rents_in, get_my_rents_out } from "utils/rents";
 
 const AdvertContainerComponent = (props) => {
   const [open, setOpen] = React.useState(false);
   const [AdvertCardInfo, setAdverts] = React.useState([]);
   const [selectedAdvert, setSelectedAdvert] = React.useState(0);
   const [page, setPage] = React.useState(1);
+  const [rentRequest, setRentRequest] = React.useState([]);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setAdverts(props.CardInfo);
@@ -28,9 +32,23 @@ const AdvertContainerComponent = (props) => {
     props.HandleChangePage(value);
   };
 
-  const handleClickOpen = (event, index) => {
-    console.log(index);
+  const handleClickOpen = async (event, index) => {
     setSelectedAdvert(index);
+
+    const advertID = AdvertCardInfo[index].id;
+
+    try {
+      if (props.normal === false) {
+        console.log("AdvertCardInfo[index]");
+        const data = await dispatch(
+          get_my_rents_in({ page: page, limit: 12, advert_id: advertID })
+        );
+        setRentRequest(data);
+      }
+
+      // set state with the result
+    } catch (e) {}
+
     setOpen(true);
   };
 
@@ -55,10 +73,12 @@ const AdvertContainerComponent = (props) => {
         <Box marginLeft={2}>
           {AdvertCardInfo.length > 0 ? (
             <AdvertCardInfoComponent
+              normal={props.normal}
               readOnly={props.readOnly}
               open={open}
               onClose={handleClose}
               value={AdvertCardInfo[selectedAdvert]}
+              rentRequest={rentRequest}
             ></AdvertCardInfoComponent>
           ) : null}
           <Grid container marginRight={3} spacing={2}>

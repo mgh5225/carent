@@ -10,31 +10,56 @@ import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
 import Dialog from "@mui/material/Dialog";
 import PendingIcon from "@mui/icons-material/Pending";
-
-import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
+import { toast } from "react-toastify";
+import { change_status } from "utils/rents";
 import numbro from "numbro";
 import { DataUsage } from "@mui/icons-material";
 
 import { rent } from "utils/rents";
 
 const AdvertRentRequestComponent = (props) => {
+  const dispatch = useDispatch();
+  console.log(props.value);
+
+  const HandleApprove = async () => {
+    try {
+      console.log("AdvertCardInfo[index]");
+      const data = await dispatch(
+        change_status({ rent_id: props.value.id, status: "I" })
+      );
+    } catch (e) {}
+  };
+
+  const HandleDenied = async () => {
+    try {
+      console.log("AdvertCardInfo[index]");
+      const data = await dispatch(
+        change_status({ rent_id: props.value.id, status: "D" })
+      );
+      
+    } catch (e) {}
+  };
+
   return (
     <Paper
       sx={{
         marginTop: "2rem",
+        marginLeft: "1rem",
         width: "90%",
       }}
       variant="outlined"
     >
       <Box marginLeft={2}>
-        <Grid container marginRight={3} spacing={30}>
+        <Grid container marginRight={7} spacing={8}>
           <Grid marginTop={2} item xs={6}>
             <TextField
               disabled={true}
               name="StartDate"
               label="تاریخ شروع اجاره"
-              value={props.value.start_date}
+              defaultValue={
+                props.readOnly ? props.value?.start_date?.substring(0, 10) : ""
+              }
               InputLabelProps={{ shrink: true, required: true }}
               type="date"
             />
@@ -44,7 +69,9 @@ const AdvertRentRequestComponent = (props) => {
               disabled={true}
               name="EndDate"
               label="تاریخ پایان اجاره"
-              value={props.value.end_date}
+              defaultValue={
+                props.readOnly ? props.value?.end_date?.substring(0, 10) : ""
+              }
               InputLabelProps={{ shrink: true, required: true }}
               type="date"
             />
@@ -53,7 +80,7 @@ const AdvertRentRequestComponent = (props) => {
         <Grid container marginRight={3}>
           <Grid width="90%" marginTop={2} marginRight={2} item xs={12}>
             <TextField
-              value={props.value.desc}
+              defaultValue={props.readOnly ? props.value?.desc : ""}
               disabled={true}
               fullWidth
               multiline
@@ -73,7 +100,13 @@ const AdvertRentRequestComponent = (props) => {
               marginBottom={2}
               xs={6}
             >
-              <Button variant="contained" fullWidth name="Rent" type="submit">
+              <Button
+                onClick={HandleApprove}
+                variant="contained"
+                fullWidth
+                name="Rent"
+                type="submit"
+              >
                 تایید
               </Button>
             </Grid>
@@ -86,7 +119,13 @@ const AdvertRentRequestComponent = (props) => {
               marginBottom={2}
               xs={6}
             >
-              <Button variant="contained" fullWidth name="Rent" type="submit">
+              <Button
+                onClick={HandleDenied}
+                variant="contained"
+                fullWidth
+                name="Rent"
+                type="submit"
+              >
                 رد
               </Button>
             </Grid>
